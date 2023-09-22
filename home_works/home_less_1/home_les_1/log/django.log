@@ -1,0 +1,27 @@
+INFO 2023-09-22 04:10:23,374 autoreload 13432 11336 Watching for file changes with StatReloader
+ERROR 2023-09-22 04:10:27,213 log 13432 5304 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_1\home_les_1\myapp\views.py", line 163, in about
+    logger.info()
+TypeError: Logger.info() missing 1 required positional argument: 'msg'
+ERROR 2023-09-22 04:10:27,216 basehttp 13432 5304 "GET /about/ HTTP/1.1" 500 69301
+INFO 2023-09-22 04:11:54,615 autoreload 13432 11336 D:\Repository\Training_Gjango\home_works\home_less_1\home_les_1\myapp\views.py changed, reloading.
+INFO 2023-09-22 04:11:55,194 autoreload 10080 15516 Watching for file changes with StatReloader
+INFO 2023-09-22 04:11:56,570 autoreload 10080 15516 D:\Repository\Training_Gjango\home_works\home_less_1\home_les_1\myapp\views.py changed, reloading.
+INFO 2023-09-22 04:11:57,199 autoreload 14820 22388 Watching for file changes with StatReloader
+INFO 2023-09-22 04:11:58,147 basehttp 14820 16412 "GET /about/ HTTP/1.1" 200 34
+INFO 2023-09-22 04:12:24,089 autoreload 14820 22388 D:\Repository\Training_Gjango\home_works\home_less_1\home_les_1\myapp\views.py changed, reloading.
+INFO 2023-09-22 04:12:24,631 autoreload 23256 19136 Watching for file changes with StatReloader
+INFO 2023-09-22 04:12:29,039 autoreload 23256 19136 D:\Repository\Training_Gjango\home_works\home_less_1\home_les_1\myapp\views.py changed, reloading.
+INFO 2023-09-22 04:12:29,583 autoreload 18828 23004 Watching for file changes with StatReloader
+INFO 2023-09-22 04:12:53,661 autoreload 20788 19796 Watching for file changes with StatReloader
+INFO 2023-09-22 04:12:57,528 basehttp 20788 9704 "GET /about/ HTTP/1.1" 200 34
+INFO 2023-09-22 04:13:04,699 basehttp 20788 9704 "GET / HTTP/1.1" 200 5217
+WARNING 2023-09-22 04:13:04,721 log 20788 9704 Not Found: /images/168.png
+WARNING 2023-09-22 04:13:04,722 basehttp 20788 9704 "GET /images/168.png HTTP/1.1" 404 2451

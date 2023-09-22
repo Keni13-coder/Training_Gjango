@@ -1,0 +1,8 @@
+INFO 2023-09-22 03:22:08,540 autoreload 7992 10548 Watching for file changes with StatReloader
+INFO 2023-09-22 03:26:28,240 autoreload 24392 14132 Watching for file changes with StatReloader
+INFO 2023-09-22 03:28:48,512 autoreload 5884 15576 Watching for file changes with StatReloader
+INFO 2023-09-22 03:29:14,069 autoreload 12924 23348 Watching for file changes with StatReloader
+INFO 2023-09-22 03:29:23,825 views 12924 22716 responce:4
+INFO 2023-09-22 03:29:23,827 basehttp 12924 22716 "GET /game/the_dice/ HTTP/1.1" 200 1
+INFO 2023-09-22 03:29:43,698 views 12924 22716 responce:решка
+INFO 2023-09-22 03:29:43,699 basehttp 12924 22716 "GET /game/heads_or_tails/ HTTP/1.1" 200 10
