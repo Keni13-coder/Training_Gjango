@@ -1,0 +1,345 @@
+INFO 2023-09-27 03:23:52,081 autoreload 15408 13364 Watching for file changes with StatReloader
+INFO 2023-09-27 03:26:42,608 autoreload 3028 7812 Watching for file changes with StatReloader
+WARNING 2023-09-27 03:26:46,180 log 3028 13612 Not Found: /
+WARNING 2023-09-27 03:26:46,180 basehttp 3028 13612 "GET / HTTP/1.1" 404 2636
+ERROR 2023-09-27 03:27:06,070 log 3028 13612 Internal Server Error: /user_point/get
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view startapp.views.user_point didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-27 03:27:06,074 basehttp 3028 13612 "GET /user_point/get HTTP/1.1" 500 70910
+INFO 2023-09-27 03:27:44,420 autoreload 3028 7812 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-27 03:27:44,975 autoreload 16976 17008 Watching for file changes with StatReloader
+INFO 2023-09-27 03:27:49,340 autoreload 16976 17008 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-27 03:27:49,923 autoreload 2988 11892 Watching for file changes with StatReloader
+INFO 2023-09-27 03:27:52,260 autoreload 2988 11892 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-27 03:27:52,806 autoreload 1444 16468 Watching for file changes with StatReloader
+INFO 2023-09-27 03:27:55,168 autoreload 1444 16468 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-27 03:27:55,713 autoreload 11168 11092 Watching for file changes with StatReloader
+ERROR 2023-09-27 03:27:58,255 log 11168 24740 Internal Server Error: /user_point/get
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view startapp.views.user_point didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-27 03:27:58,258 basehttp 11168 24740 "GET /user_point/get HTTP/1.1" 500 71047
+ERROR 2023-09-27 03:28:02,897 log 11168 24740 Internal Server Error: /user_point/get
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view startapp.views.user_point didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-27 03:28:02,900 basehttp 11168 24740 "GET /user_point/get HTTP/1.1" 500 71047
+ERROR 2023-09-27 03:28:03,335 log 11168 24740 Internal Server Error: /user_point/get
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view startapp.views.user_point didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-27 03:28:03,338 basehttp 11168 24740 "GET /user_point/get HTTP/1.1" 500 71047
+ERROR 2023-09-27 03:28:03,760 log 11168 24740 Internal Server Error: /user_point/get
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view startapp.views.user_point didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-27 03:28:03,762 basehttp 11168 24740 "GET /user_point/get HTTP/1.1" 500 71047
+ERROR 2023-09-27 03:28:04,119 log 11168 24740 Internal Server Error: /user_point/get
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view startapp.views.user_point didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-27 03:28:04,121 basehttp 11168 24740 "GET /user_point/get HTTP/1.1" 500 71047
+ERROR 2023-09-27 03:28:04,918 log 11168 24740 Internal Server Error: /user_point/get
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view startapp.views.user_point didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-27 03:28:04,921 basehttp 11168 24740 "GET /user_point/get HTTP/1.1" 500 71047
+ERROR 2023-09-27 03:28:05,287 log 11168 24740 Internal Server Error: /user_point/get
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view startapp.views.user_point didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-27 03:28:05,289 basehttp 11168 24740 "GET /user_point/get HTTP/1.1" 500 71047
+INFO 2023-09-27 03:28:54,362 autoreload 11168 11092 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:28:54,928 autoreload 1388 18660 Watching for file changes with StatReloader
+INFO 2023-09-27 03:28:56,305 autoreload 1388 18660 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:28:56,860 autoreload 14940 13796 Watching for file changes with StatReloader
+ERROR 2023-09-27 03:29:00,072 log 14940 3636 Internal Server Error: /user_point/get
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view startapp.views.user_point didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-27 03:29:00,074 basehttp 14940 3636 "GET /user_point/get HTTP/1.1" 500 71047
+INFO 2023-09-27 03:29:14,676 autoreload 14940 13796 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:29:15,214 autoreload 16088 17908 Watching for file changes with StatReloader
+INFO 2023-09-27 03:29:16,576 autoreload 16088 17908 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:29:17,127 autoreload 2240 6388 Watching for file changes with StatReloader
+ERROR 2023-09-27 03:29:17,451 log 2240 2636 Internal Server Error: /user_point/get
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view startapp.views.user_point didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-27 03:29:17,454 basehttp 2240 2636 "GET /user_point/get HTTP/1.1" 500 71047
+INFO 2023-09-27 03:29:49,098 autoreload 2240 6388 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-27 03:29:49,662 autoreload 23784 12448 Watching for file changes with StatReloader
+INFO 2023-09-27 03:29:51,017 autoreload 23784 12448 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:29:51,571 autoreload 7376 5024 Watching for file changes with StatReloader
+INFO 2023-09-27 03:29:57,011 autoreload 7376 5024 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:29:57,615 autoreload 25036 1608 Watching for file changes with StatReloader
+INFO 2023-09-27 03:30:00,019 autoreload 25036 1608 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-27 03:30:00,570 autoreload 22436 17820 Watching for file changes with StatReloader
+INFO 2023-09-27 03:30:01,913 autoreload 22436 17820 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:30:02,468 autoreload 15648 12860 Watching for file changes with StatReloader
+INFO 2023-09-27 03:30:03,809 autoreload 15648 12860 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:30:04,369 autoreload 5464 16516 Watching for file changes with StatReloader
+INFO 2023-09-27 03:30:07,759 autoreload 5464 16516 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:30:08,345 autoreload 12988 17696 Watching for file changes with StatReloader
+INFO 2023-09-27 03:30:09,419 basehttp 12988 5728 "GET /user_point/get HTTP/1.1" 200 6
+INFO 2023-09-27 03:30:21,939 autoreload 12988 17696 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:30:22,501 autoreload 20572 13748 Watching for file changes with StatReloader
+INFO 2023-09-27 03:34:59,189 autoreload 14696 21628 Watching for file changes with StatReloader
+INFO 2023-09-27 03:35:05,023 basehttp 14696 25184 "GET /user_point/post HTTP/1.1" 200 37
+INFO 2023-09-27 03:36:06,943 autoreload 14696 21628 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:36:07,482 autoreload 16380 19424 Watching for file changes with StatReloader
+INFO 2023-09-27 03:38:22,210 autoreload 23448 25376 Watching for file changes with StatReloader
+INFO 2023-09-27 03:38:33,790 autoreload 23448 25376 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:38:34,380 autoreload 22240 10044 Watching for file changes with StatReloader
+INFO 2023-09-27 03:38:35,740 autoreload 22240 10044 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:38:36,288 autoreload 22064 19544 Watching for file changes with StatReloader
+INFO 2023-09-27 03:38:38,619 autoreload 22064 19544 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:38:39,167 autoreload 6076 13612 Watching for file changes with StatReloader
+INFO 2023-09-27 03:38:46,980 basehttp 6076 19032 "GET /user_point/post HTTP/1.1" 200 37
+ERROR 2023-09-27 03:39:06,109 log 6076 19032 Internal Server Error: /prod_point/post
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 14, in prod_point
+    return function_handler(method=method, model=product, data=product_dict)
+                                                               ^^
+NameError: name 'pr' is not defined
+ERROR 2023-09-27 03:39:06,112 basehttp 6076 19032 "GET /prod_point/post HTTP/1.1" 500 70731
+INFO 2023-09-27 03:39:23,715 autoreload 6076 13612 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:39:24,285 autoreload 1680 18696 Watching for file changes with StatReloader
+INFO 2023-09-27 03:39:26,826 basehttp 1680 11412 "GET /prod_point/post HTTP/1.1" 200 40
+INFO 2023-09-27 03:43:55,510 autoreload 1508 23348 Watching for file changes with StatReloader
+INFO 2023-09-27 03:43:58,139 basehttp 1508 7384 "GET /prod_point/post HTTP/1.1" 200 40
+ERROR 2023-09-27 03:44:15,723 log 1508 7384 Internal Server Error: /order_point/post
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 21, in order_point
+    return function_handler(method=method, model=order, data=order_dict)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 54, in function_handler
+    responce = model.create(data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 22, in create
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Order() got unexpected keyword arguments: 'product_id'
+ERROR 2023-09-27 03:44:15,729 basehttp 1508 7384 "GET /order_point/post HTTP/1.1" 500 84326
+INFO 2023-09-27 03:45:10,582 autoreload 1508 23348 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:45:11,110 autoreload 23688 22492 Watching for file changes with StatReloader
+INFO 2023-09-27 03:52:32,847 autoreload 23688 22492 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:52:33,401 autoreload 13596 16780 Watching for file changes with StatReloader
+INFO 2023-09-27 03:52:35,744 autoreload 13596 16780 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 03:52:36,299 autoreload 10720 2992 Watching for file changes with StatReloader
+ERROR 2023-09-27 03:52:39,215 log 10720 17660 Internal Server Error: /order_point/post
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 21, in order_point
+    return function_handler(method=method, model=order, data=order_dict)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 54, in function_handler
+    responce = model.create(data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 22, in create
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Order() got unexpected keyword arguments: 'product_id'
+ERROR 2023-09-27 03:52:39,219 basehttp 10720 17660 "GET /order_point/post HTTP/1.1" 500 84463
+INFO 2023-09-27 03:55:22,069 autoreload 10720 2992 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\models.py changed, reloading.
+INFO 2023-09-27 03:55:22,694 autoreload 18524 23020 Watching for file changes with StatReloader
+INFO 2023-09-27 03:55:26,109 autoreload 18524 23020 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\models.py changed, reloading.
+INFO 2023-09-27 03:55:26,682 autoreload 2492 992 Watching for file changes with StatReloader
+INFO 2023-09-27 04:05:03,417 autoreload 17772 10668 Watching for file changes with StatReloader
+ERROR 2023-09-27 04:05:06,303 log 17772 7916 Internal Server Error: /order_point/post
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 21, in order_point
+    return function_handler(method=method, model=order, data=order_dict)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 59, in function_handler
+    responce = model.create(data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 45, in create
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Order() got unexpected keyword arguments: 'products_id'
+ERROR 2023-09-27 04:05:06,308 basehttp 17772 7916 "GET /order_point/post HTTP/1.1" 500 84431
+INFO 2023-09-27 04:05:12,071 autoreload 17772 10668 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 04:05:12,624 autoreload 18560 11528 Watching for file changes with StatReloader
+INFO 2023-09-27 04:05:17,067 autoreload 18560 11528 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 04:05:17,626 autoreload 24900 17076 Watching for file changes with StatReloader
+INFO 2023-09-27 04:05:24,039 autoreload 24900 17076 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 04:05:24,569 autoreload 10372 6496 Watching for file changes with StatReloader
+ERROR 2023-09-27 04:05:26,327 log 10372 13088 Internal Server Error: /order_point/post
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 21, in order_point
+    return function_handler(method=method, model=order, data=order_dict)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 59, in function_handler
+    responce = model.create(data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 45, in create
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Order() got unexpected keyword arguments: 'product_id'
+ERROR 2023-09-27 04:05:26,332 basehttp 10372 13088 "GET /order_point/post HTTP/1.1" 500 84390
+INFO 2023-09-27 04:05:42,385 autoreload 10372 6496 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 04:05:42,927 autoreload 6700 21224 Watching for file changes with StatReloader
+INFO 2023-09-27 04:05:56,457 autoreload 6700 21224 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-27 04:05:56,979 autoreload 18616 13084 Watching for file changes with StatReloader
+INFO 2023-09-27 04:05:59,084 basehttp 18616 8284 "GET /order_point/post HTTP/1.1" 200 38
+INFO 2023-09-27 04:06:43,931 basehttp 18616 8284 "GET /order_point/post HTTP/1.1" 200 38
+INFO 2023-09-27 04:12:36,113 autoreload 1356 20972 Watching for file changes with StatReloader
+ERROR 2023-09-27 04:12:38,762 log 1356 21540 Internal Server Error: /order_point/post
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 21, in order_point
+    return function_handler(method=method, model=order, data=order_dict)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 60, in function_handler
+    responce = model.create(data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 46, in create
+    print(responce.products)
+          ^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 617, in __get__
+    return self.related_manager_cls(instance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 1022, in __init__
+    raise ValueError(
+ValueError: "<Order: Order object (None)>" needs to have a value for field "id" before this many-to-many relationship can be used.
+ERROR 2023-09-27 04:12:38,768 basehttp 1356 21540 "GET /order_point/post HTTP/1.1" 500 87928
+INFO 2023-09-27 04:13:49,021 autoreload 1356 20972 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-27 04:13:49,574 autoreload 18320 14024 Watching for file changes with StatReloader
+INFO 2023-09-27 04:13:55,383 basehttp 18320 5160 "GET /order_point/post HTTP/1.1" 200 38
+INFO 2023-09-27 04:16:47,577 autoreload 8560 11760 Watching for file changes with StatReloader
+ERROR 2023-09-27 04:16:49,031 log 8560 10836 Internal Server Error: /order_point/post
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 21, in order_point
+    return function_handler(method=method, model=order, data=order_dict)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 60, in function_handler
+    responce = model.create(data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 46, in create
+    responce.products.add(*[1,2])
+    ^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 617, in __get__
+    return self.related_manager_cls(instance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 1022, in __init__
+    raise ValueError(
+ValueError: "<Order: Order object (None)>" needs to have a value for field "id" before this many-to-many relationship can be used.
+ERROR 2023-09-27 04:16:49,035 basehttp 8560 10836 "GET /order_point/post HTTP/1.1" 500 87926
+INFO 2023-09-27 04:17:18,658 autoreload 8560 11760 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-27 04:17:19,228 autoreload 16152 22968 Watching for file changes with StatReloader
+INFO 2023-09-27 04:17:26,661 autoreload 16152 22968 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-27 04:17:27,188 autoreload 17392 21968 Watching for file changes with StatReloader
+INFO 2023-09-27 04:17:30,261 basehttp 17392 8792 "GET /order_point/post HTTP/1.1" 200 38
+INFO 2023-09-27 04:26:03,421 autoreload 17392 21968 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\models.py changed, reloading.
+INFO 2023-09-27 04:26:03,994 autoreload 12456 13744 Watching for file changes with StatReloader
+INFO 2023-09-27 04:26:05,338 autoreload 12456 13744 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\models.py changed, reloading.

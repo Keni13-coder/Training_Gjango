@@ -1,0 +1,981 @@
+INFO 2023-09-26 02:16:10,769 autoreload 6704 6768 Watching for file changes with StatReloader
+WARNING 2023-09-26 02:16:17,102 log 6704 11472 Not Found: /
+WARNING 2023-09-26 02:16:17,103 basehttp 6704 11472 "GET / HTTP/1.1" 404 2416
+WARNING 2023-09-26 02:16:17,158 log 6704 11472 Not Found: /favicon.ico
+WARNING 2023-09-26 02:16:17,159 basehttp 6704 11472 "GET /favicon.ico HTTP/1.1" 404 2467
+INFO 2023-09-26 02:16:29,662 autoreload 6704 6768 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\urls.py changed, reloading.
+INFO 2023-09-26 02:16:30,196 autoreload 15364 14684 Watching for file changes with StatReloader
+WARNING 2023-09-26 02:16:36,121 log 15364 25224 Not Found: /
+WARNING 2023-09-26 02:16:36,122 basehttp 15364 25224 "GET / HTTP/1.1" 404 2417
+INFO 2023-09-26 02:17:02,038 basehttp 15364 25224 "GET /read_db HTTP/1.1" 301 0
+INFO 2023-09-26 02:17:02,042 views 15364 17200 responce:5
+INFO 2023-09-26 02:17:02,044 basehttp 15364 17200 "GET /read_db/ HTTP/1.1" 200 0
+WARNING 2023-09-26 02:17:09,612 log 15364 17200 Not Found: /
+WARNING 2023-09-26 02:17:09,613 basehttp 15364 17200 "GET / HTTP/1.1" 404 2417
+INFO 2023-09-26 02:17:15,087 basehttp 15364 17200 "GET /heads_or_tails HTTP/1.1" 301 0
+INFO 2023-09-26 02:17:15,091 views 15364 17296 responce:орЄл
+INFO 2023-09-26 02:17:15,283 basehttp 15364 17296 "GET /heads_or_tails/ HTTP/1.1" 200 8
+INFO 2023-09-26 02:17:17,005 views 15364 17296 responce:решка
+INFO 2023-09-26 02:17:17,192 basehttp 15364 17296 "GET /heads_or_tails/ HTTP/1.1" 200 10
+INFO 2023-09-26 02:17:17,252 views 15364 17296 responce:орЄл
+INFO 2023-09-26 02:17:17,342 basehttp 15364 17296 "GET /heads_or_tails/ HTTP/1.1" 200 8
+INFO 2023-09-26 02:17:17,461 views 15364 17296 responce:орЄл
+INFO 2023-09-26 02:17:17,578 basehttp 15364 17296 "GET /heads_or_tails/ HTTP/1.1" 200 8
+INFO 2023-09-26 02:17:17,683 views 15364 17296 responce:решка
+INFO 2023-09-26 02:17:17,806 basehttp 15364 17296 "GET /heads_or_tails/ HTTP/1.1" 200 10
+INFO 2023-09-26 02:17:17,931 views 15364 17296 responce:решка
+INFO 2023-09-26 02:17:18,032 basehttp 15364 17296 "GET /heads_or_tails/ HTTP/1.1" 200 10
+INFO 2023-09-26 02:17:18,147 views 15364 17296 responce:орЄл
+INFO 2023-09-26 02:17:18,236 basehttp 15364 17296 "GET /heads_or_tails/ HTTP/1.1" 200 8
+INFO 2023-09-26 02:17:18,269 views 15364 17296 responce:решка
+INFO 2023-09-26 02:17:18,364 basehttp 15364 17296 "GET /heads_or_tails/ HTTP/1.1" 200 10
+INFO 2023-09-26 02:17:31,956 views 15364 17296 responce:2
+INFO 2023-09-26 02:17:31,959 basehttp 15364 17296 "GET /read_db/ HTTP/1.1" 200 32
+INFO 2023-09-26 02:17:40,644 views 15364 17296 responce:4
+INFO 2023-09-26 02:17:40,646 basehttp 15364 17296 "GET /read_db/ HTTP/1.1" 200 62
+INFO 2023-09-26 02:17:59,384 autoreload 15364 14684 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-26 02:17:59,938 autoreload 23744 5276 Watching for file changes with StatReloader
+INFO 2023-09-26 02:18:03,439 views 23744 14968 responce:2
+INFO 2023-09-26 02:18:03,443 basehttp 23744 14968 "GET /read_db/ HTTP/1.1" 200 32
+INFO 2023-09-26 02:18:37,149 autoreload 23744 5276 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-26 02:18:37,722 autoreload 15756 13504 Watching for file changes with StatReloader
+INFO 2023-09-26 02:18:39,086 autoreload 15756 13504 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-26 02:18:39,678 autoreload 15212 23040 Watching for file changes with StatReloader
+INFO 2023-09-26 02:18:40,343 views 15212 12192 responce:5
+INFO 2023-09-26 02:18:40,347 basehttp 15212 12192 "GET /read_db/ HTTP/1.1" 200 79
+INFO 2023-09-26 02:18:40,484 views 15212 12192 responce:1
+INFO 2023-09-26 02:18:40,487 basehttp 15212 12192 "GET /read_db/ HTTP/1.1" 200 15
+INFO 2023-09-26 02:18:44,381 views 15212 12192 responce:3
+INFO 2023-09-26 02:18:44,385 basehttp 15212 12192 "GET /read_db/ HTTP/1.1" 200 47
+INFO 2023-09-26 02:19:15,316 views 15212 12192 responce:6
+INFO 2023-09-26 02:19:15,319 basehttp 15212 12192 "GET /read_db/ HTTP/1.1" 200 96
+INFO 2023-09-26 02:19:30,995 autoreload 15212 23040 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:19:31,571 autoreload 22972 3092 Watching for file changes with StatReloader
+INFO 2023-09-26 02:19:32,256 views 22972 14260 responce:1
+INFO 2023-09-26 02:19:32,260 basehttp 22972 14260 "GET /read_db/ HTTP/1.1" 200 16
+INFO 2023-09-26 02:19:32,852 views 22972 14260 responce:2
+INFO 2023-09-26 02:19:32,856 basehttp 22972 14260 "GET /read_db/ HTTP/1.1" 200 34
+INFO 2023-09-26 02:19:33,868 views 22972 14260 responce:3
+INFO 2023-09-26 02:19:33,872 basehttp 22972 14260 "GET /read_db/ HTTP/1.1" 200 50
+INFO 2023-09-26 02:19:34,595 views 22972 14260 responce:1
+INFO 2023-09-26 02:19:34,599 basehttp 22972 14260 "GET /read_db/ HTTP/1.1" 200 16
+INFO 2023-09-26 02:19:35,173 views 22972 14260 responce:1
+INFO 2023-09-26 02:19:35,176 basehttp 22972 14260 "GET /read_db/ HTTP/1.1" 200 16
+INFO 2023-09-26 02:19:35,669 views 22972 14260 responce:3
+INFO 2023-09-26 02:19:35,672 basehttp 22972 14260 "GET /read_db/ HTTP/1.1" 200 50
+INFO 2023-09-26 02:19:36,900 views 22972 14260 responce:5
+INFO 2023-09-26 02:19:36,903 basehttp 22972 14260 "GET /read_db/ HTTP/1.1" 200 84
+INFO 2023-09-26 02:19:46,195 autoreload 22972 3092 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-26 02:19:46,775 autoreload 15648 25508 Watching for file changes with StatReloader
+INFO 2023-09-26 02:29:01,672 autoreload 15648 25508 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:29:02,216 autoreload 4056 18332 Watching for file changes with StatReloader
+INFO 2023-09-26 02:29:05,502 autoreload 4056 18332 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:29:06,026 autoreload 12696 18200 Watching for file changes with StatReloader
+INFO 2023-09-26 02:29:09,434 autoreload 12696 18200 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:29:10,035 autoreload 25116 23592 Watching for file changes with StatReloader
+INFO 2023-09-26 02:29:11,383 autoreload 25116 23592 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:29:11,934 autoreload 8924 22060 Watching for file changes with StatReloader
+INFO 2023-09-26 02:29:14,321 autoreload 8924 22060 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:29:14,867 autoreload 7360 7952 Watching for file changes with StatReloader
+INFO 2023-09-26 02:30:00,053 autoreload 7360 7952 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:30:00,588 autoreload 19704 22860 Watching for file changes with StatReloader
+INFO 2023-09-26 02:30:02,964 autoreload 19704 22860 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:30:03,517 autoreload 17560 19384 Watching for file changes with StatReloader
+INFO 2023-09-26 02:30:04,876 autoreload 17560 19384 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:30:05,447 autoreload 15428 14436 Watching for file changes with StatReloader
+INFO 2023-09-26 02:30:07,827 autoreload 15428 14436 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:30:08,394 autoreload 14348 15556 Watching for file changes with StatReloader
+INFO 2023-09-26 02:30:11,392 views 14348 7268 responce:4
+ERROR 2023-09-26 02:30:11,544 log 14348 7268 Internal Server Error: /read_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 20, in read_db
+    db_read = HeadsTails.read_title(responce)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py", line 63, in read_title
+    return HeadsTails.objects.order_by('-id')[:number]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 426, in __getitem__
+    or (k.stop is not None and k.stop < 0)
+                               ^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+ERROR 2023-09-26 02:30:11,549 basehttp 14348 7268 "GET /read_db/ HTTP/1.1" 500 77097
+INFO 2023-09-26 02:30:58,852 autoreload 14348 15556 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:30:59,402 autoreload 23860 16700 Watching for file changes with StatReloader
+INFO 2023-09-26 02:31:03,912 views 23860 9888 responce:5
+ERROR 2023-09-26 02:31:03,952 log 23860 9888 Internal Server Error: /read_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 20, in read_db
+    db_read = HeadsTails.read_title(responce)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py", line 63, in read_title
+    return HeadsTails.objects.all().order_by('-id')[:number]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 426, in __getitem__
+    or (k.stop is not None and k.stop < 0)
+                               ^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+ERROR 2023-09-26 02:31:03,956 basehttp 23860 9888 "GET /read_db/ HTTP/1.1" 500 77121
+INFO 2023-09-26 02:31:47,825 autoreload 23860 16700 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:31:48,378 autoreload 13056 8380 Watching for file changes with StatReloader
+INFO 2023-09-26 02:31:50,977 views 13056 25104 responce:5
+INFO 2023-09-26 02:31:50,980 basehttp 13056 25104 "GET /read_db/ HTTP/1.1" 200 176
+INFO 2023-09-26 02:32:02,115 autoreload 13056 8380 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:32:02,707 autoreload 11576 20256 Watching for file changes with StatReloader
+INFO 2023-09-26 02:32:03,353 views 11576 11612 responce:3
+INFO 2023-09-26 02:32:03,356 basehttp 11576 11612 "GET /read_db/ HTTP/1.1" 200 184
+INFO 2023-09-26 02:32:06,436 views 11576 11612 responce:2
+INFO 2023-09-26 02:32:06,438 basehttp 11576 11612 "GET /read_db/ HTTP/1.1" 200 184
+INFO 2023-09-26 02:32:07,093 views 11576 11612 responce:4
+INFO 2023-09-26 02:32:07,094 basehttp 11576 11612 "GET /read_db/ HTTP/1.1" 200 184
+INFO 2023-09-26 02:32:07,540 views 11576 11612 responce:1
+INFO 2023-09-26 02:32:07,542 basehttp 11576 11612 "GET /read_db/ HTTP/1.1" 200 184
+INFO 2023-09-26 02:32:07,692 views 11576 11612 responce:6
+INFO 2023-09-26 02:32:07,694 basehttp 11576 11612 "GET /read_db/ HTTP/1.1" 200 184
+INFO 2023-09-26 02:32:07,860 views 11576 11612 responce:3
+INFO 2023-09-26 02:32:07,862 basehttp 11576 11612 "GET /read_db/ HTTP/1.1" 200 184
+INFO 2023-09-26 02:32:08,027 views 11576 11612 responce:3
+INFO 2023-09-26 02:32:08,029 basehttp 11576 11612 "GET /read_db/ HTTP/1.1" 200 184
+INFO 2023-09-26 02:32:08,419 views 11576 11612 responce:2
+INFO 2023-09-26 02:32:08,421 basehttp 11576 11612 "GET /read_db/ HTTP/1.1" 200 184
+INFO 2023-09-26 02:32:08,660 views 11576 11612 responce:3
+INFO 2023-09-26 02:32:08,662 basehttp 11576 11612 "GET /read_db/ HTTP/1.1" 200 184
+INFO 2023-09-26 02:32:09,267 views 11576 11612 responce:1
+INFO 2023-09-26 02:32:09,269 basehttp 11576 11612 "GET /read_db/ HTTP/1.1" 200 184
+INFO 2023-09-26 02:32:27,521 autoreload 11576 20256 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-26 02:32:28,100 autoreload 11448 13224 Watching for file changes with StatReloader
+INFO 2023-09-26 02:32:28,251 views 11448 6424 responce:6
+INFO 2023-09-26 02:32:28,256 basehttp 11448 6424 "GET /read_db/ HTTP/1.1" 200 184
+INFO 2023-09-26 02:32:47,819 autoreload 11448 13224 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-26 02:32:48,376 autoreload 13580 15868 Watching for file changes with StatReloader
+INFO 2023-09-26 02:32:49,986 views 13580 19236 responce:4
+INFO 2023-09-26 02:32:49,990 basehttp 13580 19236 "GET /read_db/ HTTP/1.1" 200 184
+INFO 2023-09-26 02:33:14,364 autoreload 13580 15868 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:33:14,965 autoreload 10604 11244 Watching for file changes with StatReloader
+INFO 2023-09-26 02:33:15,808 views 10604 16800 responce:4
+INFO 2023-09-26 02:33:15,812 basehttp 10604 16800 "GET /read_db/ HTTP/1.1" 200 168
+INFO 2023-09-26 02:33:24,487 autoreload 10604 11244 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:33:25,065 autoreload 22092 3732 Watching for file changes with StatReloader
+INFO 2023-09-26 02:33:26,431 autoreload 22092 3732 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:33:27,018 autoreload 11080 11192 Watching for file changes with StatReloader
+INFO 2023-09-26 02:33:27,704 views 11080 10468 responce:3
+ERROR 2023-09-26 02:33:27,743 log 11080 10468 Internal Server Error: /read_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 20, in read_db
+    db_read = HeadsTails.read_title(responce)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py", line 63, in read_title
+    return HeadsTails.objects.all().order_by('-id')[:number]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 426, in __getitem__
+    or (k.stop is not None and k.stop < 0)
+                               ^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+ERROR 2023-09-26 02:33:27,747 basehttp 11080 10468 "GET /read_db/ HTTP/1.1" 500 77256
+INFO 2023-09-26 02:34:10,207 autoreload 11080 11192 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:34:10,768 autoreload 5560 15296 Watching for file changes with StatReloader
+INFO 2023-09-26 02:34:13,148 autoreload 5560 15296 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:34:13,717 autoreload 7600 2776 Watching for file changes with StatReloader
+INFO 2023-09-26 02:34:15,075 autoreload 7600 2776 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:34:15,595 autoreload 14808 24588 Watching for file changes with StatReloader
+INFO 2023-09-26 02:34:18,890 autoreload 14808 24588 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:34:19,444 autoreload 14096 5704 Watching for file changes with StatReloader
+INFO 2023-09-26 02:34:20,702 autoreload 14096 5704 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:34:21,237 autoreload 25456 14968 Watching for file changes with StatReloader
+INFO 2023-09-26 02:34:23,767 views 25456 14496 responce:6
+ERROR 2023-09-26 02:34:23,809 log 25456 14496 Internal Server Error: /read_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 20, in read_db
+    db_read = HeadsTails.read_title(responce)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py", line 64, in read_title
+    return responce[:number]
+           ~~~~~~~~^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 426, in __getitem__
+    or (k.stop is not None and k.stop < 0)
+                               ^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+ERROR 2023-09-26 02:34:23,813 basehttp 25456 14496 "GET /read_db/ HTTP/1.1" 500 77690
+INFO 2023-09-26 02:34:24,468 views 25456 14496 responce:5
+ERROR 2023-09-26 02:34:24,489 log 25456 14496 Internal Server Error: /read_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 20, in read_db
+    db_read = HeadsTails.read_title(responce)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py", line 64, in read_title
+    return responce[:number]
+           ~~~~~~~~^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 426, in __getitem__
+    or (k.stop is not None and k.stop < 0)
+                               ^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+ERROR 2023-09-26 02:34:24,494 basehttp 25456 14496 "GET /read_db/ HTTP/1.1" 500 77690
+INFO 2023-09-26 02:34:24,629 views 25456 14496 responce:3
+ERROR 2023-09-26 02:34:24,650 log 25456 14496 Internal Server Error: /read_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 20, in read_db
+    db_read = HeadsTails.read_title(responce)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py", line 64, in read_title
+    return responce[:number]
+           ~~~~~~~~^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 426, in __getitem__
+    or (k.stop is not None and k.stop < 0)
+                               ^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+ERROR 2023-09-26 02:34:24,674 basehttp 25456 14496 "GET /read_db/ HTTP/1.1" 500 77690
+INFO 2023-09-26 02:34:24,780 views 25456 14496 responce:1
+ERROR 2023-09-26 02:34:24,802 log 25456 14496 Internal Server Error: /read_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 20, in read_db
+    db_read = HeadsTails.read_title(responce)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py", line 64, in read_title
+    return responce[:number]
+           ~~~~~~~~^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 426, in __getitem__
+    or (k.stop is not None and k.stop < 0)
+                               ^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+ERROR 2023-09-26 02:34:24,806 basehttp 25456 14496 "GET /read_db/ HTTP/1.1" 500 77690
+INFO 2023-09-26 02:35:02,568 autoreload 25456 14968 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:35:03,150 autoreload 9748 11912 Watching for file changes with StatReloader
+INFO 2023-09-26 02:35:05,551 autoreload 9748 11912 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:35:06,087 autoreload 2088 19608 Watching for file changes with StatReloader
+INFO 2023-09-26 02:39:47,653 autoreload 19020 15564 Watching for file changes with StatReloader
+INFO 2023-09-26 02:39:52,096 views 19020 14436 responce:4
+ERROR 2023-09-26 02:39:52,137 log 19020 14436 Internal Server Error: /read_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 20, in read_db
+    db_read = HeadsTails.read_title(responce)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py", line 64, in read_title
+    return resp[-1:len(resp-number):-1]
+                       ~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'QuerySet' and 'str'
+ERROR 2023-09-26 02:39:52,141 basehttp 19020 14436 "GET /read_db/ HTTP/1.1" 500 73353
+INFO 2023-09-26 02:40:05,484 autoreload 19020 15564 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:40:06,044 autoreload 18840 10724 Watching for file changes with StatReloader
+INFO 2023-09-26 02:40:07,424 autoreload 18840 10724 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:40:08,018 autoreload 9564 20896 Watching for file changes with StatReloader
+INFO 2023-09-26 02:40:08,142 views 9564 17016 responce:5
+ERROR 2023-09-26 02:40:08,187 log 9564 17016 Internal Server Error: /read_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 20, in read_db
+    db_read = HeadsTails.read_title(responce)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py", line 64, in read_title
+    return resp[-1:len(resp)-number:-1]
+                   ~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'int' and 'str'
+ERROR 2023-09-26 02:40:08,192 basehttp 9564 17016 "GET /read_db/ HTTP/1.1" 500 73335
+INFO 2023-09-26 02:43:22,426 autoreload 9564 20896 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-26 02:43:23,004 autoreload 16148 15392 Watching for file changes with StatReloader
+INFO 2023-09-26 02:43:27,459 autoreload 16148 15392 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-26 02:43:28,038 autoreload 5160 25432 Watching for file changes with StatReloader
+INFO 2023-09-26 02:43:36,572 autoreload 5160 25432 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:43:37,113 autoreload 24028 23184 Watching for file changes with StatReloader
+INFO 2023-09-26 02:43:39,503 autoreload 24028 23184 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:43:40,063 autoreload 17540 22376 Watching for file changes with StatReloader
+INFO 2023-09-26 02:43:43,455 autoreload 17540 22376 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:43:44,025 autoreload 23484 20208 Watching for file changes with StatReloader
+INFO 2023-09-26 02:43:46,397 autoreload 23484 20208 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:43:46,960 autoreload 11420 19652 Watching for file changes with StatReloader
+INFO 2023-09-26 02:43:49,335 autoreload 11420 19652 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:43:49,906 autoreload 6588 24044 Watching for file changes with StatReloader
+INFO 2023-09-26 02:43:51,257 autoreload 6588 24044 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:43:51,783 autoreload 14584 25468 Watching for file changes with StatReloader
+INFO 2023-09-26 02:43:55,064 autoreload 14584 25468 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:43:55,648 autoreload 15268 21280 Watching for file changes with StatReloader
+INFO 2023-09-26 02:43:58,045 autoreload 15268 21280 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:43:58,615 autoreload 10496 10796 Watching for file changes with StatReloader
+INFO 2023-09-26 02:43:59,963 autoreload 10496 10796 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:44:00,557 autoreload 21316 23860 Watching for file changes with StatReloader
+INFO 2023-09-26 02:44:07,033 autoreload 21316 23860 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-26 02:44:07,571 autoreload 20396 15208 Watching for file changes with StatReloader
+INFO 2023-09-26 02:44:15,072 views 20396 16492 responce:3
+INFO 2023-09-26 02:44:15,075 basehttp 20396 16492 "GET /read_db/ HTTP/1.1" 200 49
+INFO 2023-09-26 02:44:16,035 views 20396 16492 responce:1
+INFO 2023-09-26 02:44:16,037 basehttp 20396 16492 "GET /read_db/ HTTP/1.1" 200 17
+INFO 2023-09-26 02:44:16,598 views 20396 16492 responce:6
+INFO 2023-09-26 02:44:16,600 basehttp 20396 16492 "GET /read_db/ HTTP/1.1" 200 96
+INFO 2023-09-26 02:44:17,981 views 20396 16492 responce:4
+INFO 2023-09-26 02:44:17,983 basehttp 20396 16492 "GET /read_db/ HTTP/1.1" 200 66
+INFO 2023-09-26 02:44:19,077 views 20396 16492 responce:6
+INFO 2023-09-26 02:44:19,078 basehttp 20396 16492 "GET /read_db/ HTTP/1.1" 200 96
+INFO 2023-09-26 02:44:19,652 views 20396 16492 responce:5
+INFO 2023-09-26 02:44:19,654 basehttp 20396 16492 "GET /read_db/ HTTP/1.1" 200 81
+INFO 2023-09-26 02:44:20,116 views 20396 16492 responce:4
+INFO 2023-09-26 02:44:20,118 basehttp 20396 16492 "GET /read_db/ HTTP/1.1" 200 66
+INFO 2023-09-26 02:44:20,525 views 20396 16492 responce:3
+INFO 2023-09-26 02:44:20,527 basehttp 20396 16492 "GET /read_db/ HTTP/1.1" 200 49
+INFO 2023-09-26 02:44:20,948 views 20396 16492 responce:6
+INFO 2023-09-26 02:44:20,950 basehttp 20396 16492 "GET /read_db/ HTTP/1.1" 200 96
+INFO 2023-09-26 02:44:33,545 autoreload 20396 15208 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:44:34,152 autoreload 17888 8924 Watching for file changes with StatReloader
+INFO 2023-09-26 02:44:35,525 autoreload 17888 8924 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:44:36,082 autoreload 4780 10692 Watching for file changes with StatReloader
+INFO 2023-09-26 02:44:37,456 autoreload 4780 10692 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 02:44:38,060 autoreload 25100 2160 Watching for file changes with StatReloader
+INFO 2023-09-26 02:44:38,402 views 25100 13796 responce:5
+INFO 2023-09-26 02:44:38,405 basehttp 25100 13796 "GET /read_db/ HTTP/1.1" 200 121
+INFO 2023-09-26 02:44:43,372 views 25100 13796 responce:2
+INFO 2023-09-26 02:44:43,375 basehttp 25100 13796 "GET /read_db/ HTTP/1.1" 200 48
+INFO 2023-09-26 02:44:43,980 views 25100 13796 responce:4
+INFO 2023-09-26 02:44:43,981 basehttp 25100 13796 "GET /read_db/ HTTP/1.1" 200 98
+INFO 2023-09-26 02:44:44,724 views 25100 13796 responce:1
+INFO 2023-09-26 02:44:44,726 basehttp 25100 13796 "GET /read_db/ HTTP/1.1" 200 25
+INFO 2023-09-26 03:04:37,506 autoreload 20516 25064 Watching for file changes with StatReloader
+INFO 2023-09-26 03:05:02,121 autoreload 20516 25064 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 03:05:02,656 autoreload 10340 8404 Watching for file changes with StatReloader
+INFO 2023-09-26 03:05:04,029 autoreload 10340 8404 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 03:05:04,558 autoreload 15724 24376 Watching for file changes with StatReloader
+ERROR 2023-09-26 03:05:07,943 log 15724 24208 Internal Server Error: /read_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 22, in read_db
+    return HttpResponse(HeadsTails.read_colomns())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: HeadsTails.read_colomns() missing 1 required positional argument: 'self'
+ERROR 2023-09-26 03:05:07,946 basehttp 15724 24208 "GET /read_db/ HTTP/1.1" 500 69266
+INFO 2023-09-26 03:06:07,265 autoreload 15724 24376 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-26 03:06:07,819 autoreload 17000 23776 Watching for file changes with StatReloader
+INFO 2023-09-26 03:06:09,285 autoreload 17000 23776 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-26 03:06:09,812 autoreload 15448 24892 Watching for file changes with StatReloader
+ERROR 2023-09-26 03:06:11,839 log 15448 23292 Internal Server Error: /read_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 23, in read_db
+    return HttpResponse(HeadsTails.read_colomns())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: HeadsTails.read_colomns() missing 1 required positional argument: 'self'
+ERROR 2023-09-26 03:06:11,842 basehttp 15448 23292 "GET /read_db/ HTTP/1.1" 500 69776
+INFO 2023-09-26 03:06:19,456 autoreload 15448 24892 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-26 03:06:20,007 autoreload 21748 19588 Watching for file changes with StatReloader
+INFO 2023-09-26 03:06:21,376 autoreload 21748 19588 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-26 03:06:21,921 autoreload 17712 4308 Watching for file changes with StatReloader
+ERROR 2023-09-26 03:06:22,237 log 17712 20956 Internal Server Error: /read_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 23, in read_db
+    return HttpResponse(resp.read_colomns())
+                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'read_colomns'
+ERROR 2023-09-26 03:06:22,240 basehttp 17712 20956 "GET /read_db/ HTTP/1.1" 500 69726
+ERROR 2023-09-26 03:06:23,106 log 17712 20956 Internal Server Error: /read_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 23, in read_db
+    return HttpResponse(resp.read_colomns())
+                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'read_colomns'
+ERROR 2023-09-26 03:06:23,109 basehttp 17712 20956 "GET /read_db/ HTTP/1.1" 500 69726
+ERROR 2023-09-26 03:06:24,648 log 17712 20956 Internal Server Error: /read_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 23, in read_db
+    return HttpResponse(resp.read_colomns())
+                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'read_colomns'
+ERROR 2023-09-26 03:06:24,651 basehttp 17712 20956 "GET /read_db/ HTTP/1.1" 500 69726
+INFO 2023-09-26 03:08:20,576 autoreload 17712 4308 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 03:08:21,115 autoreload 20060 21856 Watching for file changes with StatReloader
+INFO 2023-09-26 03:08:23,494 autoreload 20060 21856 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 03:08:24,054 autoreload 23324 436 Watching for file changes with StatReloader
+INFO 2023-09-26 03:08:27,461 autoreload 23324 436 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 03:08:28,002 autoreload 17032 14904 Watching for file changes with StatReloader
+INFO 2023-09-26 03:08:41,593 autoreload 17032 14904 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-26 03:08:42,141 autoreload 14952 1980 Watching for file changes with StatReloader
+INFO 2023-09-26 03:08:43,603 autoreload 14952 1980 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-26 03:08:44,172 autoreload 12628 20272 Watching for file changes with StatReloader
+ERROR 2023-09-26 03:08:48,104 log 12628 17376 Internal Server Error: /read_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 22, in read_db
+    return HttpResponse(HeadsTails.read_colomns())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py", line 76, in read_colomns
+    for column in HeadsTails.__table__.columns if column.name != 'id'
+                  ^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'HeadsTails' has no attribute '__table__'
+ERROR 2023-09-26 03:08:48,108 basehttp 12628 17376 "GET /read_db/ HTTP/1.1" 500 71577
+INFO 2023-09-26 03:09:11,176 autoreload 12628 20272 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 03:09:11,717 autoreload 15488 10860 Watching for file changes with StatReloader
+INFO 2023-09-26 03:09:12,965 autoreload 15488 10860 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-26 04:05:21,530 autoreload 13064 18668 Watching for file changes with StatReloader
+INFO 2023-09-27 00:32:53,389 autoreload 14016 17544 Watching for file changes with StatReloader
+WARNING 2023-09-27 00:33:00,983 log 14016 16000 Not Found: /
+WARNING 2023-09-27 00:33:00,984 basehttp 14016 16000 "GET / HTTP/1.1" 404 2417
+WARNING 2023-09-27 00:33:01,047 log 14016 16000 Not Found: /favicon.ico
+WARNING 2023-09-27 00:33:01,048 basehttp 14016 16000 "GET /favicon.ico HTTP/1.1" 404 2468
+INFO 2023-09-27 00:33:10,599 views 14016 16000 responce:4
+INFO 2023-09-27 00:33:10,601 basehttp 14016 16000 "GET /read_db/ HTTP/1.1" 200 1
+INFO 2023-09-27 00:55:03,818 autoreload 24472 24088 Watching for file changes with StatReloader
+WARNING 2023-09-27 00:55:06,030 log 24472 21548 Not Found: /
+WARNING 2023-09-27 00:55:06,030 basehttp 24472 21548 "GET / HTTP/1.1" 404 2594
+INFO 2023-09-27 00:55:09,717 basehttp 24472 21548 "GET /creater_db HTTP/1.1" 301 0
+ERROR 2023-09-27 00:55:09,949 log 24472 2072 Internal Server Error: /creater_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 31, in creater_db
+    responce = author.create_post(author_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py", line 30, in create_post
+    responce.save()
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1746, in <listcomp>
+    [
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1469, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1430, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['У2000.09.16Ф value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR 2023-09-27 00:55:09,959 basehttp 24472 2072 "GET /creater_db/ HTTP/1.1" 500 146251
+INFO 2023-09-27 00:56:13,277 autoreload 24472 24088 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-27 00:56:13,829 autoreload 25552 5128 Watching for file changes with StatReloader
+INFO 2023-09-27 00:56:15,208 autoreload 25552 5128 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-27 00:56:15,789 autoreload 22372 17536 Watching for file changes with StatReloader
+INFO 2023-09-27 00:56:18,543 basehttp 22372 10540 "GET /creater_db/ HTTP/1.1" 200 36
+INFO 2023-09-27 01:01:29,826 autoreload 24152 10868 Watching for file changes with StatReloader
+ERROR 2023-09-27 01:01:32,327 log 24152 12860 Internal Server Error: /creater_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 36, in creater_db
+    responce = post.create_post(post_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py", line 29, in create_post
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Post.author" must be a "Author" instance.
+ERROR 2023-09-27 01:01:32,332 basehttp 24152 12860 "GET /creater_db/ HTTP/1.1" 500 84998
+INFO 2023-09-27 01:03:47,050 autoreload 24152 10868 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-27 01:03:47,605 autoreload 5924 18280 Watching for file changes with StatReloader
+INFO 2023-09-27 01:03:51,031 autoreload 5924 18280 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-27 01:03:51,578 autoreload 17420 13716 Watching for file changes with StatReloader
+INFO 2023-09-27 01:03:54,987 autoreload 17420 13716 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-09-27 01:03:55,563 autoreload 22436 10024 Watching for file changes with StatReloader
+ERROR 2023-09-27 01:04:01,928 log 22436 8644 Internal Server Error: /creater_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 36, in creater_db
+    responce = post.create_post(post_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py", line 29, in create_post
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Post.author" must be a "Author" instance.
+ERROR 2023-09-27 01:04:01,933 basehttp 22436 8644 "GET /creater_db/ HTTP/1.1" 500 84998
+ERROR 2023-09-27 01:04:03,529 log 22436 8644 Internal Server Error: /creater_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 36, in creater_db
+    responce = post.create_post(post_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py", line 29, in create_post
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Post.author" must be a "Author" instance.
+ERROR 2023-09-27 01:04:03,534 basehttp 22436 8644 "GET /creater_db/ HTTP/1.1" 500 84998
+ERROR 2023-09-27 01:04:03,970 log 22436 8644 Internal Server Error: /creater_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 36, in creater_db
+    responce = post.create_post(post_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py", line 29, in create_post
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Post.author" must be a "Author" instance.
+ERROR 2023-09-27 01:04:03,973 basehttp 22436 8644 "GET /creater_db/ HTTP/1.1" 500 84998
+ERROR 2023-09-27 01:04:04,129 log 22436 8644 Internal Server Error: /creater_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 36, in creater_db
+    responce = post.create_post(post_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py", line 29, in create_post
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Post.author" must be a "Author" instance.
+ERROR 2023-09-27 01:04:04,133 basehttp 22436 8644 "GET /creater_db/ HTTP/1.1" 500 84998
+ERROR 2023-09-27 01:04:04,264 log 22436 8644 Internal Server Error: /creater_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 36, in creater_db
+    responce = post.create_post(post_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py", line 29, in create_post
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Post.author" must be a "Author" instance.
+ERROR 2023-09-27 01:04:04,268 basehttp 22436 8644 "GET /creater_db/ HTTP/1.1" 500 84998
+ERROR 2023-09-27 01:04:04,489 log 22436 8644 Internal Server Error: /creater_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 36, in creater_db
+    responce = post.create_post(post_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py", line 29, in create_post
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Post.author" must be a "Author" instance.
+ERROR 2023-09-27 01:04:04,493 basehttp 22436 8644 "GET /creater_db/ HTTP/1.1" 500 84998
+ERROR 2023-09-27 01:04:04,665 log 22436 8644 Internal Server Error: /creater_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 36, in creater_db
+    responce = post.create_post(post_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py", line 29, in create_post
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Post.author" must be a "Author" instance.
+ERROR 2023-09-27 01:04:04,669 basehttp 22436 8644 "GET /creater_db/ HTTP/1.1" 500 84998
+ERROR 2023-09-27 01:04:04,801 log 22436 8644 Internal Server Error: /creater_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 36, in creater_db
+    responce = post.create_post(post_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py", line 29, in create_post
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Post.author" must be a "Author" instance.
+ERROR 2023-09-27 01:04:04,805 basehttp 22436 8644 "GET /creater_db/ HTTP/1.1" 500 84998
+ERROR 2023-09-27 01:04:04,953 log 22436 8644 Internal Server Error: /creater_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 36, in creater_db
+    responce = post.create_post(post_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py", line 29, in create_post
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Post.author" must be a "Author" instance.
+ERROR 2023-09-27 01:04:04,958 basehttp 22436 8644 "GET /creater_db/ HTTP/1.1" 500 84998
+ERROR 2023-09-27 01:04:05,089 log 22436 8644 Internal Server Error: /creater_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 36, in creater_db
+    responce = post.create_post(post_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py", line 29, in create_post
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Post.author" must be a "Author" instance.
+ERROR 2023-09-27 01:04:05,093 basehttp 22436 8644 "GET /creater_db/ HTTP/1.1" 500 84998
+ERROR 2023-09-27 01:04:05,242 log 22436 8644 Internal Server Error: /creater_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 36, in creater_db
+    responce = post.create_post(post_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py", line 29, in create_post
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Post.author" must be a "Author" instance.
+ERROR 2023-09-27 01:04:05,247 basehttp 22436 8644 "GET /creater_db/ HTTP/1.1" 500 84998
+ERROR 2023-09-27 01:04:05,377 log 22436 8644 Internal Server Error: /creater_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 36, in creater_db
+    responce = post.create_post(post_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py", line 29, in create_post
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Post.author" must be a "Author" instance.
+ERROR 2023-09-27 01:04:05,380 basehttp 22436 8644 "GET /creater_db/ HTTP/1.1" 500 84998
+ERROR 2023-09-27 01:04:05,617 log 22436 8644 Internal Server Error: /creater_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 36, in creater_db
+    responce = post.create_post(post_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py", line 29, in create_post
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Post.author" must be a "Author" instance.
+ERROR 2023-09-27 01:04:05,621 basehttp 22436 8644 "GET /creater_db/ HTTP/1.1" 500 84998
+ERROR 2023-09-27 01:04:05,904 log 22436 8644 Internal Server Error: /creater_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 36, in creater_db
+    responce = post.create_post(post_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py", line 29, in create_post
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Post.author" must be a "Author" instance.
+ERROR 2023-09-27 01:04:05,908 basehttp 22436 8644 "GET /creater_db/ HTTP/1.1" 500 84998
+INFO 2023-09-27 01:09:41,375 autoreload 10580 7008 Watching for file changes with StatReloader
+ERROR 2023-09-27 01:09:48,326 log 10580 13028 Internal Server Error: /creater_db/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py", line 36, in creater_db
+    responce = post.create_post(post_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py", line 29, in create_post
+    responce = self.model(**data)
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Post.author" must be a "Author" instance.
+ERROR 2023-09-27 01:09:48,332 basehttp 10580 13028 "GET /creater_db/ HTTP/1.1" 500 84998
+INFO 2023-09-27 01:12:55,703 autoreload 10580 7008 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-27 01:12:56,280 autoreload 7348 22172 Watching for file changes with StatReloader
+INFO 2023-09-27 01:13:01,093 basehttp 7348 16684 "GET /creater_db/ HTTP/1.1" 200 34
+INFO 2023-09-27 01:17:06,546 autoreload 14472 23984 Watching for file changes with StatReloader
+INFO 2023-09-27 01:17:09,538 basehttp 14472 24768 "GET /creater_db/ HTTP/1.1" 200 38
+INFO 2023-09-27 01:47:55,906 autoreload 16708 24972 Watching for file changes with StatReloader
+WARNING 2023-09-27 01:47:58,686 log 16708 23004 Not Found: /
+WARNING 2023-09-27 01:47:58,686 basehttp 16708 23004 "GET / HTTP/1.1" 404 2759
+INFO 2023-09-27 01:48:02,037 basehttp 16708 23004 "GET /info HTTP/1.1" 301 0
+ERROR 2023-09-27 01:48:02,126 log 16708 22272 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+    ^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+ERROR 2023-09-27 01:48:02,132 basehttp 16708 22272 "GET /info/ HTTP/1.1" 500 102227
+INFO 2023-09-27 01:51:17,973 autoreload 1816 10140 Watching for file changes with StatReloader
+INFO 2023-09-27 01:51:20,613 basehttp 1816 4608 "GET /info/ HTTP/1.1" 200 19
+INFO 2023-09-27 01:51:36,825 autoreload 1816 10140 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py changed, reloading.
+INFO 2023-09-27 01:51:37,415 autoreload 24044 8220 Watching for file changes with StatReloader
+INFO 2023-09-27 01:51:38,437 basehttp 24044 20704 "GET /info/ HTTP/1.1" 200 19
+INFO 2023-09-27 01:51:39,474 basehttp 24044 20704 "GET /info/ HTTP/1.1" 200 19
+INFO 2023-09-27 01:51:39,944 basehttp 24044 20704 "GET /info/ HTTP/1.1" 200 19
+INFO 2023-09-27 01:51:42,696 basehttp 24044 20704 "GET /info/ HTTP/1.1" 200 19
+INFO 2023-09-27 01:51:42,839 basehttp 24044 20704 "GET /info/ HTTP/1.1" 200 19
+INFO 2023-09-27 01:51:43,031 basehttp 24044 20704 "GET /info/ HTTP/1.1" 200 19
+INFO 2023-09-27 01:53:02,913 autoreload 11820 22052 Watching for file changes with StatReloader
+INFO 2023-09-27 01:53:04,646 basehttp 11820 15576 "GET /info/ HTTP/1.1" 200 108
+INFO 2023-09-27 01:54:36,082 autoreload 12620 11528 Watching for file changes with StatReloader
+INFO 2023-09-27 01:54:38,213 basehttp 12620 25220 "GET /info/ HTTP/1.1" 200 17
+INFO 2023-09-27 01:54:44,761 autoreload 12620 11528 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-27 01:54:45,321 autoreload 21168 19480 Watching for file changes with StatReloader
+INFO 2023-09-27 01:54:47,040 basehttp 21168 15080 "GET /info/ HTTP/1.1" 200 108
+INFO 2023-09-27 02:02:30,664 autoreload 13924 5732 Watching for file changes with StatReloader
+INFO 2023-09-27 02:02:34,238 basehttp 13924 13516 "GET /info/ HTTP/1.1" 200 17
+INFO 2023-09-27 02:03:10,329 autoreload 21400 11568 Watching for file changes with StatReloader
+INFO 2023-09-27 02:03:11,781 basehttp 21400 12552 "GET /info/ HTTP/1.1" 200 17
+INFO 2023-09-27 02:03:15,427 basehttp 21400 12552 "GET /creater_db/ HTTP/1.1" 200 34
+INFO 2023-09-27 02:03:32,682 basehttp 21400 12552 "GET /creater_db/ HTTP/1.1" 200 34
+INFO 2023-09-27 02:03:32,935 basehttp 21400 12552 "GET /creater_db/ HTTP/1.1" 200 34
+INFO 2023-09-27 02:03:33,249 basehttp 21400 12552 "GET /creater_db/ HTTP/1.1" 200 34
+INFO 2023-09-27 02:03:33,575 basehttp 21400 12552 "GET /creater_db/ HTTP/1.1" 200 34
+INFO 2023-09-27 02:03:33,856 basehttp 21400 12552 "GET /creater_db/ HTTP/1.1" 200 34
+INFO 2023-09-27 02:03:37,855 basehttp 21400 12552 "GET /creater_db/ HTTP/1.1" 200 34
+INFO 2023-09-27 02:03:38,389 basehttp 21400 12552 "GET /creater_db/ HTTP/1.1" 200 34
+INFO 2023-09-27 02:03:43,641 basehttp 21400 12552 "GET /creater_db/ HTTP/1.1" 200 34
+INFO 2023-09-27 02:03:44,143 basehttp 21400 12552 "GET /creater_db/ HTTP/1.1" 200 34
+INFO 2023-09-27 02:03:52,573 basehttp 21400 12552 "GET /info/ HTTP/1.1" 200 170
+INFO 2023-09-27 02:04:08,958 autoreload 21400 11568 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-27 02:04:09,518 autoreload 17488 20936 Watching for file changes with StatReloader
+INFO 2023-09-27 02:04:11,489 basehttp 17488 21824 "GET /info/ HTTP/1.1" 200 85
+INFO 2023-09-27 02:04:21,226 autoreload 17488 20936 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-27 02:04:21,812 autoreload 3404 15968 Watching for file changes with StatReloader
+INFO 2023-09-27 02:04:24,181 basehttp 3404 3884 "GET /info/ HTTP/1.1" 200 85
+INFO 2023-09-27 02:04:24,816 basehttp 3404 3884 "GET /info/ HTTP/1.1" 200 85
+INFO 2023-09-27 02:04:24,959 basehttp 3404 3884 "GET /info/ HTTP/1.1" 200 85
+INFO 2023-09-27 02:04:55,310 autoreload 20600 19492 Watching for file changes with StatReloader
+INFO 2023-09-27 02:04:56,949 basehttp 20600 3140 "GET /info/ HTTP/1.1" 200 117
+INFO 2023-09-27 02:05:05,990 autoreload 20600 19492 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-27 02:05:06,568 autoreload 20308 3732 Watching for file changes with StatReloader
+INFO 2023-09-27 02:05:07,938 autoreload 20308 3732 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-09-27 02:05:08,471 autoreload 24640 24388 Watching for file changes with StatReloader
+INFO 2023-09-27 02:05:09,036 basehttp 24640 19316 "GET /info/ HTTP/1.1" 200 115
+INFO 2023-09-27 02:07:01,306 autoreload 23892 15564 Watching for file changes with StatReloader
+INFO 2023-09-27 02:07:02,621 basehttp 23892 7648 "GET /info/ HTTP/1.1" 200 255
+INFO 2023-09-27 02:07:13,058 autoreload 23892 15564 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py changed, reloading.
+INFO 2023-09-27 02:07:13,605 autoreload 21724 11936 Watching for file changes with StatReloader
+INFO 2023-09-27 02:07:14,989 autoreload 21724 11936 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py changed, reloading.
