@@ -979,3 +979,565 @@ INFO 2023-09-27 02:07:02,621 basehttp 23892 7648 "GET /info/ HTTP/1.1" 200 255
 INFO 2023-09-27 02:07:13,058 autoreload 23892 15564 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py changed, reloading.
 INFO 2023-09-27 02:07:13,605 autoreload 21724 11936 Watching for file changes with StatReloader
 INFO 2023-09-27 02:07:14,989 autoreload 21724 11936 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\utils.py changed, reloading.
+INFO 2023-09-29 00:29:06,603 autoreload 16612 18516 Watching for file changes with StatReloader
+INFO 2023-09-29 00:30:17,656 autoreload 16612 18516 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\urls.py changed, reloading.
+INFO 2023-09-29 00:30:18,192 autoreload 2988 12836 Watching for file changes with StatReloader
+WARNING 2023-09-29 00:30:29,596 log 2988 18920 Not Found: /
+WARNING 2023-09-29 00:30:29,596 basehttp 2988 18920 "GET / HTTP/1.1" 404 2865
+WARNING 2023-09-29 00:30:29,659 log 2988 18920 Not Found: /favicon.ico
+WARNING 2023-09-29 00:30:29,659 basehttp 2988 18920 "GET /favicon.ico HTTP/1.1" 404 2916
+WARNING 2023-09-29 00:30:36,525 log 2988 18920 Not Found: /less3
+WARNING 2023-09-29 00:30:36,526 basehttp 2988 18920 "GET /less3 HTTP/1.1" 404 2898
+WARNING 2023-09-29 00:30:56,241 log 2988 18920 Not Found: /less3/docs
+WARNING 2023-09-29 00:30:56,242 basehttp 2988 18920 "GET /less3/docs HTTP/1.1" 404 2979
+INFO 2023-09-29 00:31:01,532 basehttp 2988 18920 "GET /less3/hello HTTP/1.1" 200 22
+INFO 2023-09-29 00:48:29,701 autoreload 2988 12836 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-29 00:48:30,295 autoreload 10784 13100 Watching for file changes with StatReloader
+INFO 2023-09-29 00:49:07,651 autoreload 10784 13100 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-29 00:49:08,200 autoreload 12948 13084 Watching for file changes with StatReloader
+INFO 2023-09-29 00:54:18,495 autoreload 6572 13112 Watching for file changes with StatReloader
+INFO 2023-09-29 00:55:07,689 autoreload 6572 13112 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-29 00:55:08,221 autoreload 18028 20348 Watching for file changes with StatReloader
+WARNING 2023-09-29 00:55:11,600 log 18028 8420 Not Found: /
+WARNING 2023-09-29 00:55:11,601 basehttp 18028 8420 "GET / HTTP/1.1" 404 2865
+WARNING 2023-09-29 00:55:25,564 log 18028 8420 Not Found: /less/hello
+WARNING 2023-09-29 00:55:25,565 basehttp 18028 8420 "GET /less/hello HTTP/1.1" 404 2913
+INFO 2023-09-29 00:55:33,303 basehttp 18028 8420 "GET /less3/hello HTTP/1.1" 301 0
+INFO 2023-09-29 00:55:33,307 basehttp 18028 11868 "GET /less3/hello/ HTTP/1.1" 200 22
+ERROR 2023-09-29 00:55:37,892 log 18028 11868 Internal Server Error: /less3/hello/1/2
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: HelloView.get() got an unexpected keyword argument 'year'
+ERROR 2023-09-29 00:55:37,896 basehttp 18028 11868 "GET /less3/hello/1/2 HTTP/1.1" 500 76090
+INFO 2023-09-29 00:56:19,241 autoreload 18028 20348 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-29 00:56:19,842 autoreload 5180 24424 Watching for file changes with StatReloader
+INFO 2023-09-29 00:56:25,318 autoreload 5180 24424 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-29 00:56:25,860 autoreload 11976 21204 Watching for file changes with StatReloader
+INFO 2023-09-29 01:29:14,844 autoreload 16016 18576 Watching for file changes with StatReloader
+INFO 2023-09-29 01:29:55,619 autoreload 22276 24220 Watching for file changes with StatReloader
+WARNING 2023-09-29 01:29:58,453 log 22276 16940 Not Found: /
+WARNING 2023-09-29 01:29:58,453 basehttp 22276 16940 "GET / HTTP/1.1" 404 2865
+INFO 2023-09-29 01:30:06,023 basehttp 22276 16940 "GET /less3/hello/ HTTP/1.1" 200 22
+INFO 2023-09-29 01:30:08,855 basehttp 22276 16940 "GET /less3/ HTTP/1.1" 200 260
+INFO 2023-09-29 01:30:28,907 autoreload 22276 24220 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-29 01:30:29,449 autoreload 16680 1128 Watching for file changes with StatReloader
+INFO 2023-09-29 01:30:30,811 autoreload 16680 1128 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-29 01:30:31,351 autoreload 12792 12256 Watching for file changes with StatReloader
+INFO 2023-09-29 01:30:38,783 autoreload 12792 12256 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-29 01:30:39,313 autoreload 23888 19248 Watching for file changes with StatReloader
+INFO 2023-09-29 01:30:41,189 basehttp 23888 8688 "GET /less3/ HTTP/1.1" 200 260
+INFO 2023-09-29 01:31:08,351 autoreload 23888 19248 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-29 01:31:08,897 autoreload 2988 5992 Watching for file changes with StatReloader
+INFO 2023-09-29 01:31:11,253 autoreload 2988 5992 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-29 01:31:11,794 autoreload 16124 12828 Watching for file changes with StatReloader
+INFO 2023-09-29 01:31:33,489 autoreload 16124 12828 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-29 01:31:34,031 autoreload 5916 3052 Watching for file changes with StatReloader
+INFO 2023-09-29 01:31:37,460 autoreload 5916 3052 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-29 01:31:38,058 autoreload 4944 14180 Watching for file changes with StatReloader
+INFO 2023-09-29 01:31:39,423 autoreload 4944 14180 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-29 01:31:39,969 autoreload 22748 16868 Watching for file changes with StatReloader
+INFO 2023-09-29 01:33:03,745 autoreload 4144 4980 Watching for file changes with StatReloader
+INFO 2023-09-29 01:33:05,539 basehttp 4144 19292 "GET /less3/ HTTP/1.1" 200 260
+INFO 2023-09-29 01:54:28,504 autoreload 24132 14160 Watching for file changes with StatReloader
+INFO 2023-09-29 01:54:35,418 basehttp 24132 2620 "GET /less3/if HTTP/1.1" 301 0
+INFO 2023-09-29 01:54:35,432 basehttp 24132 7036 "GET /less3/if/ HTTP/1.1" 200 242
+INFO 2023-09-29 02:07:54,022 autoreload 24132 14160 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\mydjango\settings.py changed, reloading.
+INFO 2023-09-29 02:16:33,901 autoreload 13388 1788 Watching for file changes with StatReloader
+INFO 2023-09-29 02:16:37,597 basehttp 13388 6380 "GET /less3/if/ HTTP/1.1" 200 242
+INFO 2023-09-29 02:16:42,443 basehttp 13388 6380 "GET / HTTP/1.1" 200 260
+INFO 2023-09-29 02:16:52,626 basehttp 13388 6380 "GET /info HTTP/1.1" 301 0
+INFO 2023-09-29 02:16:52,633 basehttp 13388 2876 "GET /info/ HTTP/1.1" 200 255
+INFO 2023-09-29 02:16:56,349 basehttp 13388 2876 "GET / HTTP/1.1" 200 260
+INFO 2023-09-29 02:17:22,977 autoreload 13188 12160 Watching for file changes with StatReloader
+INFO 2023-09-29 02:17:24,484 basehttp 13188 19908 "GET / HTTP/1.1" 200 260
+INFO 2023-09-29 02:36:27,221 autoreload 13188 12160 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-29 02:36:27,795 autoreload 13472 14400 Watching for file changes with StatReloader
+INFO 2023-09-29 02:36:30,142 autoreload 13472 14400 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-29 03:42:27,403 autoreload 16644 6908 Watching for file changes with StatReloader
+ERROR 2023-09-29 03:42:31,286 log 16644 10872 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py", line 19, in my_view
+    create_all()
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\utils.py", line 21, in create_all
+    text = text.split()
+           ^^^^
+UnboundLocalError: cannot access local variable 'text' where it is not associated with a value
+ERROR 2023-09-29 03:42:31,290 basehttp 16644 10872 "GET / HTTP/1.1" 500 74484
+INFO 2023-09-29 03:43:21,857 autoreload 7912 15744 Watching for file changes with StatReloader
+ERROR 2023-09-29 03:43:24,723 log 7912 13768 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: less3app_author.date_birthday
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py", line 19, in my_view
+    create_all()
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\utils.py", line 28, in create_all
+    author.save()
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: less3app_author.date_birthday
+ERROR 2023-09-29 03:43:24,734 basehttp 7912 13768 "GET / HTTP/1.1" 500 163552
+INFO 2023-09-29 03:44:04,217 autoreload 7912 15744 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\models.py changed, reloading.
+INFO 2023-09-29 03:44:04,785 autoreload 5812 14712 Watching for file changes with StatReloader
+INFO 2023-09-29 03:44:24,525 autoreload 5812 14712 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\migrations\0001_initial.py changed, reloading.
+INFO 2023-09-29 03:44:25,087 autoreload 24428 16344 Watching for file changes with StatReloader
+INFO 2023-09-29 03:44:47,260 basehttp 24428 6584 "GET / HTTP/1.1" 200 260
+INFO 2023-09-29 03:50:49,872 autoreload 15056 12492 Watching for file changes with StatReloader
+WARNING 2023-09-29 03:50:54,651 log 15056 17660 Not Found: /test
+WARNING 2023-09-29 03:50:54,652 basehttp 15056 17660 "GET /test HTTP/1.1" 404 2995
+INFO 2023-09-29 03:51:13,530 basehttp 15056 17660 "GET /less3/test HTTP/1.1" 301 0
+ERROR 2023-09-29 03:51:13,565 log 15056 15660 Internal Server Error: /less3/test/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: test_models() missing 1 required positional argument: 'author_id'
+ERROR 2023-09-29 03:51:13,568 basehttp 15056 15660 "GET /less3/test/ HTTP/1.1" 500 66734
+INFO 2023-09-29 03:51:25,217 autoreload 15056 12492 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\urls.py changed, reloading.
+INFO 2023-09-29 03:51:25,757 autoreload 13836 1172 Watching for file changes with StatReloader
+INFO 2023-09-29 03:51:28,178 autoreload 13836 1172 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\urls.py changed, reloading.
+INFO 2023-09-29 03:51:28,720 autoreload 9264 13416 Watching for file changes with StatReloader
+INFO 2023-09-29 03:51:33,153 autoreload 9264 13416 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\urls.py changed, reloading.
+INFO 2023-09-29 03:51:33,679 autoreload 21388 23356 Watching for file changes with StatReloader
+INFO 2023-09-29 03:51:38,016 basehttp 21388 13600 "GET /less3/test/3 HTTP/1.1" 200 257
+INFO 2023-09-29 03:56:12,762 autoreload 4340 19592 Watching for file changes with StatReloader
+INFO 2023-09-29 03:56:15,367 basehttp 4340 13232 "GET /less3/test/3 HTTP/1.1" 200 257
+INFO 2023-09-29 03:56:29,579 autoreload 4340 19592 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-29 03:56:30,129 autoreload 6136 22144 Watching for file changes with StatReloader
+INFO 2023-09-29 03:57:27,887 autoreload 17972 23120 Watching for file changes with StatReloader
+WARNING 2023-09-29 03:57:31,613 log 17972 19272 Not Found: /less3/test/1230412
+WARNING 2023-09-29 03:57:31,613 basehttp 17972 19272 "GET /less3/test/1230412 HTTP/1.1" 404 3745
+INFO 2023-09-30 04:45:06,962 autoreload 18240 19944 Watching for file changes with StatReloader
+ERROR 2023-09-30 04:45:34,993 log 18240 17760 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'extend'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py", line 19, in my_view
+    return render(request=reuest, template_name='less3app/index.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 1: 'extend'. Did you forget to register or load this tag?
+ERROR 2023-09-30 04:45:35,004 basehttp 18240 17760 "GET / HTTP/1.1" 500 136985
+ERROR 2023-09-30 04:46:33,504 log 18240 17760 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py", line 19, in my_view
+    return render(request=reuest, template_name='less3app/index.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(views.about)' from 'url_for(views.about)'
+ERROR 2023-09-30 04:46:33,515 basehttp 18240 17760 "GET / HTTP/1.1" 500 171031
+ERROR 2023-09-30 04:47:49,742 log 18240 17760 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py", line 19, in my_view
+    return render(request=reuest, template_name='less3app/index.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\defaulttags.py", line 967, in do_if
+    nodelist = parser.parse(("endif",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 7: 'if'. Looking for one of: endif.
+ERROR 2023-09-30 04:47:49,752 basehttp 18240 17760 "GET / HTTP/1.1" 500 170794
+INFO 2023-09-30 04:48:25,136 basehttp 18240 17760 "GET / HTTP/1.1" 200 282
+INFO 2023-09-30 04:48:43,471 basehttp 18240 17760 "GET / HTTP/1.1" 200 287
+INFO 2023-09-30 04:48:55,865 basehttp 18240 17760 "GET / HTTP/1.1" 200 287
+WARNING 2023-09-30 04:48:56,569 log 18240 17760 Not Found: /about
+WARNING 2023-09-30 04:48:56,570 basehttp 18240 17760 "GET /about HTTP/1.1" 404 2998
+WARNING 2023-09-30 04:49:14,134 log 18240 17760 Not Found: /about
+WARNING 2023-09-30 04:49:14,135 basehttp 18240 17760 "GET /about HTTP/1.1" 404 2998
+WARNING 2023-09-30 04:49:14,901 log 18240 17760 Not Found: /about
+WARNING 2023-09-30 04:49:14,902 basehttp 18240 17760 "GET /about HTTP/1.1" 404 2998
+WARNING 2023-09-30 04:49:17,211 log 18240 17760 Not Found: /about
+WARNING 2023-09-30 04:49:17,211 basehttp 18240 17760 "GET /about HTTP/1.1" 404 2998
+INFO 2023-09-30 04:49:54,759 autoreload 18240 19944 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-30 04:49:55,296 autoreload 18032 18328 Watching for file changes with StatReloader
+INFO 2023-09-30 04:49:56,980 basehttp 18032 21344 "GET / HTTP/1.1" 200 293
+INFO 2023-09-30 04:49:58,208 basehttp 18032 21344 "GET /less3/about HTTP/1.1" 301 0
+ERROR 2023-09-30 04:49:58,242 log 18032 21280 Internal Server Error: /less3/about/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: test_models() missing 1 required positional argument: 'author_id'
+ERROR 2023-09-30 04:49:58,246 basehttp 18032 21280 "GET /less3/about/ HTTP/1.1" 500 66706
+WARNING 2023-09-30 04:50:35,368 log 18032 21280 Not Found: /less3/about/1
+WARNING 2023-09-30 04:50:35,369 basehttp 18032 21280 "GET /less3/about/1 HTTP/1.1" 404 3089
+ERROR 2023-09-30 04:50:39,144 log 18032 21280 Internal Server Error: /less3/about/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: test_models() missing 1 required positional argument: 'author_id'
+ERROR 2023-09-30 04:50:39,146 basehttp 18032 21280 "GET /less3/about/ HTTP/1.1" 500 66555
+INFO 2023-09-30 04:50:48,089 autoreload 18032 18328 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\urls.py changed, reloading.
+INFO 2023-09-30 04:50:48,629 autoreload 16120 19612 Watching for file changes with StatReloader
+INFO 2023-09-30 04:50:52,055 autoreload 16120 19612 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\urls.py changed, reloading.
+INFO 2023-09-30 04:50:52,604 autoreload 14316 8636 Watching for file changes with StatReloader
+ERROR 2023-09-30 04:50:54,230 log 14316 17580 Internal Server Error: /less3/about/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: test_models() missing 1 required positional argument: 'author_id'
+ERROR 2023-09-30 04:50:54,232 basehttp 14316 17580 "GET /less3/about/ HTTP/1.1" 500 66692
+ERROR 2023-09-30 04:50:54,833 log 14316 17580 Internal Server Error: /less3/about/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: test_models() missing 1 required positional argument: 'author_id'
+ERROR 2023-09-30 04:50:54,835 basehttp 14316 17580 "GET /less3/about/ HTTP/1.1" 500 66692
+INFO 2023-09-30 04:51:04,339 autoreload 14316 8636 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\urls.py changed, reloading.
+INFO 2023-09-30 04:51:04,889 autoreload 20404 15832 Watching for file changes with StatReloader
+INFO 2023-09-30 04:51:08,311 autoreload 20404 15832 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\urls.py changed, reloading.
+INFO 2023-09-30 04:51:08,851 autoreload 17592 3092 Watching for file changes with StatReloader
+INFO 2023-09-30 04:51:20,362 autoreload 17592 3092 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\urls.py changed, reloading.
+INFO 2023-09-30 04:51:20,894 autoreload 2544 5188 Watching for file changes with StatReloader
+INFO 2023-09-30 04:51:22,281 basehttp 2544 19368 "GET /less3/about/ HTTP/1.1" 200 289
+INFO 2023-09-30 04:51:38,871 basehttp 2544 19368 "GET /less3/about/ HTTP/1.1" 200 295
+INFO 2023-09-30 04:51:39,552 basehttp 2544 19368 "GET / HTTP/1.1" 200 293
+INFO 2023-09-30 05:09:22,374 autoreload 4760 4540 Watching for file changes with StatReloader
+INFO 2023-09-30 05:09:23,774 basehttp 4760 13376 "GET / HTTP/1.1" 200 293
+INFO 2023-09-30 05:09:26,034 basehttp 4760 13376 "GET /heads_or_tails HTTP/1.1" 301 0
+INFO 2023-09-30 05:09:26,037 views 4760 20488 responce:решка
+INFO 2023-09-30 05:09:26,212 basehttp 4760 20488 "GET /heads_or_tails/ HTTP/1.1" 200 241
+INFO 2023-09-30 05:17:02,122 autoreload 4760 4540 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-30 05:17:02,664 autoreload 4672 6580 Watching for file changes with StatReloader
+INFO 2023-09-30 05:23:23,906 autoreload 18052 20948 Watching for file changes with StatReloader
+INFO 2023-09-30 05:24:26,683 autoreload 15916 18632 Watching for file changes with StatReloader
+INFO 2023-09-30 05:24:27,357 views 15916 468 responce:орёл
+INFO 2023-09-30 05:24:27,484 basehttp 15916 468 "GET /heads_or_tails/ HTTP/1.1" 200 239
+WARNING 2023-09-30 05:24:33,606 log 15916 468 Not Found: /author_posts/2
+WARNING 2023-09-30 05:24:33,607 basehttp 15916 468 "GET /author_posts/2 HTTP/1.1" 404 3025
+INFO 2023-09-30 05:24:44,742 basehttp 15916 468 "GET /less3/author_posts/2 HTTP/1.1" 200 299
+INFO 2023-09-30 05:34:36,729 autoreload 3252 5620 Watching for file changes with StatReloader
+INFO 2023-09-30 05:34:39,070 basehttp 3252 12404 "GET /less3/author_posts/2 HTTP/1.1" 200 309
+INFO 2023-09-30 05:34:41,472 basehttp 3252 12404 "GET /less3/author_posts/1 HTTP/1.1" 200 309
+INFO 2023-09-30 05:35:08,317 basehttp 3252 12404 "GET /less3/author_posts/1 HTTP/1.1" 200 338
+INFO 2023-09-30 05:35:09,590 basehttp 3252 12404 "GET /less3/post/10 HTTP/1.1" 200 231
+INFO 2023-09-30 05:35:43,680 autoreload 3252 5620 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\models.py changed, reloading.
+INFO 2023-09-30 05:35:44,227 autoreload 18632 20636 Watching for file changes with StatReloader
+INFO 2023-09-30 05:35:49,674 autoreload 18632 20636 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\models.py changed, reloading.
+INFO 2023-09-30 05:35:50,273 autoreload 19096 17672 Watching for file changes with StatReloader
+INFO 2023-09-30 05:35:52,461 basehttp 19096 10808 "GET /less3/post/10 HTTP/1.1" 200 745
+INFO 2023-09-30 05:36:12,823 basehttp 19096 10808 "GET /less3/post/10 HTTP/1.1" 200 763
+INFO 2023-09-30 05:36:45,940 autoreload 19096 17672 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-30 05:36:46,519 autoreload 12752 11656 Watching for file changes with StatReloader
+INFO 2023-09-30 05:37:03,944 autoreload 16064 13068 Watching for file changes with StatReloader
+INFO 2023-09-30 05:37:08,377 autoreload 16064 13068 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-30 05:37:08,968 autoreload 11252 9728 Watching for file changes with StatReloader
+INFO 2023-09-30 05:37:10,351 autoreload 11252 9728 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-30 05:37:10,923 autoreload 18612 15752 Watching for file changes with StatReloader
+INFO 2023-09-30 05:37:13,266 autoreload 18612 15752 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-09-30 05:37:13,856 autoreload 8896 468 Watching for file changes with StatReloader
+INFO 2023-09-30 05:37:17,999 basehttp 8896 13944 "GET /less3/post/10 HTTP/1.1" 200 763
+INFO 2023-09-30 05:37:25,154 basehttp 8896 13944 "GET /less3/post/10 HTTP/1.1" 200 763
+INFO 2023-09-30 05:37:25,853 basehttp 8896 13944 "GET /less3/post/10 HTTP/1.1" 200 763
+INFO 2023-10-01 00:56:52,570 autoreload 15084 12716 Watching for file changes with StatReloader
+INFO 2023-10-01 00:56:57,580 basehttp 15084 18040 "GET /less3/post/10 HTTP/1.1" 200 763
+WARNING 2023-10-01 00:56:57,852 log 15084 18040 Not Found: /favicon.ico
+WARNING 2023-10-01 00:56:57,852 basehttp 15084 18040 "GET /favicon.ico HTTP/1.1" 404 3016
+ERROR 2023-10-01 00:57:03,762 log 15084 18040 Internal Server Error: /less3/create_comments
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py", line 66, in create_comments
+    comment = Comments(author=author_id, post=post_id, comment=f'Comment{i}-{i*j}')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "0": "Comments.author" must be a "Author" instance.
+ERROR 2023-10-01 00:57:03,767 basehttp 15084 18040 "GET /less3/create_comments HTTP/1.1" 500 80711
+INFO 2023-10-01 00:57:20,023 autoreload 15084 12716 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-01 00:57:20,606 autoreload 18768 8344 Watching for file changes with StatReloader
+INFO 2023-10-01 00:57:24,022 autoreload 18768 8344 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-01 00:57:24,552 autoreload 3224 21232 Watching for file changes with StatReloader
+ERROR 2023-10-01 00:57:26,685 log 3224 11652 Internal Server Error: /less3/create_comments
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py", line 66, in create_comments
+    comment = Comments(author=author_id, post=post_id, comment=f'Comment{i}-{i*j}')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Comments.author" must be a "Author" instance.
+ERROR 2023-10-01 00:57:26,690 basehttp 3224 11652 "GET /less3/create_comments HTTP/1.1" 500 81356
+INFO 2023-10-01 00:59:02,639 autoreload 10004 19536 Watching for file changes with StatReloader
+ERROR 2023-10-01 00:59:19,839 log 10004 17356 Internal Server Error: /less3/create_comments
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view less3app.views.create_comments didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-10-01 00:59:19,841 basehttp 10004 17356 "GET /less3/create_comments HTTP/1.1" 500 71282
+INFO 2023-10-01 01:04:14,276 autoreload 19220 1536 Watching for file changes with StatReloader
+INFO 2023-10-01 01:04:43,136 autoreload 19220 1536 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\urls.py changed, reloading.
+INFO 2023-10-01 01:04:43,689 autoreload 12184 5544 Watching for file changes with StatReloader
+INFO 2023-10-01 01:04:46,909 basehttp 12184 7312 "GET /less3/post/15 HTTP/1.1" 200 750
+INFO 2023-10-01 01:04:56,388 basehttp 12184 7312 "GET /less3/post/9 HTTP/1.1" 200 1459

@@ -12,7 +12,8 @@ def heads_or_tails(request):
     logger.info(f'responce:{responce}')
     db = HeadsTails(title=responce)
     db.save()
-    return HttpResponse(responce)
+    context = {'side': responce}
+    return render(request=request, template_name='myapp/heads_or_tails.html', context=context)
 
 
 def read_db(request):

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+
+{% block body%}
+<h1>{{post.title}}</h1>
+{{post.content}}
+{% for comment in comments %}
+{{comment.author.name}}
+{{comment.comment}}
+{{comment.create_data}}
+{{comment.update_data}}
+{% endfor %}
+{% endblock %}

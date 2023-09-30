@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+
+{% block body%}
+{{author.full_name}}
+{% for post in posts %}
+{% if post.active %}
+<a href="{% url 'post' post.id %}">{{post.title}}</a>
+{% else %}
+{{post.title}}
+{% endif %}
+{% endfor %}
+{% endblock %}
