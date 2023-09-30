@@ -1,6 +1,6 @@
 from django.db import models
 from django.core.validators import RegexValidator
-
+from django.db.models import Sum
 # Create your models here.
 
 class User(models.Model):
@@ -23,7 +23,8 @@ class Product(models.Model):
     date_create_product = models.DateTimeField(auto_now_add=True)
     
     def __str__(self) -> str:
-        return f'title: {self.title}, price: {self.price}'
+        return f'title: {self.title}, price: {self.price}, date: {self.date_create_product}'
+
 
 class Order(models.Model):
     user = models.ForeignKey('User', on_delete=models.CASCADE)
@@ -33,3 +34,4 @@ class Order(models.Model):
     
     def __str__(self) -> str:
         return f'user_id: {self.user}, total_cost: {self.total_cost}'
+    

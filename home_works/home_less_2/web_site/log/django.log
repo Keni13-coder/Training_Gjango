@@ -343,3 +343,2020 @@ INFO 2023-09-27 04:17:30,261 basehttp 17392 8792 "GET /order_point/post HTTP/1.1
 INFO 2023-09-27 04:26:03,421 autoreload 17392 21968 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\models.py changed, reloading.
 INFO 2023-09-27 04:26:03,994 autoreload 12456 13744 Watching for file changes with StatReloader
 INFO 2023-09-27 04:26:05,338 autoreload 12456 13744 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\models.py changed, reloading.
+INFO 2023-09-29 04:46:35,738 autoreload 19220 23380 Watching for file changes with StatReloader
+WARNING 2023-09-29 04:47:00,272 log 19220 25220 Not Found: /
+WARNING 2023-09-29 04:47:00,273 basehttp 19220 25220 "GET / HTTP/1.1" 404 2636
+INFO 2023-09-29 04:47:54,078 autoreload 22376 18764 Watching for file changes with StatReloader
+WARNING 2023-09-29 04:47:56,295 log 22376 19876 Not Found: /
+WARNING 2023-09-29 04:47:56,296 basehttp 22376 19876 "GET / HTTP/1.1" 404 2821
+INFO 2023-09-29 04:48:02,807 basehttp 22376 19876 "GET /datasets_point HTTP/1.1" 301 0
+ERROR 2023-09-29 04:48:03,300 log 22376 24648 Internal Server Error: /datasets_point/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 218, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2053, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'User'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 26, in create_fake_datasets_point
+    create_fake_datasets()
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 92, in create_fake_datasets
+    order.products.add(prod)
+    ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 617, in __get__
+    return self.related_manager_cls(instance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 1025, in __init__
+    % (instance, self.pk_field_names[self.source_field_name])
+       ^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\models.py", line 36, in __str__
+    return f'user_id: {self.user}, total_cost: {self.total_cost}'
+                       ^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.get_object(instance)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\query.py", line 1404, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <User: name: User1, email: user1@inbox.com, phone_number: +64719173647, address: кукуего-1>.
+ERROR 2023-09-29 04:48:03,317 basehttp 22376 24648 "GET /datasets_point/ HTTP/1.1" 500 187633
+INFO 2023-09-29 04:51:53,215 autoreload 22376 18764 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-29 04:51:53,793 autoreload 8808 22948 Watching for file changes with StatReloader
+ERROR 2023-09-29 04:52:03,476 log 8808 1460 Internal Server Error: /datasets_point/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 26, in create_fake_datasets_point
+    create_fake_datasets()
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 89, in create_fake_datasets
+    prod.save()
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1746, in <listcomp>
+    [
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1759, in get_db_prep_save
+    return connection.ops.adapt_decimalfield_value(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\base\operations.py", line 574, in adapt_decimalfield_value
+    return utils.format_number(value, max_digits, decimal_places)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\utils.py", line 304, in format_number
+    value = value.quantize(
+            ^^^^^^^^^^^^^^^
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+ERROR 2023-09-29 04:52:03,487 basehttp 8808 1460 "GET /datasets_point/ HTTP/1.1" 500 143299
+INFO 2023-09-29 04:52:46,440 autoreload 8808 22948 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-29 04:52:46,986 autoreload 17888 19484 Watching for file changes with StatReloader
+ERROR 2023-09-29 04:53:08,644 log 17888 18504 Internal Server Error: /datasets_point/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+ERROR 2023-09-29 04:53:08,648 basehttp 17888 18504 "GET /datasets_point/ HTTP/1.1" 500 69555
+INFO 2023-09-29 04:59:24,239 autoreload 11800 6052 Watching for file changes with StatReloader
+ERROR 2023-09-29 04:59:26,882 log 11800 800 Internal Server Error: /datasets_point/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: startapp_order.total_cost
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 26, in create_fake_datasets_point
+    create_fake_datasets()
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 88, in create_fake_datasets
+    order.save()
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\models.py", line 42, in save
+    super().save()
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: startapp_order.total_cost
+ERROR 2023-09-29 04:59:26,895 basehttp 11800 800 "GET /datasets_point/ HTTP/1.1" 500 157554
+INFO 2023-09-29 05:02:41,384 autoreload 11800 6052 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-29 05:02:41,902 autoreload 11920 2996 Watching for file changes with StatReloader
+ERROR 2023-09-29 05:02:43,413 log 11920 22188 Internal Server Error: /datasets_point/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 26, in create_fake_datasets_point
+    create_fake_datasets()
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 89, in create_fake_datasets
+    order.products.add(prod)
+    ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 617, in __get__
+    return self.related_manager_cls(instance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 1022, in __init__
+    raise ValueError(
+ValueError: "<Order: user_id: name: Alex, email: alex@inbox.com, phone_number: +64739173647, address: кукуего, total_cost: None>" needs to have a value for field "id" before this many-to-many relationship can be used.
+ERROR 2023-09-29 05:02:43,417 basehttp 11920 22188 "GET /datasets_point/ HTTP/1.1" 500 84147
+ERROR 2023-09-29 05:02:52,208 log 11920 22188 Internal Server Error: /datasets_point/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 26, in create_fake_datasets_point
+    create_fake_datasets()
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 89, in create_fake_datasets
+    order.products.add(prod)
+    ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 617, in __get__
+    return self.related_manager_cls(instance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 1022, in __init__
+    raise ValueError(
+ValueError: "<Order: user_id: name: Alex, email: alex@inbox.com, phone_number: +64739173647, address: кукуего, total_cost: None>" needs to have a value for field "id" before this many-to-many relationship can be used.
+ERROR 2023-09-29 05:02:52,212 basehttp 11920 22188 "GET /datasets_point/ HTTP/1.1" 500 84147
+INFO 2023-09-29 05:08:00,513 autoreload 11920 2996 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-29 05:08:01,066 autoreload 9160 6388 Watching for file changes with StatReloader
+INFO 2023-09-29 05:11:43,429 autoreload 14784 7336 Watching for file changes with StatReloader
+ERROR 2023-09-29 05:11:46,652 log 14784 15880 Internal Server Error: /datasets_point/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 26, in create_fake_datasets_point
+    create_fake_datasets()
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 88, in create_fake_datasets
+    order.products.add(prod)
+    ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 617, in __get__
+    return self.related_manager_cls(instance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 1022, in __init__
+    raise ValueError(
+ValueError: "<Order: user_id: name: Alex, email: alex@inbox.com, phone_number: +64739173647, address: кукуего, total_cost: 0.0>" needs to have a value for field "id" before this many-to-many relationship can be used.
+ERROR 2023-09-29 05:11:46,657 basehttp 14784 15880 "GET /datasets_point/ HTTP/1.1" 500 84199
+INFO 2023-09-29 05:14:08,620 autoreload 14784 7336 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-29 05:14:09,172 autoreload 10080 16556 Watching for file changes with StatReloader
+ERROR 2023-09-29 05:14:25,883 log 10080 9632 Internal Server Error: /datasets_point/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+ERROR 2023-09-29 05:14:25,886 basehttp 10080 9632 "GET /datasets_point/ HTTP/1.1" 500 69555
+INFO 2023-09-29 05:15:39,355 autoreload 10080 16556 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-29 05:15:39,888 autoreload 12592 12756 Watching for file changes with StatReloader
+INFO 2023-09-29 05:16:48,806 autoreload 6764 10760 Watching for file changes with StatReloader
+ERROR 2023-09-29 05:17:21,953 log 6764 10492 Internal Server Error: /datasets_point/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+ERROR 2023-09-29 05:17:21,956 basehttp 6764 10492 "GET /datasets_point/ HTTP/1.1" 500 69555
+INFO 2023-09-30 01:27:42,834 autoreload 8944 1512 Watching for file changes with StatReloader
+WARNING 2023-09-30 01:27:47,160 log 8944 15896 Not Found: /
+WARNING 2023-09-30 01:27:47,161 basehttp 8944 15896 "GET / HTTP/1.1" 404 2998
+WARNING 2023-09-30 01:27:47,234 log 8944 15896 Not Found: /favicon.ico
+WARNING 2023-09-30 01:27:47,235 basehttp 8944 15896 "GET /favicon.ico HTTP/1.1" 404 3049
+INFO 2023-09-30 01:27:54,726 basehttp 8944 15896 "GET /order_user HTTP/1.1" 301 0
+ERROR 2023-09-30 01:27:55,458 log 8944 17068 Internal Server Error: /order_user/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' if title else '»нтернет магазин'' from 'title if title else '»нтернет магазин''
+ERROR 2023-09-30 01:27:55,468 basehttp 8944 17068 "GET /order_user/ HTTP/1.1" 500 161921
+INFO 2023-09-30 01:29:56,822 autoreload 8944 1512 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 01:29:57,342 autoreload 3468 8528 Watching for file changes with StatReloader
+INFO 2023-09-30 01:29:59,629 basehttp 3468 1708 "GET /order_user/ HTTP/1.1" 200 239
+INFO 2023-09-30 01:30:26,371 autoreload 3468 8528 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\urls.py changed, reloading.
+INFO 2023-09-30 01:30:26,912 autoreload 17932 20376 Watching for file changes with StatReloader
+INFO 2023-09-30 01:30:28,275 autoreload 17932 20376 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\urls.py changed, reloading.
+INFO 2023-09-30 01:30:28,806 autoreload 20348 17756 Watching for file changes with StatReloader
+INFO 2023-09-30 01:30:35,236 autoreload 20348 17756 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\urls.py changed, reloading.
+INFO 2023-09-30 01:30:35,791 autoreload 2992 19060 Watching for file changes with StatReloader
+INFO 2023-09-30 01:30:41,040 basehttp 2992 7464 "GET /order_user/1 HTTP/1.1" 200 239
+INFO 2023-09-30 01:32:11,710 autoreload 14020 5724 Watching for file changes with StatReloader
+INFO 2023-09-30 01:32:15,199 basehttp 14020 13164 "GET /order_user/1 HTTP/1.1" 200 241
+INFO 2023-09-30 01:43:56,315 autoreload 6792 796 Watching for file changes with StatReloader
+INFO 2023-09-30 01:43:57,829 basehttp 6792 12284 "GET /order_user/1 HTTP/1.1" 200 241
+INFO 2023-09-30 01:44:24,419 basehttp 6792 12284 "GET /order_user/1 HTTP/1.1" 200 2913
+INFO 2023-09-30 01:45:18,688 basehttp 6792 12284 "GET /order_user/1 HTTP/1.1" 200 12526
+INFO 2023-09-30 01:47:10,955 autoreload 12488 10904 Watching for file changes with StatReloader
+INFO 2023-09-30 01:47:12,415 basehttp 12488 16328 "GET /order_user/1 HTTP/1.1" 200 7166
+INFO 2023-09-30 01:48:59,562 autoreload 12488 10904 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 01:49:00,156 autoreload 6080 7964 Watching for file changes with StatReloader
+INFO 2023-09-30 01:51:04,322 autoreload 2216 8900 Watching for file changes with StatReloader
+ERROR 2023-09-30 01:51:06,735 log 2216 17184 Internal Server Error: /order_user/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 46, in get_context_data
+    context['order'] = CrudOrder().get_all()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 48, in get_all
+    print(responce.products.all().aggregate(Sum('price')))
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'products'
+ERROR 2023-09-30 01:51:06,740 basehttp 2216 17184 "GET /order_user/1 HTTP/1.1" 500 90440
+INFO 2023-09-30 01:51:42,726 autoreload 2216 8900 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 01:51:43,275 autoreload 19952 15604 Watching for file changes with StatReloader
+INFO 2023-09-30 01:51:51,773 autoreload 19952 15604 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 01:51:52,310 autoreload 7964 12456 Watching for file changes with StatReloader
+INFO 2023-09-30 01:51:56,763 autoreload 7964 12456 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 01:51:57,292 autoreload 19608 15488 Watching for file changes with StatReloader
+INFO 2023-09-30 01:52:12,910 autoreload 19608 15488 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 01:52:13,458 autoreload 17448 3624 Watching for file changes with StatReloader
+INFO 2023-09-30 01:52:17,835 autoreload 17448 3624 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 01:52:18,393 autoreload 19884 7972 Watching for file changes with StatReloader
+INFO 2023-09-30 01:52:29,894 autoreload 19884 7972 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 01:52:30,440 autoreload 7064 16308 Watching for file changes with StatReloader
+ERROR 2023-09-30 01:52:31,955 log 7064 15496 Internal Server Error: /order_user/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 46, in get_context_data
+    context['order'] = CrudOrder().get(context['user_id'])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 54, in get
+    print(responce.products.all().aggregate(Sum('price')))
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'products'
+ERROR 2023-09-30 01:52:31,959 basehttp 7064 15496 "GET /order_user/1 HTTP/1.1" 500 88153
+ERROR 2023-09-30 01:52:36,731 log 7064 15496 Internal Server Error: /order_user/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 46, in get_context_data
+    context['order'] = CrudOrder().get(context['user_id'])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 54, in get
+    print(responce.products.all().aggregate(Sum('price')))
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'products'
+ERROR 2023-09-30 01:52:36,736 basehttp 7064 15496 "GET /order_user/1 HTTP/1.1" 500 88153
+INFO 2023-09-30 01:53:01,507 autoreload 7064 16308 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 01:53:02,078 autoreload 6724 15544 Watching for file changes with StatReloader
+INFO 2023-09-30 01:53:03,426 autoreload 6724 15544 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 01:53:03,962 autoreload 19800 15444 Watching for file changes with StatReloader
+ERROR 2023-09-30 01:53:05,523 log 19800 11492 Internal Server Error: /order_user/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 46, in get_context_data
+    context['order'] = CrudOrder().get(context['user_id'])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 54, in get
+    print(responce.products.all().aggregate(Sum('price')))
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'products'
+ERROR 2023-09-30 01:53:05,527 basehttp 19800 11492 "GET /order_user/1 HTTP/1.1" 500 88153
+ERROR 2023-09-30 01:53:06,602 log 19800 11492 Internal Server Error: /order_user/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 46, in get_context_data
+    context['order'] = CrudOrder().get(context['user_id'])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 54, in get
+    print(responce.products.all().aggregate(Sum('price')))
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'products'
+ERROR 2023-09-30 01:53:06,608 basehttp 19800 11492 "GET /order_user/1 HTTP/1.1" 500 88153
+INFO 2023-09-30 01:53:39,126 autoreload 19800 15444 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 01:53:39,668 autoreload 19840 11240 Watching for file changes with StatReloader
+ERROR 2023-09-30 01:53:44,650 log 19840 13368 Internal Server Error: /order_user/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'Order' object is not iterable
+ERROR 2023-09-30 01:53:44,658 basehttp 19840 13368 "GET /order_user/1 HTTP/1.1" 500 147659
+ERROR 2023-09-30 01:53:59,845 log 19840 13368 Internal Server Error: /order_user/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'Order' object is not iterable
+ERROR 2023-09-30 01:53:59,853 basehttp 19840 13368 "GET /order_user/1 HTTP/1.1" 500 147713
+ERROR 2023-09-30 01:54:00,497 log 19840 13368 Internal Server Error: /order_user/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'Order' object is not iterable
+ERROR 2023-09-30 01:54:00,505 basehttp 19840 13368 "GET /order_user/1 HTTP/1.1" 500 147713
+ERROR 2023-09-30 01:54:08,184 log 19840 13368 Internal Server Error: /order_user/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'Order' object is not iterable
+ERROR 2023-09-30 01:54:08,193 basehttp 19840 13368 "GET /order_user/1 HTTP/1.1" 500 147713
+INFO 2023-09-30 01:54:11,607 basehttp 19840 13368 "GET /order_user/1 HTTP/1.1" 200 242
+INFO 2023-09-30 01:54:43,395 autoreload 19840 11240 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 01:54:43,980 autoreload 16528 13408 Watching for file changes with StatReloader
+INFO 2023-09-30 01:54:44,877 basehttp 16528 4660 "GET /order_user/1 HTTP/1.1" 200 242
+INFO 2023-09-30 01:55:22,053 autoreload 16528 13408 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 01:55:22,598 autoreload 7788 2864 Watching for file changes with StatReloader
+INFO 2023-09-30 01:58:10,040 autoreload 2864 13500 Watching for file changes with StatReloader
+INFO 2023-09-30 01:58:12,515 basehttp 2864 11332 "GET /order_user/1 HTTP/1.1" 200 242
+INFO 2023-09-30 01:59:03,558 autoreload 2864 13500 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 01:59:04,111 autoreload 18944 4508 Watching for file changes with StatReloader
+INFO 2023-09-30 01:59:05,462 autoreload 18944 4508 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 01:59:06,006 autoreload 19596 12300 Watching for file changes with StatReloader
+INFO 2023-09-30 01:59:12,440 autoreload 19596 12300 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 01:59:12,974 autoreload 15556 2356 Watching for file changes with StatReloader
+ERROR 2023-09-30 01:59:16,490 log 15556 2912 Internal Server Error: /order_user/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1741, in to_python
+    decimal_value = decimal.Decimal(value)
+                    ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: conversion from dict to Decimal is not supported
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 46, in get_context_data
+    context['order'] = CrudOrder().get_all()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 50, in get_all
+    responce.save()
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\models.py", line 42, in save
+    super().save()
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1549, in execute_sql
+    sql, params = self.as_sql()
+                  ^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1947, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1760, in get_db_prep_save
+    self.to_python(value), self.max_digits, self.decimal_places
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1743, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ["У{'price__sum': Decimal('38')}Ф value must be a decimal number."]
+ERROR 2023-09-30 01:59:16,503 basehttp 15556 2912 "GET /order_user/1 HTTP/1.1" 500 153469
+INFO 2023-09-30 02:00:11,762 autoreload 15556 2356 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 02:00:12,309 autoreload 13484 12464 Watching for file changes with StatReloader
+INFO 2023-09-30 02:00:15,720 autoreload 13484 12464 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 02:00:16,285 autoreload 13048 18768 Watching for file changes with StatReloader
+INFO 2023-09-30 02:00:16,664 basehttp 13048 14264 "GET /order_user/1 HTTP/1.1" 200 242
+INFO 2023-09-30 02:00:24,946 autoreload 13048 18768 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 02:00:25,513 autoreload 8884 11332 Watching for file changes with StatReloader
+INFO 2023-09-30 02:00:26,685 basehttp 8884 13500 "GET /order_user/1 HTTP/1.1" 200 242
+INFO 2023-09-30 02:00:48,296 autoreload 8884 11332 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 02:00:48,847 autoreload 19924 13408 Watching for file changes with StatReloader
+INFO 2023-09-30 02:00:51,223 autoreload 19924 13408 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 02:00:51,766 autoreload 1480 11640 Watching for file changes with StatReloader
+INFO 2023-09-30 02:00:53,482 basehttp 1480 18632 "GET /order_user/1 HTTP/1.1" 200 242
+INFO 2023-09-30 02:01:18,746 autoreload 1480 11640 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 02:01:19,280 autoreload 3804 15500 Watching for file changes with StatReloader
+INFO 2023-09-30 02:01:50,212 autoreload 3804 15500 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 02:01:50,756 autoreload 13920 17880 Watching for file changes with StatReloader
+INFO 2023-09-30 02:01:52,099 autoreload 13920 17880 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 02:01:52,626 autoreload 8744 18948 Watching for file changes with StatReloader
+INFO 2023-09-30 02:01:56,998 autoreload 8744 18948 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 02:01:57,517 autoreload 1764 4820 Watching for file changes with StatReloader
+INFO 2023-09-30 02:02:01,884 autoreload 1764 4820 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 02:02:02,456 autoreload 460 18892 Watching for file changes with StatReloader
+INFO 2023-09-30 02:02:05,818 autoreload 460 18892 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 02:02:06,449 autoreload 4864 9008 Watching for file changes with StatReloader
+INFO 2023-09-30 02:02:08,822 autoreload 4864 9008 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 02:02:09,383 autoreload 14180 4572 Watching for file changes with StatReloader
+INFO 2023-09-30 02:02:15,786 autoreload 14180 4572 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 02:02:16,320 autoreload 12336 10928 Watching for file changes with StatReloader
+INFO 2023-09-30 02:02:21,716 autoreload 12336 10928 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 02:02:22,271 autoreload 15860 15872 Watching for file changes with StatReloader
+INFO 2023-09-30 02:02:25,626 autoreload 15860 15872 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 02:02:26,150 autoreload 8068 8528 Watching for file changes with StatReloader
+INFO 2023-09-30 02:02:31,572 autoreload 8068 8528 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 02:02:32,108 autoreload 19340 5188 Watching for file changes with StatReloader
+INFO 2023-09-30 02:02:36,571 autoreload 19340 5188 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 02:02:37,108 autoreload 4740 15964 Watching for file changes with StatReloader
+INFO 2023-09-30 02:02:54,377 basehttp 4740 10904 "GET /order_user/1 HTTP/1.1" 200 242
+INFO 2023-09-30 02:08:57,877 basehttp 4740 7976 "GET /order_user/1 HTTP/1.1" 200 242
+INFO 2023-09-30 02:10:28,762 basehttp 4740 7976 "GET /order_user/1 HTTP/1.1" 200 242
+INFO 2023-09-30 02:17:49,269 autoreload 18476 8204 Watching for file changes with StatReloader
+ERROR 2023-09-30 02:17:52,025 log 18476 6944 Internal Server Error: /order_user/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 13: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2023-09-30 02:17:52,038 basehttp 18476 6944 "GET /order_user/1 HTTP/1.1" 500 183109
+INFO 2023-09-30 02:18:27,914 autoreload 18476 8204 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 02:18:28,447 autoreload 15136 20348 Watching for file changes with StatReloader
+INFO 2023-09-30 02:18:29,856 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 20132
+INFO 2023-09-30 02:18:50,509 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 20132
+INFO 2023-09-30 02:18:52,151 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:20:10,935 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:20:12,956 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11622
+INFO 2023-09-30 02:20:13,099 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11622
+INFO 2023-09-30 02:20:13,220 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11622
+INFO 2023-09-30 02:20:13,323 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11622
+INFO 2023-09-30 02:20:36,934 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:21:28,725 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:21:31,034 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:21:31,175 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:21:31,326 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:21:39,531 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:21:40,006 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:21:40,189 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:21:40,334 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:22:48,664 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:22:49,735 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:22:49,876 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:22:50,039 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:22:50,157 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:22:50,293 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:22:59,442 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:23:00,647 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:23:00,781 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:23:01,032 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:23:01,261 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:23:01,389 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:23:01,510 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:23:01,621 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:23:01,748 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11508
+INFO 2023-09-30 02:26:17,355 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 12756
+INFO 2023-09-30 02:26:33,087 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 12004
+INFO 2023-09-30 02:28:20,681 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 11900
+INFO 2023-09-30 02:29:33,005 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 200 22604
+ERROR 2023-09-30 02:30:53,469 log 15136 19952 Internal Server Error: /order_user/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' for prod in order.products.all' from 'prod.title for prod in order.products.all'
+ERROR 2023-09-30 02:30:53,481 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 500 191193
+ERROR 2023-09-30 02:34:47,866 log 15136 19952 Internal Server Error: /order_user/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 20: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2023-09-30 02:34:47,876 basehttp 15136 19952 "GET /order_user/1 HTTP/1.1" 500 184533
+INFO 2023-09-30 02:34:53,069 autoreload 15136 20348 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 02:34:53,611 autoreload 15412 528 Watching for file changes with StatReloader
+ERROR 2023-09-30 02:34:55,333 log 15412 20116 Internal Server Error: /order_user/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 20: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2023-09-30 02:34:55,346 basehttp 15412 20116 "GET /order_user/1 HTTP/1.1" 500 184533
+INFO 2023-09-30 02:35:14,497 autoreload 15412 528 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 02:35:15,056 autoreload 15604 17636 Watching for file changes with StatReloader
+INFO 2023-09-30 02:35:18,104 basehttp 15604 7016 "GET /order_user/1 HTTP/1.1" 200 20714
+INFO 2023-09-30 02:35:43,173 basehttp 15604 7016 "GET /order_user/1 HTTP/1.1" 200 20714
+INFO 2023-09-30 02:35:44,176 basehttp 15604 7016 "GET /order_user/1 HTTP/1.1" 200 21578
+INFO 2023-09-30 02:35:44,408 basehttp 15604 7016 "GET /order_user/1 HTTP/1.1" 200 21578
+INFO 2023-09-30 02:35:44,592 basehttp 15604 7016 "GET /order_user/1 HTTP/1.1" 200 21578
+INFO 2023-09-30 02:35:57,204 basehttp 15604 7016 "GET /order_user/1 HTTP/1.1" 200 21682
+INFO 2023-09-30 02:37:48,538 basehttp 15604 7016 "GET /order_user/1 HTTP/1.1" 200 20267
+INFO 2023-09-30 02:39:34,758 basehttp 15604 7016 "GET /order_user/1 HTTP/1.1" 200 20295
+INFO 2023-09-30 02:55:21,218 autoreload 15896 4704 Watching for file changes with StatReloader
+ERROR 2023-09-30 02:55:26,205 log 15896 2544 Internal Server Error: /order/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 50, in get_order
+    order = CrudOrder.get(order_id)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CrudOrder.get() missing 1 required positional argument: 'pk'
+ERROR 2023-09-30 02:55:26,208 basehttp 15896 2544 "GET /order/1 HTTP/1.1" 500 69972
+INFO 2023-09-30 02:56:10,660 autoreload 15896 4704 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 02:56:11,209 autoreload 19224 16024 Watching for file changes with StatReloader
+ERROR 2023-09-30 02:56:12,668 log 19224 19984 Internal Server Error: /order/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 50, in get_order
+    order = CrudOrder.get(pk=order_id)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CrudOrder.get() missing 1 required positional argument: 'self'
+ERROR 2023-09-30 02:56:12,671 basehttp 19224 19984 "GET /order/1 HTTP/1.1" 500 70129
+INFO 2023-09-30 02:57:15,523 autoreload 19420 17912 Watching for file changes with StatReloader
+ERROR 2023-09-30 02:57:17,074 log 19420 12624 Internal Server Error: /order/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 51, in get_order
+    order = order.get(pk=order_id)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 58, in get
+    responce = self.model.objects.filter(pk=pk).order_by('products.date_create_product').first()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\query.py", line 2221, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'products.date_create_product' into field. Choices are: date_create_order, id, products, total_cost, user, user_id
+ERROR 2023-09-30 02:57:17,080 basehttp 19420 12624 "GET /order/1 HTTP/1.1" 500 89589
+INFO 2023-09-30 02:58:12,119 autoreload 19420 17912 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 02:58:12,696 autoreload 11508 7616 Watching for file changes with StatReloader
+INFO 2023-09-30 02:58:15,270 basehttp 11508 18004 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:39,881 autoreload 19132 3644 Watching for file changes with StatReloader
+INFO 2023-09-30 03:00:42,169 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:44,667 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:45,090 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:45,243 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:45,378 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:45,578 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:45,707 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:45,795 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:45,922 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:46,026 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:46,155 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:46,259 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:46,370 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:46,482 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:46,610 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:46,748 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:46,850 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:46,963 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:47,082 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:47,203 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:47,322 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:47,442 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:00:47,571 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:01:14,954 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:01:15,243 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:01:15,394 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:01:15,546 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:01:15,675 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 946
+INFO 2023-09-30 03:02:27,523 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:02:33,723 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:02:40,781 basehttp 19132 19736 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:02:48,956 autoreload 19132 3644 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:02:49,494 autoreload 2800 16332 Watching for file changes with StatReloader
+ERROR 2023-09-30 03:02:51,158 log 2800 3252 Internal Server Error: /order/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\query.py", line 1846, in transform
+    return self.try_transform(wrapped, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\query.py", line 1356, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup '-date_create_product' for BigAutoField or join on the field not permitted.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 51, in get_order
+    order = order.get(pk=order_id)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 58, in get
+    responce = self.model.objects.filter(pk=pk).order_by('products__-date_create_product').first()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1057, in first
+    for obj in queryset[:1]:
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1549, in execute_sql
+    sql, params = self.as_sql()
+                  ^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 736, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup(
+                                       ^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 85, in pre_sql_setup
+    order_by = self.get_order_by()
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 459, in get_order_by
+    for expr, is_ref in self._order_by_pairs():
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 442, in _order_by_pairs
+    yield from self.find_ordering_name(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1086, in find_ordering_name
+    return [
+           ^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1087, in <listcomp>
+    (OrderBy(transform_function(t, alias), descending=descending), False)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\query.py", line 1850, in transform
+    raise last_field_exception
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\query.py", line 1823, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+                                       ^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword '-date_create_product' into field. Choices are: count, date_create_product, description, id, order, price, title
+ERROR 2023-09-30 03:02:51,168 basehttp 2800 3252 "GET /order/1 HTTP/1.1" 500 162081
+INFO 2023-09-30 03:02:59,169 autoreload 2800 16332 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:02:59,739 autoreload 10876 19472 Watching for file changes with StatReloader
+INFO 2023-09-30 03:03:00,809 basehttp 10876 9016 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:03:07,163 basehttp 10876 9016 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:03:07,199 autoreload 10876 19472 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:03:07,740 autoreload 7936 12084 Watching for file changes with StatReloader
+INFO 2023-09-30 03:03:07,875 basehttp 7936 5116 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:03:15,238 autoreload 7936 12084 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:03:15,763 autoreload 19744 7060 Watching for file changes with StatReloader
+INFO 2023-09-30 03:04:23,479 autoreload 12412 2992 Watching for file changes with StatReloader
+ERROR 2023-09-30 03:04:24,656 log 12412 19724 Internal Server Error: /order/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 53, in get_order
+    return render(request=request, template_name='startapp/one_order.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('date_create_product')' from 'order.products.all.order_by('date_create_product')'
+ERROR 2023-09-30 03:04:24,668 basehttp 12412 19724 "GET /order/1 HTTP/1.1" 500 184463
+INFO 2023-09-30 03:05:24,056 autoreload 12412 2992 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:05:24,581 autoreload 1456 4928 Watching for file changes with StatReloader
+INFO 2023-09-30 03:11:37,126 autoreload 10040 8080 Watching for file changes with StatReloader
+INFO 2023-09-30 03:11:39,176 basehttp 10040 8096 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:11:51,899 autoreload 10040 8080 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:11:52,435 autoreload 2848 17780 Watching for file changes with StatReloader
+INFO 2023-09-30 03:11:55,829 autoreload 2848 17780 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:11:56,386 autoreload 4704 9016 Watching for file changes with StatReloader
+INFO 2023-09-30 03:11:57,683 basehttp 4704 3040 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:12:02,946 basehttp 4704 3040 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:12:03,219 basehttp 4704 3040 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:12:03,337 basehttp 4704 3040 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:12:03,449 basehttp 4704 3040 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:12:30,556 autoreload 4704 9016 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:12:31,094 autoreload 20880 20884 Watching for file changes with StatReloader
+INFO 2023-09-30 03:12:32,376 basehttp 20880 20908 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:12:42,804 autoreload 20880 20884 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:12:43,388 autoreload 21256 21260 Watching for file changes with StatReloader
+INFO 2023-09-30 03:12:44,744 autoreload 21256 21260 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:12:45,316 autoreload 21304 21308 Watching for file changes with StatReloader
+INFO 2023-09-30 03:12:47,702 autoreload 21304 21308 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:12:48,253 autoreload 20684 10812 Watching for file changes with StatReloader
+INFO 2023-09-30 03:12:55,724 autoreload 20684 10812 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:12:56,263 autoreload 20964 21080 Watching for file changes with StatReloader
+INFO 2023-09-30 03:12:58,641 autoreload 20964 21080 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:12:59,235 autoreload 13704 20564 Watching for file changes with StatReloader
+INFO 2023-09-30 03:12:59,448 basehttp 13704 4048 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:13:00,588 basehttp 13704 4048 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:13:18,984 autoreload 13704 20564 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\models.py changed, reloading.
+INFO 2023-09-30 03:13:19,563 autoreload 20660 20672 Watching for file changes with StatReloader
+INFO 2023-09-30 03:13:22,968 autoreload 20660 20672 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\models.py changed, reloading.
+INFO 2023-09-30 03:13:23,518 autoreload 20856 4760 Watching for file changes with StatReloader
+INFO 2023-09-30 03:13:25,258 basehttp 20856 7568 "GET /order/1 HTTP/1.1" 200 1114
+ERROR 2023-09-30 03:14:14,434 log 20856 7568 Internal Server Error: /order/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 53, in get_order
+    return render(request=request, template_name='startapp/one_order.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('-date_create_product')' from 'order.products.all.order_by('-date_create_product')'
+ERROR 2023-09-30 03:14:14,445 basehttp 20856 7568 "GET /order/1 HTTP/1.1" 500 184483
+INFO 2023-09-30 03:14:50,716 autoreload 20856 4760 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:14:51,259 autoreload 20872 20876 Watching for file changes with StatReloader
+INFO 2023-09-30 03:14:52,926 basehttp 20872 15732 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:15:03,980 autoreload 20872 20876 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:15:04,558 autoreload 19496 20648 Watching for file changes with StatReloader
+INFO 2023-09-30 03:15:06,153 basehttp 19496 8012 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:15:17,283 autoreload 19496 20648 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:15:17,833 autoreload 21152 21156 Watching for file changes with StatReloader
+INFO 2023-09-30 03:15:19,955 basehttp 21152 21256 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:16:41,977 autoreload 21152 21156 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:16:42,505 autoreload 11740 10356 Watching for file changes with StatReloader
+INFO 2023-09-30 03:16:45,907 autoreload 11740 10356 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:16:46,441 autoreload 21396 15732 Watching for file changes with StatReloader
+INFO 2023-09-30 03:16:49,824 autoreload 21396 15732 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:16:50,378 autoreload 18108 12992 Watching for file changes with StatReloader
+INFO 2023-09-30 03:16:55,805 autoreload 18108 12992 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:16:56,353 autoreload 20672 21496 Watching for file changes with StatReloader
+INFO 2023-09-30 03:16:58,713 autoreload 20672 21496 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:16:59,285 autoreload 13376 21132 Watching for file changes with StatReloader
+INFO 2023-09-30 03:17:01,609 autoreload 13376 21132 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:17:02,168 autoreload 21212 20540 Watching for file changes with StatReloader
+INFO 2023-09-30 03:17:04,495 autoreload 21212 20540 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:17:05,028 autoreload 21156 21152 Watching for file changes with StatReloader
+INFO 2023-09-30 03:17:09,396 autoreload 21156 21152 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:17:09,984 autoreload 7916 19748 Watching for file changes with StatReloader
+INFO 2023-09-30 03:17:24,742 autoreload 15364 21124 Watching for file changes with StatReloader
+INFO 2023-09-30 03:17:26,075 basehttp 15364 11316 "GET /order/1 HTTP/1.1" 200 1114
+INFO 2023-09-30 03:19:02,237 autoreload 8096 16300 Watching for file changes with StatReloader
+INFO 2023-09-30 03:19:04,405 basehttp 8096 21472 "GET /order/1 HTTP/1.1" 200 1537
+INFO 2023-09-30 03:20:38,147 basehttp 8096 21472 "GET /order/1 HTTP/1.1" 200 1580
+INFO 2023-09-30 03:22:03,281 autoreload 8096 16300 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:22:03,865 autoreload 8012 6908 Watching for file changes with StatReloader
+INFO 2023-09-30 03:22:29,688 autoreload 8012 6908 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:22:30,316 autoreload 21184 21172 Watching for file changes with StatReloader
+INFO 2023-09-30 03:22:36,730 autoreload 21184 21172 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:22:37,255 autoreload 6944 11640 Watching for file changes with StatReloader
+ERROR 2023-09-30 03:22:39,698 log 6944 20656 Internal Server Error: /order/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 51, in get_order
+    order = order.get(pk=order_id)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py", line 59, in get
+    responce.products = responce.products.all().order_by('-date_create_product')
+    ^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 626, in __set__
+    raise TypeError(
+TypeError: Direct assignment to the forward side of a many-to-many set is prohibited. Use products.set() instead.
+ERROR 2023-09-30 03:22:39,702 basehttp 6944 20656 "GET /order/1 HTTP/1.1" 500 79647
+INFO 2023-09-30 03:24:10,600 autoreload 6944 11640 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:24:11,190 autoreload 9468 19124 Watching for file changes with StatReloader
+INFO 2023-09-30 03:24:13,581 autoreload 9468 19124 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:24:14,143 autoreload 18184 21120 Watching for file changes with StatReloader
+INFO 2023-09-30 03:24:16,479 autoreload 18184 21120 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:24:17,011 autoreload 17848 6860 Watching for file changes with StatReloader
+INFO 2023-09-30 03:24:19,252 basehttp 17848 10808 "GET /order/1 HTTP/1.1" 200 1580
+INFO 2023-09-30 03:26:51,488 autoreload 19496 3732 Watching for file changes with StatReloader
+INFO 2023-09-30 03:26:53,058 basehttp 19496 6688 "GET /order/1 HTTP/1.1" 200 1580
+INFO 2023-09-30 03:28:12,581 autoreload 19496 3732 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:28:13,153 autoreload 18700 16064 Watching for file changes with StatReloader
+INFO 2023-09-30 03:28:14,526 autoreload 18700 16064 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:28:15,130 autoreload 16828 12948 Watching for file changes with StatReloader
+INFO 2023-09-30 03:28:17,504 autoreload 16828 12948 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:28:18,041 autoreload 19704 9016 Watching for file changes with StatReloader
+INFO 2023-09-30 03:28:25,509 autoreload 19704 9016 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:28:26,168 autoreload 2468 20268 Watching for file changes with StatReloader
+INFO 2023-09-30 03:28:34,629 autoreload 2468 20268 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:28:35,219 autoreload 11420 13368 Watching for file changes with StatReloader
+INFO 2023-09-30 03:28:36,590 autoreload 11420 13368 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:28:37,150 autoreload 20640 6868 Watching for file changes with StatReloader
+INFO 2023-09-30 03:29:35,614 autoreload 20640 6868 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:29:36,204 autoreload 20512 13124 Watching for file changes with StatReloader
+INFO 2023-09-30 03:29:39,613 autoreload 20512 13124 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:29:40,144 autoreload 1448 20884 Watching for file changes with StatReloader
+INFO 2023-09-30 03:29:45,569 autoreload 1448 20884 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:29:46,103 autoreload 20156 13564 Watching for file changes with StatReloader
+INFO 2023-09-30 03:29:48,709 basehttp 20156 7024 "GET /order/1 HTTP/1.1" 200 1580
+INFO 2023-09-30 03:29:54,559 basehttp 20156 7024 "GET /order/1 HTTP/1.1" 200 1580
+INFO 2023-09-30 03:29:54,830 basehttp 20156 7024 "GET /order/1 HTTP/1.1" 200 1580
+INFO 2023-09-30 03:29:55,089 basehttp 20156 7024 "GET /order/1 HTTP/1.1" 200 1580
+INFO 2023-09-30 03:29:55,416 basehttp 20156 7024 "GET /order/1 HTTP/1.1" 200 1580
+INFO 2023-09-30 03:30:17,195 autoreload 20156 13564 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\utils.py changed, reloading.
+INFO 2023-09-30 03:30:17,767 autoreload 14096 17572 Watching for file changes with StatReloader
+INFO 2023-09-30 03:31:05,769 autoreload 19976 21176 Watching for file changes with StatReloader
+INFO 2023-09-30 03:31:07,613 basehttp 19976 20668 "GET /order/1 HTTP/1.1" 200 1580
+INFO 2023-09-30 03:41:42,781 autoreload 17184 17052 Watching for file changes with StatReloader
+ERROR 2023-09-30 03:41:45,371 log 17184 6792 Internal Server Error: /order/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 58, in get_order
+    return render(request=request, template_name='startapp/one_order.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1549, in execute_sql
+    sql, params = self.as_sql()
+                  ^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 764, in as_sql
+    self.compile(self.where) if self.where is not None else ("", [])
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 546, in compile
+    sql, params = node.as_sql(self, self.connection)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\where.py", line 145, in as_sql
+    sql, params = compiler.compile(child)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 546, in compile
+    sql, params = node.as_sql(self, self.connection)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\lookups.py", line 227, in as_sql
+    rhs_sql = self.get_rhs_op(connection, rhs_sql)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\lookups.py", line 558, in get_rhs_op
+    return "BETWEEN %s AND %s" % (rhs[0], rhs[1])
+                                          ~~~^^^
+IndexError: tuple index out of range
+ERROR 2023-09-30 03:41:45,385 basehttp 17184 6792 "GET /order/1 HTTP/1.1" 500 200537
+INFO 2023-09-30 03:42:27,161 autoreload 17184 17052 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:42:27,702 autoreload 16668 9668 Watching for file changes with StatReloader
+INFO 2023-09-30 03:42:30,083 autoreload 16668 9668 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:42:30,633 autoreload 19944 21256 Watching for file changes with StatReloader
+ERROR 2023-09-30 03:42:33,512 log 19944 20860 Internal Server Error: /order/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 55, in get_order
+    print(prods7)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 374, in __repr__
+    data = list(self[: REPR_OUTPUT_SIZE + 1])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1549, in execute_sql
+    sql, params = self.as_sql()
+                  ^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 764, in as_sql
+    self.compile(self.where) if self.where is not None else ("", [])
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 546, in compile
+    sql, params = node.as_sql(self, self.connection)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\where.py", line 145, in as_sql
+    sql, params = compiler.compile(child)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 546, in compile
+    sql, params = node.as_sql(self, self.connection)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\lookups.py", line 227, in as_sql
+    rhs_sql = self.get_rhs_op(connection, rhs_sql)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\lookups.py", line 558, in get_rhs_op
+    return "BETWEEN %s AND %s" % (rhs[0], rhs[1])
+                                          ~~~^^^
+IndexError: tuple index out of range
+ERROR 2023-09-30 03:42:33,520 basehttp 19944 20860 "GET /order/1 HTTP/1.1" 500 121505
+INFO 2023-09-30 03:42:58,651 autoreload 19944 21256 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:42:59,213 autoreload 4508 19984 Watching for file changes with StatReloader
+ERROR 2023-09-30 03:43:01,983 log 4508 1788 Internal Server Error: /order/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 55, in get_order
+    print(prods7)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 374, in __repr__
+    data = list(self[: REPR_OUTPUT_SIZE + 1])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1549, in execute_sql
+    sql, params = self.as_sql()
+                  ^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 764, in as_sql
+    self.compile(self.where) if self.where is not None else ("", [])
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 546, in compile
+    sql, params = node.as_sql(self, self.connection)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\where.py", line 145, in as_sql
+    sql, params = compiler.compile(child)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 546, in compile
+    sql, params = node.as_sql(self, self.connection)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\lookups.py", line 227, in as_sql
+    rhs_sql = self.get_rhs_op(connection, rhs_sql)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\lookups.py", line 558, in get_rhs_op
+    return "BETWEEN %s AND %s" % (rhs[0], rhs[1])
+                                          ~~~^^^
+IndexError: tuple index out of range
+ERROR 2023-09-30 03:43:01,990 basehttp 4508 1788 "GET /order/1 HTTP/1.1" 500 121501
+INFO 2023-09-30 03:43:16,010 autoreload 4508 19984 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:43:16,554 autoreload 18548 6108 Watching for file changes with StatReloader
+ERROR 2023-09-30 03:43:19,698 log 18548 1548 Internal Server Error: /order/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py", line 56, in get_order
+    print(prods7)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 374, in __repr__
+    data = list(self[: REPR_OUTPUT_SIZE + 1])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1549, in execute_sql
+    sql, params = self.as_sql()
+                  ^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 764, in as_sql
+    self.compile(self.where) if self.where is not None else ("", [])
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 546, in compile
+    sql, params = node.as_sql(self, self.connection)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\where.py", line 145, in as_sql
+    sql, params = compiler.compile(child)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 546, in compile
+    sql, params = node.as_sql(self, self.connection)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\lookups.py", line 227, in as_sql
+    rhs_sql = self.get_rhs_op(connection, rhs_sql)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\db\models\lookups.py", line 558, in get_rhs_op
+    return "BETWEEN %s AND %s" % (rhs[0], rhs[1])
+                                          ~~~^^^
+IndexError: tuple index out of range
+ERROR 2023-09-30 03:43:19,705 basehttp 18548 1548 "GET /order/1 HTTP/1.1" 500 121481
+INFO 2023-09-30 03:43:45,620 autoreload 18548 6108 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:43:46,188 autoreload 21424 20712 Watching for file changes with StatReloader
+ERROR 2023-09-30 03:43:51,984 log 21424 3092 Internal Server Error: /order/1
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view startapp.views.get_order didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-30 03:43:51,986 basehttp 21424 3092 "GET /order/1 HTTP/1.1" 500 70907
+INFO 2023-09-30 03:44:16,274 autoreload 21424 20712 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:44:16,852 autoreload 17012 7252 Watching for file changes with StatReloader
+INFO 2023-09-30 03:44:18,196 basehttp 17012 14948 "GET /order/1 HTTP/1.1" 200 1492
+INFO 2023-09-30 03:44:59,153 autoreload 17012 7252 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:44:59,716 autoreload 1708 6288 Watching for file changes with StatReloader
+INFO 2023-09-30 03:45:03,125 autoreload 1708 6288 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:45:03,662 autoreload 20812 20956 Watching for file changes with StatReloader
+INFO 2023-09-30 03:45:06,054 autoreload 20812 20956 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:45:06,620 autoreload 6808 1416 Watching for file changes with StatReloader
+INFO 2023-09-30 03:45:09,000 autoreload 6808 1416 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:45:09,519 autoreload 17720 12788 Watching for file changes with StatReloader
+INFO 2023-09-30 03:45:11,877 autoreload 17720 12788 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:45:12,442 autoreload 19516 17120 Watching for file changes with StatReloader
+INFO 2023-09-30 03:45:14,805 autoreload 19516 17120 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:45:15,393 autoreload 21408 3144 Watching for file changes with StatReloader
+INFO 2023-09-30 03:47:47,620 autoreload 21408 3144 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:47:48,190 autoreload 17632 21080 Watching for file changes with StatReloader
+INFO 2023-09-30 03:47:57,710 autoreload 17632 21080 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:47:58,258 autoreload 1792 16556 Watching for file changes with StatReloader
+INFO 2023-09-30 03:48:01,647 autoreload 1792 16556 D:\Repository\Training_Gjango\home_works\home_less_2\web_site\startapp\views.py changed, reloading.
+INFO 2023-09-30 03:48:02,213 autoreload 7284 12412 Watching for file changes with StatReloader
+INFO 2023-09-30 03:51:39,526 autoreload 10412 20560 Watching for file changes with StatReloader
+INFO 2023-09-30 03:51:41,874 basehttp 10412 7016 "GET /order/1 HTTP/1.1" 200 1894
+INFO 2023-09-30 03:52:12,512 basehttp 10412 7016 "GET /order/1 HTTP/1.1" 200 1792
+INFO 2023-09-30 03:52:42,151 basehttp 10412 7016 "GET /order/1 HTTP/1.1" 200 1826
+INFO 2023-09-30 03:53:07,167 basehttp 10412 7016 "GET /order/1 HTTP/1.1" 200 1670
+INFO 2023-09-30 03:59:24,141 basehttp 10412 6052 "GET /order/1 HTTP/1.1" 200 1587
+INFO 2023-09-30 03:59:33,165 basehttp 10412 6052 "GET /order/2 HTTP/1.1" 200 1587
+INFO 2023-09-30 03:59:40,453 basehttp 10412 6052 "GET /order/3 HTTP/1.1" 200 1587
+INFO 2023-09-30 04:00:00,220 basehttp 10412 6052 "GET /order/10 HTTP/1.1" 200 1504
+INFO 2023-09-30 04:00:06,834 basehttp 10412 6052 "GET /order/19 HTTP/1.1" 200 769
+INFO 2023-09-30 04:00:12,193 basehttp 10412 6052 "GET /order/25 HTTP/1.1" 200 840
+INFO 2023-09-30 04:00:21,100 basehttp 10412 6052 "GET /order/9 HTTP/1.1" 200 1587
