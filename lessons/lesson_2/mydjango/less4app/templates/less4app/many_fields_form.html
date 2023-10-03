@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block body %}
+<form action="", method="post">
+{% csrf_token %}
+<!-- метод as_p говорит что все формы будут в тэге p (начанаться с товой строки) -->
+{{form.as_p}}
+<input type="submit", value="Отправит">
+</form>
+{% endblock %}

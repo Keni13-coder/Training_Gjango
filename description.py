@@ -106,3 +106,22 @@ def test(request, author_id: int)
 если записи нет то ошибка 404
 опредеалем в urls и если было найдено то будет страничка иначе ошибка 404
 '''
+
+'''
+Валидация своя в классе от Form
+clean_<name> - где name являеться наименованием поля в классе
+вслучие True возвращает поле return <name>
+'''
+'''
+Подготовка к сохранению файлов
+setting
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
+
+        form = ImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            image = form.changed_data['image']
+            fs = FileSystemStorage()
+            fs.save(name=image.name, content=image )
+'''

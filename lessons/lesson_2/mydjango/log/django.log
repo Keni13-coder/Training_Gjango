@@ -1541,3 +1541,392 @@ INFO 2023-10-01 01:04:43,136 autoreload 19220 1536 D:\Repository\Training_Gjango
 INFO 2023-10-01 01:04:43,689 autoreload 12184 5544 Watching for file changes with StatReloader
 INFO 2023-10-01 01:04:46,909 basehttp 12184 7312 "GET /less3/post/15 HTTP/1.1" 200 750
 INFO 2023-10-01 01:04:56,388 basehttp 12184 7312 "GET /less3/post/9 HTTP/1.1" 200 1459
+INFO 2023-10-03 01:01:24,639 autoreload 17876 4108 Watching for file changes with StatReloader
+INFO 2023-10-03 01:01:27,592 basehttp 17876 21992 "GET / HTTP/1.1" 200 293
+WARNING 2023-10-03 01:01:27,867 log 17876 21992 Not Found: /favicon.ico
+WARNING 2023-10-03 01:01:27,868 basehttp 17876 21992 "GET /favicon.ico HTTP/1.1" 404 3122
+WARNING 2023-10-03 01:01:37,501 log 17876 21992 Not Found: /user/many/
+WARNING 2023-10-03 01:01:37,502 basehttp 17876 21992 "GET /user/many/ HTTP/1.1" 404 3119
+ERROR 2023-10-03 01:01:51,119 log 17876 21992 Internal Server Error: /less4/user/many/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\views.py", line 26, in many_fields_form
+    return render(request=request, template_name='less4app/many_fields_form.html', context={'form': form})
+                                                                                                    ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2023-10-03 01:01:51,122 basehttp 17876 21992 "GET /less4/user/many/ HTTP/1.1" 500 68674
+INFO 2023-10-03 01:02:17,713 autoreload 17876 4108 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\views.py changed, reloading.
+INFO 2023-10-03 01:02:18,256 autoreload 14144 1480 Watching for file changes with StatReloader
+INFO 2023-10-03 01:02:27,191 basehttp 14144 8904 "GET /less4/user/many/ HTTP/1.1" 200 1642
+INFO 2023-10-03 01:02:44,307 autoreload 14144 1480 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\forms.py changed, reloading.
+INFO 2023-10-03 01:02:44,863 autoreload 8368 19944 Watching for file changes with StatReloader
+INFO 2023-10-03 01:02:46,337 basehttp 8368 12924 "GET /less4/user/many/ HTTP/1.1" 200 1651
+INFO 2023-10-03 01:02:47,049 basehttp 8368 12924 "GET /less4/user/many/ HTTP/1.1" 200 1651
+INFO 2023-10-03 01:02:48,706 basehttp 8368 12924 "GET /less4/user/many/ HTTP/1.1" 200 1651
+INFO 2023-10-03 01:02:48,840 basehttp 8368 12924 "GET /less4/user/many/ HTTP/1.1" 200 1651
+INFO 2023-10-03 01:02:59,675 autoreload 8368 19944 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\forms.py changed, reloading.
+INFO 2023-10-03 01:03:00,215 autoreload 2440 15772 Watching for file changes with StatReloader
+INFO 2023-10-03 01:03:02,613 autoreload 2440 15772 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\forms.py changed, reloading.
+INFO 2023-10-03 01:03:03,173 autoreload 2908 22424 Watching for file changes with StatReloader
+INFO 2023-10-03 02:44:23,074 autoreload 15600 11028 Watching for file changes with StatReloader
+INFO 2023-10-03 02:44:25,994 basehttp 15600 7344 "GET /less4/user/many/ HTTP/1.1" 200 1642
+INFO 2023-10-03 02:44:33,033 basehttp 15600 7344 "GET /less4/game HTTP/1.1" 301 0
+INFO 2023-10-03 02:44:33,050 basehttp 15600 15540 "GET /less4/game/ HTTP/1.1" 200 874
+INFO 2023-10-03 02:45:29,950 autoreload 15600 11028 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\forms.py changed, reloading.
+INFO 2023-10-03 02:45:30,481 autoreload 17068 10680 Watching for file changes with StatReloader
+INFO 2023-10-03 02:47:15,247 autoreload 17068 10680 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\models.py changed, reloading.
+INFO 2023-10-03 02:47:15,815 autoreload 10284 10972 Watching for file changes with StatReloader
+INFO 2023-10-03 03:05:56,444 autoreload 20788 1552 Watching for file changes with StatReloader
+INFO 2023-10-03 03:06:45,296 autoreload 12604 10792 Watching for file changes with StatReloader
+INFO 2023-10-03 03:06:50,414 basehttp 12604 2464 "GET /less4/game/ HTTP/1.1" 200 874
+INFO 2023-10-03 03:06:56,415 basehttp 12604 2464 "GET /less4/test HTTP/1.1" 301 0
+INFO 2023-10-03 03:06:56,424 basehttp 12604 18220 "GET /less4/test/ HTTP/1.1" 200 817
+INFO 2023-10-03 03:07:11,338 autoreload 12604 10792 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\views.py changed, reloading.
+INFO 2023-10-03 03:07:11,899 autoreload 20708 16484 Watching for file changes with StatReloader
+INFO 2023-10-03 03:09:19,313 autoreload 18976 11336 Watching for file changes with StatReloader
+INFO 2023-10-03 03:09:21,766 basehttp 18976 12148 "GET /less4/test/ HTTP/1.1" 200 817
+INFO 2023-10-03 03:09:57,023 basehttp 18976 12148 "GET /less4/test/ HTTP/1.1" 200 817
+INFO 2023-10-03 03:10:06,966 autoreload 18976 11336 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\views.py changed, reloading.
+INFO 2023-10-03 03:10:38,615 autoreload 23488 23092 Watching for file changes with StatReloader
+INFO 2023-10-03 03:10:40,136 basehttp 23488 14868 "GET /less4/test/ HTTP/1.1" 200 917
+INFO 2023-10-03 03:11:24,046 autoreload 23488 23092 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\views.py changed, reloading.
+INFO 2023-10-03 03:11:24,603 autoreload 1460 17648 Watching for file changes with StatReloader
+INFO 2023-10-03 03:11:29,055 autoreload 1460 17648 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\views.py changed, reloading.
+INFO 2023-10-03 03:11:29,620 autoreload 6908 16412 Watching for file changes with StatReloader
+ERROR 2023-10-03 03:11:31,995 log 6908 1900 Internal Server Error: /less4/test/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\views.py", line 68, in test
+    return render(request=request, template_name='less4app/test.html', context={'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 914, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\forms\utils.py", line 84, in as_p
+    return self.render(self.template_name_p)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\forms\utils.py", line 75, in render
+    return mark_safe(renderer.render(template, context))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\forms\renderers.py", line 29, in render
+    return template.render(context, request=request).strip()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1070, in render
+    return render_value_in_context(output, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1047, in render_value_in_context
+    value = str(value)
+            ^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\utils\html.py", line 420, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+                                           ^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\forms\boundfield.py", line 34, in __str__
+    return self.as_widget()
+           ^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\forms\boundfield.py", line 94, in as_widget
+    attrs = self.build_widget_attrs(attrs, widget)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\forms\boundfield.py", line 269, in build_widget_attrs
+    widget.use_required_attribute(self.initial)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\forms\widgets.py", line 783, in use_required_attribute
+    and self._choice_has_empty_value(first_choice)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\forms\widgets.py", line 766, in _choice_has_empty_value
+    value, _ = choice
+    ^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+ERROR 2023-10-03 03:11:32,017 basehttp 6908 1900 "GET /less4/test/ HTTP/1.1" 500 253126
+INFO 2023-10-03 03:12:44,718 autoreload 6908 16412 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\forms.py changed, reloading.
+INFO 2023-10-03 03:12:45,253 autoreload 7956 5708 Watching for file changes with StatReloader
+INFO 2023-10-03 03:12:49,649 autoreload 7956 5708 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\forms.py changed, reloading.
+INFO 2023-10-03 03:12:50,184 autoreload 15964 14164 Watching for file changes with StatReloader
+INFO 2023-10-03 03:12:56,615 autoreload 15964 14164 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\forms.py changed, reloading.
+INFO 2023-10-03 03:12:57,172 autoreload 11832 22772 Watching for file changes with StatReloader
+ERROR 2023-10-03 03:13:00,068 log 11832 22040 Internal Server Error: /less4/test/
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\views.py", line 68, in test
+    return render(request=request, template_name='less4app/test.html', context={'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 914, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\forms\utils.py", line 84, in as_p
+    return self.render(self.template_name_p)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\forms\utils.py", line 75, in render
+    return mark_safe(renderer.render(template, context))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\forms\renderers.py", line 29, in render
+    return template.render(context, request=request).strip()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1070, in render
+    return render_value_in_context(output, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\template\base.py", line 1047, in render_value_in_context
+    value = str(value)
+            ^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\utils\html.py", line 420, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+                                           ^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\forms\boundfield.py", line 34, in __str__
+    return self.as_widget()
+           ^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\forms\boundfield.py", line 94, in as_widget
+    attrs = self.build_widget_attrs(attrs, widget)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\forms\boundfield.py", line 269, in build_widget_attrs
+    widget.use_required_attribute(self.initial)
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\forms\widgets.py", line 783, in use_required_attribute
+    and self._choice_has_empty_value(first_choice)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\forms\widgets.py", line 766, in _choice_has_empty_value
+    value, _ = choice
+    ^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+ERROR 2023-10-03 03:13:00,088 basehttp 11832 22040 "GET /less4/test/ HTTP/1.1" 500 252814
+INFO 2023-10-03 03:13:10,967 autoreload 11832 22772 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\views.py changed, reloading.
+INFO 2023-10-03 03:13:11,523 autoreload 11272 9720 Watching for file changes with StatReloader
+INFO 2023-10-03 03:13:29,257 autoreload 11272 9720 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\forms.py changed, reloading.
+INFO 2023-10-03 03:13:29,790 autoreload 6016 13156 Watching for file changes with StatReloader
+INFO 2023-10-03 03:13:33,231 autoreload 6016 13156 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\forms.py changed, reloading.
+INFO 2023-10-03 03:13:33,768 autoreload 19448 20852 Watching for file changes with StatReloader
+INFO 2023-10-03 03:13:39,248 autoreload 19448 20852 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\forms.py changed, reloading.
+INFO 2023-10-03 03:13:39,783 autoreload 21104 11656 Watching for file changes with StatReloader
+INFO 2023-10-03 03:13:43,422 basehttp 21104 10680 "GET /less4/test/ HTTP/1.1" 200 1001
+INFO 2023-10-03 03:13:56,627 autoreload 21104 11656 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\forms.py changed, reloading.
+INFO 2023-10-03 03:13:57,186 autoreload 16832 9592 Watching for file changes with StatReloader
+INFO 2023-10-03 03:13:58,790 basehttp 16832 13264 "GET /less4/test/ HTTP/1.1" 200 973
+INFO 2023-10-03 03:32:27,917 autoreload 4532 18580 Watching for file changes with StatReloader
+INFO 2023-10-03 03:32:32,726 basehttp 4532 14064 "GET /less4/test/ HTTP/1.1" 200 973
+INFO 2023-10-03 03:32:42,555 basehttp 4532 14064 "GET /less3/post/10 HTTP/1.1" 200 2380
+INFO 2023-10-03 03:33:12,807 autoreload 4532 18580 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\forms.py changed, reloading.
+INFO 2023-10-03 03:33:13,406 autoreload 18260 8632 Watching for file changes with StatReloader
+INFO 2023-10-03 03:33:15,689 basehttp 18260 9880 "GET /less3/post/10 HTTP/1.1" 200 2380
+INFO 2023-10-03 03:33:28,225 autoreload 18260 8632 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\forms.py changed, reloading.
+INFO 2023-10-03 03:33:28,762 autoreload 17060 16672 Watching for file changes with StatReloader
+INFO 2023-10-03 03:33:32,134 autoreload 17060 16672 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\forms.py changed, reloading.
+INFO 2023-10-03 03:33:32,679 autoreload 20376 12880 Watching for file changes with StatReloader
+INFO 2023-10-03 03:33:35,082 autoreload 20376 12880 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\forms.py changed, reloading.
+INFO 2023-10-03 03:33:35,676 autoreload 17724 7680 Watching for file changes with StatReloader
+INFO 2023-10-03 03:33:37,135 basehttp 17724 16820 "GET /less3/post/10 HTTP/1.1" 200 2371
+INFO 2023-10-03 03:34:10,936 autoreload 17724 7680 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\forms.py changed, reloading.
+INFO 2023-10-03 03:34:11,512 autoreload 8652 8836 Watching for file changes with StatReloader
+INFO 2023-10-03 03:34:17,985 autoreload 8652 8836 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\forms.py changed, reloading.
+INFO 2023-10-03 03:34:18,528 autoreload 20552 5000 Watching for file changes with StatReloader
+INFO 2023-10-03 03:34:21,656 basehttp 20552 9384 "GET /less3/post/10 HTTP/1.1" 200 2371
+INFO 2023-10-03 03:34:22,431 basehttp 20552 9384 "GET /less3/post/10 HTTP/1.1" 200 2371
+INFO 2023-10-03 03:36:08,467 basehttp 20552 9384 "GET /less3/post/10 HTTP/1.1" 200 2371
+INFO 2023-10-03 03:36:19,883 autoreload 21880 6416 Watching for file changes with StatReloader
+INFO 2023-10-03 03:36:23,181 basehttp 21880 21416 "GET /less3/post/10 HTTP/1.1" 200 2371
+INFO 2023-10-03 03:36:23,762 basehttp 21880 21416 "GET /less3/post/10 HTTP/1.1" 200 2371
+INFO 2023-10-03 03:36:23,993 basehttp 21880 21416 "GET /less3/post/10 HTTP/1.1" 200 2371
+INFO 2023-10-03 03:36:24,159 basehttp 21880 21416 "GET /less3/post/10 HTTP/1.1" 200 2371
+INFO 2023-10-03 03:36:24,813 basehttp 21880 21416 "GET /less3/post/10 HTTP/1.1" 200 2371
+INFO 2023-10-03 03:36:42,896 autoreload 21880 6416 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\forms.py changed, reloading.
+INFO 2023-10-03 03:36:43,463 autoreload 8436 1232 Watching for file changes with StatReloader
+INFO 2023-10-03 03:36:45,882 autoreload 8436 1232 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\forms.py changed, reloading.
+INFO 2023-10-03 03:36:46,423 autoreload 8204 19072 Watching for file changes with StatReloader
+INFO 2023-10-03 03:36:48,829 autoreload 8204 19072 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\forms.py changed, reloading.
+INFO 2023-10-03 03:36:49,370 autoreload 19432 14788 Watching for file changes with StatReloader
+INFO 2023-10-03 03:36:52,832 autoreload 19432 14788 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\forms.py changed, reloading.
+INFO 2023-10-03 03:36:53,444 autoreload 20868 21360 Watching for file changes with StatReloader
+INFO 2023-10-03 03:36:55,687 basehttp 20868 6532 "GET /less3/post/10 HTTP/1.1" 200 2380
+INFO 2023-10-03 03:38:25,955 autoreload 20868 21360 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\forms.py changed, reloading.
+INFO 2023-10-03 03:38:26,497 autoreload 22296 21648 Watching for file changes with StatReloader
+INFO 2023-10-03 03:38:56,364 autoreload 22296 21648 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\forms.py changed, reloading.
+INFO 2023-10-03 03:38:56,915 autoreload 964 20636 Watching for file changes with StatReloader
+INFO 2023-10-03 03:38:58,340 autoreload 964 20636 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\forms.py changed, reloading.
+INFO 2023-10-03 03:38:58,883 autoreload 15608 11648 Watching for file changes with StatReloader
+INFO 2023-10-03 03:39:13,129 autoreload 19676 11248 Watching for file changes with StatReloader
+INFO 2023-10-03 03:39:16,772 basehttp 19676 4368 "GET /less3/post/10 HTTP/1.1" 200 2384
+INFO 2023-10-03 03:39:17,474 basehttp 19676 4368 "GET /less3/post/10 HTTP/1.1" 200 2384
+INFO 2023-10-03 03:39:26,058 autoreload 19676 11248 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\forms.py changed, reloading.
+INFO 2023-10-03 03:39:26,649 autoreload 15440 2128 Watching for file changes with StatReloader
+INFO 2023-10-03 03:39:28,416 basehttp 15440 7176 "GET /less3/post/10 HTTP/1.1" 200 2380
+INFO 2023-10-03 03:41:19,565 autoreload 15440 2128 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\forms.py changed, reloading.
+INFO 2023-10-03 03:41:20,121 autoreload 16668 9664 Watching for file changes with StatReloader
+INFO 2023-10-03 03:41:23,942 basehttp 16668 15160 "GET /less3/post/10 HTTP/1.1" 200 2390

@@ -5,7 +5,7 @@ from django.http import HttpResponse, JsonResponse, HttpRequest
 from django.core.handlers.wsgi import WSGIRequest
 from django.views.generic import TemplateView
 from .utils import Author, Post, Comments
-
+from .forms import CreateComment
 
 class HelloView(View):
     def get(self, request):
@@ -52,11 +52,17 @@ def author_posts(request: WSGIRequest, author_id: int):
 
 
 def posts(request: WSGIRequest, post_id:int):
-    post = get_object_or_404(Post, pk=post_id)
-    comments = Comments.objects.filter(post=post)
-    post.count_views += 1
-    post.save()
-    return render(request=request, template_name='less3app/posts.html', context={'post': post, 'comments':comments})
+    if request.method == 'POST':
+        form = CreateComment(request.POST)
+        if form.id_valid():
+            print('OK')
+    else:
+        post = get_object_or_404(Post, pk=post_id)
+        comments = Comments.objects.filter(post=post)
+        post.count_views += 1
+        post.save()
+        form = CreateComment()
+    return render(request=request, template_name='less3app/posts.html', context={'post': post, 'comments':comments, 'form': form})
 
 
 # def create_comments(request: WSGIRequest):

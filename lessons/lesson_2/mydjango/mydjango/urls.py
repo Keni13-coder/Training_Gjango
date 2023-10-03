@@ -22,4 +22,5 @@ urlpatterns = [
     path('', include('myapp.urls')),
     path('less3/', include('less3app.urls')),
     path('', my_view),
+    path('less4/', include('less4app.urls')),
 ]
