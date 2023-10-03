@@ -22,6 +22,7 @@ class Migration(migrations.Migration):
                 ('price', models.DecimalField(decimal_places=2, max_digits=6)),
                 ('count', models.IntegerField()),
                 ('date_create_product', models.DateTimeField(auto_now_add=True)),
+
             ],
         ),
         migrations.CreateModel(

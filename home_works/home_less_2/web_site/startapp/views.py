@@ -1,10 +1,12 @@
-from .utils import CrudOrder, CrudProduct, CrudUser, function_handler
+from .utils import CrudOrder, CrudProduct, CrudUser, function_handler, Product
 from django.db.models import Sum
 from django.shortcuts import get_object_or_404, render
 from django.views.generic import TemplateView
 from typing import Any
 from datetime import timedelta, datetime
-
+from .form import UpdateProduct, ImageForm
+from django.core.handlers.wsgi import WSGIRequest
+from django.core.files.storage import FileSystemStorage
 
 def user_point(request, method: str):
     user = CrudUser()
@@ -63,3 +65,19 @@ def get_order(request, order_id: int):
     
     
 
+def upload_image(request: WSGIRequest, product_pk: int):
+    if request.method == 'POST':
+        form = ImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            image = form.cleaned_data['image']
+            fs = FileSystemStorage()
+            name = fs.save(name=image.name, content=image)
+            product = Product.objects.filter(pk=product_pk).first()
+            if product:
+                product.image = name
+                product.save()
+
+    else:
+        form = ImageForm()
+        product = product = Product.objects.filter(pk=1).first()
+    return render(request=request, template_name='startapp/upload_image.html', context={'form': form, 'prod': product})

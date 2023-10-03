@@ -21,9 +21,15 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=6, decimal_places=2)
     count =models.IntegerField()
     date_create_product = models.DateTimeField(auto_now_add=True)
-    
+    image = models.ImageField(default='')
+    # посмотреть как отображать картинку, возможно она по дефолту берёт из media
     def __str__(self) -> str:
         return f'title: {self.title}, price: {self.price}, date: {self.date_create_product}'
+
+    @property
+    def image_url(self):
+        if self.image and hasattr(self.image, 'url'):
+            return self.image.url
 
 
 class Order(models.Model):
