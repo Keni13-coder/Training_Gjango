@@ -14,6 +14,10 @@ class Author(models.Model):
     def full_name(self):
         return f'{self.name} {self.second_name}'
     
+    class Meta:
+        verbose_name = 'Авторы'
+        verbose_name_plural = 'Авторы'
+    
     
 class Post(models.Model):
     title = models.CharField(max_length=200)
@@ -23,6 +27,12 @@ class Post(models.Model):
     category = models.CharField(max_length=100)
     count_views = models.IntegerField(default=0)
     active = models.BooleanField(default=False)
+    
+    
+    class Meta:
+        verbose_name = 'Посты'
+        verbose_name_plural = 'Посты'
+    
     
     def __str__(self):
         return f'Title is {self.title}, id {self.id}'

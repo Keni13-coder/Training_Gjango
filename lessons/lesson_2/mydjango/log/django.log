@@ -1930,3 +1930,440 @@ INFO 2023-10-03 03:39:28,416 basehttp 15440 7176 "GET /less3/post/10 HTTP/1.1" 2
 INFO 2023-10-03 03:41:19,565 autoreload 15440 2128 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\forms.py changed, reloading.
 INFO 2023-10-03 03:41:20,121 autoreload 16668 9664 Watching for file changes with StatReloader
 INFO 2023-10-03 03:41:23,942 basehttp 16668 15160 "GET /less3/post/10 HTTP/1.1" 200 2390
+INFO 2023-10-06 03:45:36,973 autoreload 2576 22008 Watching for file changes with StatReloader
+INFO 2023-10-06 03:45:39,560 basehttp 2576 11292 "GET / HTTP/1.1" 200 293
+WARNING 2023-10-06 03:45:39,802 log 2576 11292 Not Found: /favicon.ico
+WARNING 2023-10-06 03:45:39,803 basehttp 2576 11292 "GET /favicon.ico HTTP/1.1" 404 3122
+INFO 2023-10-06 03:45:46,758 basehttp 2576 11292 "GET /admin HTTP/1.1" 301 0
+INFO 2023-10-06 03:45:46,870 basehttp 2576 8124 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 03:45:46,996 basehttp 2576 8124 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-06 03:45:47,173 basehttp 2576 18988 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-10-06 03:45:47,176 basehttp 2576 8124 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-10-06 03:45:47,180 basehttp 2576 20232 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-10-06 03:45:47,182 basehttp 2576 22164 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-10-06 03:45:47,183 basehttp 2576 956 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-10-06 03:45:47,202 basehttp 2576 5188 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-10-06 03:45:47,205 basehttp 2576 18988 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-10-06 03:45:58,785 basehttp 2576 18988 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 03:45:58,814 basehttp 2576 18988 "GET /admin/ HTTP/1.1" 200 8149
+INFO 2023-10-06 03:45:58,826 basehttp 2576 18988 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-10-06 03:45:58,837 basehttp 2576 18988 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-10-06 03:45:58,838 basehttp 2576 5188 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-10-06 03:48:58,862 basehttp 2576 5188 "GET /admin/less3app/ HTTP/1.1" 200 5760
+INFO 2023-10-06 03:49:00,866 basehttp 2576 5188 "GET /admin/ HTTP/1.1" 200 8149
+INFO 2023-10-06 03:53:59,129 autoreload 18080 13332 Watching for file changes with StatReloader
+INFO 2023-10-06 03:54:02,745 basehttp 18080 10428 "GET /admin/ HTTP/1.1" 200 8189
+INFO 2023-10-06 03:54:38,483 autoreload 18080 13332 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less5app\apps.py changed, reloading.
+INFO 2023-10-06 03:54:39,041 autoreload 740 2516 Watching for file changes with StatReloader
+INFO 2023-10-06 03:54:40,871 basehttp 740 11424 "GET /admin/ HTTP/1.1" 200 8149
+INFO 2023-10-06 03:55:00,005 autoreload 740 2516 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less5app\apps.py changed, reloading.
+INFO 2023-10-06 03:55:00,584 autoreload 5944 284 Watching for file changes with StatReloader
+INFO 2023-10-06 03:55:02,657 basehttp 5944 19120 "GET /admin/ HTTP/1.1" 200 8201
+INFO 2023-10-06 03:56:37,302 autoreload 5944 284 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\admin.py changed, reloading.
+INFO 2023-10-06 03:56:37,865 autoreload 17876 12624 Watching for file changes with StatReloader
+INFO 2023-10-06 03:56:39,246 autoreload 17876 12624 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less4app\admin.py changed, reloading.
+INFO 2023-10-06 03:59:10,984 autoreload 15176 20292 Watching for file changes with StatReloader
+INFO 2023-10-06 03:59:12,979 basehttp 15176 13584 "GET /admin/ HTTP/1.1" 200 8931
+INFO 2023-10-06 03:59:55,501 autoreload 15176 20292 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\apps.py changed, reloading.
+INFO 2023-10-06 03:59:56,026 autoreload 18772 1828 Watching for file changes with StatReloader
+INFO 2023-10-06 04:00:00,319 autoreload 18772 1828 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\apps.py changed, reloading.
+INFO 2023-10-06 04:00:00,865 autoreload 13704 21740 Watching for file changes with StatReloader
+INFO 2023-10-06 04:00:05,328 autoreload 13704 21740 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\apps.py changed, reloading.
+INFO 2023-10-06 04:00:05,881 autoreload 9132 8836 Watching for file changes with StatReloader
+INFO 2023-10-06 04:00:09,307 autoreload 9132 8836 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\apps.py changed, reloading.
+INFO 2023-10-06 04:00:09,858 autoreload 5132 22016 Watching for file changes with StatReloader
+INFO 2023-10-06 04:00:14,362 autoreload 5132 22016 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\apps.py changed, reloading.
+INFO 2023-10-06 04:00:14,948 autoreload 4292 14820 Watching for file changes with StatReloader
+INFO 2023-10-06 04:00:18,797 basehttp 4292 21820 "GET /admin/ HTTP/1.1" 200 8967
+INFO 2023-10-06 04:00:48,497 basehttp 4292 21820 "GET /admin/less3app/author/add/ HTTP/1.1" 200 12472
+INFO 2023-10-06 04:00:48,627 basehttp 4292 21820 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-10-06 04:00:48,639 basehttp 4292 20720 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-10-06 04:00:48,646 basehttp 4292 20720 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-10-06 04:00:48,862 basehttp 4292 11600 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:00:48,867 basehttp 4292 20720 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-10-06 04:00:48,870 basehttp 4292 11808 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-10-06 04:00:48,881 basehttp 4292 16584 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-10-06 04:00:48,881 basehttp 4292 11808 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-10-06 04:00:48,882 basehttp 4292 21820 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-10-06 04:00:48,903 basehttp 4292 11600 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-10-06 04:00:48,956 basehttp 4292 19688 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-10-06 04:00:48,971 basehttp 4292 19688 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-10-06 04:00:48,973 basehttp 4292 20720 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-10-06 04:01:14,450 basehttp 4292 20720 "GET /admin/less3app/ HTTP/1.1" 200 5850
+INFO 2023-10-06 04:01:16,244 basehttp 4292 20720 "GET /admin/less3app/author/ HTTP/1.1" 200 13139
+INFO 2023-10-06 04:01:16,254 basehttp 4292 19688 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:01:16,258 basehttp 4292 20720 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-10-06 04:01:16,279 basehttp 4292 20720 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-10-06 04:01:16,362 basehttp 4292 19688 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-10-06 04:01:31,969 basehttp 4292 19688 "GET /admin/less5app/ HTTP/1.1" 200 5915
+INFO 2023-10-06 04:01:34,128 basehttp 4292 19688 "GET /admin/less5app/ HTTP/1.1" 200 5915
+INFO 2023-10-06 04:01:35,495 basehttp 4292 19688 "GET /admin/less5app/category/ HTTP/1.1" 200 9722
+INFO 2023-10-06 04:01:35,504 basehttp 4292 19688 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:01:37,847 basehttp 4292 19688 "GET /admin/less5app/product/ HTTP/1.1" 200 11337
+INFO 2023-10-06 04:01:37,858 basehttp 4292 19688 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:01:37,962 basehttp 4292 20720 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-10-06 04:01:41,980 basehttp 4292 20720 "GET /admin/less5app/category/ HTTP/1.1" 200 9722
+INFO 2023-10-06 04:01:41,989 basehttp 4292 20720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:01:44,041 basehttp 4292 20720 "GET /admin/auth/user/ HTTP/1.1" 200 13711
+INFO 2023-10-06 04:01:44,051 basehttp 4292 20720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:01:44,054 basehttp 4292 19688 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-10-06 04:01:44,098 basehttp 4292 19688 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-10-06 04:01:46,910 basehttp 4292 19688 "GET /admin/auth/group/ HTTP/1.1" 200 10043
+INFO 2023-10-06 04:01:46,919 basehttp 4292 19688 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:02:11,789 basehttp 4292 19688 "GET /admin/auth/group/ HTTP/1.1" 200 10043
+INFO 2023-10-06 04:02:11,800 basehttp 4292 19688 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:02:15,485 basehttp 4292 19688 "GET /admin/auth/group/add/ HTTP/1.1" 200 17705
+INFO 2023-10-06 04:02:15,497 basehttp 4292 19688 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:02:15,526 basehttp 4292 20720 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-10-06 04:02:15,527 basehttp 4292 11600 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-10-06 04:02:15,648 basehttp 4292 11600 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2023-10-06 04:02:15,649 basehttp 4292 19688 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2023-10-06 04:02:15,660 basehttp 4292 20720 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-10-06 04:14:17,425 autoreload 8360 11092 Watching for file changes with StatReloader
+INFO 2023-10-06 04:14:19,584 basehttp 8360 8924 "GET /admin/auth/group/add/ HTTP/1.1" 200 17705
+INFO 2023-10-06 04:14:19,596 basehttp 8360 8924 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:15:33,615 autoreload 8360 11092 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less5app\admin.py changed, reloading.
+INFO 2023-10-06 04:15:34,184 autoreload 7508 21912 Watching for file changes with StatReloader
+INFO 2023-10-06 04:15:36,233 basehttp 7508 10564 "GET /admin/auth/group/add/ HTTP/1.1" 200 17705
+INFO 2023-10-06 04:15:36,245 basehttp 7508 10564 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:15:36,786 basehttp 7508 10564 "GET /admin/auth/group/add/ HTTP/1.1" 200 17705
+INFO 2023-10-06 04:15:36,797 basehttp 7508 10564 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:15:36,939 basehttp 7508 10564 "GET /admin/auth/group/add/ HTTP/1.1" 200 17705
+INFO 2023-10-06 04:15:36,948 basehttp 7508 10564 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:15:37,081 basehttp 7508 10564 "GET /admin/auth/group/add/ HTTP/1.1" 200 17705
+INFO 2023-10-06 04:15:37,091 basehttp 7508 10564 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:15:37,240 basehttp 7508 10564 "GET /admin/auth/group/add/ HTTP/1.1" 200 17705
+INFO 2023-10-06 04:15:37,249 basehttp 7508 10564 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:16:00,261 autoreload 7508 21912 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less5app\admin.py changed, reloading.
+INFO 2023-10-06 04:16:00,831 autoreload 13220 176 Watching for file changes with StatReloader
+INFO 2023-10-06 04:16:04,279 autoreload 13220 176 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less5app\admin.py changed, reloading.
+INFO 2023-10-06 04:16:04,830 autoreload 18544 22512 Watching for file changes with StatReloader
+INFO 2023-10-06 04:16:07,141 autoreload 18544 22512 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less5app\admin.py changed, reloading.
+INFO 2023-10-06 04:16:07,698 autoreload 18148 9636 Watching for file changes with StatReloader
+INFO 2023-10-06 04:16:11,214 basehttp 18148 6168 "GET /admin/auth/group/add/ HTTP/1.1" 200 17705
+INFO 2023-10-06 04:16:11,226 basehttp 18148 6168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:16:11,748 basehttp 18148 6168 "GET /admin/auth/group/add/ HTTP/1.1" 200 17705
+INFO 2023-10-06 04:16:11,759 basehttp 18148 6168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:16:12,001 basehttp 18148 6168 "GET /admin/auth/group/add/ HTTP/1.1" 200 17705
+INFO 2023-10-06 04:16:12,010 basehttp 18148 6168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:20:54,616 autoreload 18148 9636 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less5app\admin.py changed, reloading.
+INFO 2023-10-06 04:20:55,187 autoreload 5104 11880 Watching for file changes with StatReloader
+INFO 2023-10-06 04:21:49,879 autoreload 21972 14328 Watching for file changes with StatReloader
+INFO 2023-10-06 04:21:52,650 basehttp 21972 17496 "GET /admin/auth/group/add/ HTTP/1.1" 200 17788
+INFO 2023-10-06 04:21:52,662 basehttp 21972 17496 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:22:01,660 autoreload 21972 14328 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less5app\models.py changed, reloading.
+INFO 2023-10-06 04:22:02,269 autoreload 8176 22148 Watching for file changes with StatReloader
+INFO 2023-10-06 04:22:03,720 basehttp 8176 14508 "GET /admin/auth/group/add/ HTTP/1.1" 200 17798
+INFO 2023-10-06 04:22:03,731 basehttp 8176 14508 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:22:25,357 autoreload 8176 22148 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\models.py changed, reloading.
+INFO 2023-10-06 04:22:25,907 autoreload 20076 12704 Watching for file changes with StatReloader
+INFO 2023-10-06 04:22:27,164 autoreload 20076 12704 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\models.py changed, reloading.
+INFO 2023-10-06 04:22:27,709 autoreload 9596 20352 Watching for file changes with StatReloader
+INFO 2023-10-06 04:22:30,142 autoreload 9596 20352 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\models.py changed, reloading.
+INFO 2023-10-06 04:22:30,703 autoreload 964 22056 Watching for file changes with StatReloader
+INFO 2023-10-06 04:22:33,132 autoreload 964 22056 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\models.py changed, reloading.
+INFO 2023-10-06 04:22:33,695 autoreload 12144 248 Watching for file changes with StatReloader
+INFO 2023-10-06 04:22:37,127 autoreload 12144 248 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\models.py changed, reloading.
+INFO 2023-10-06 04:22:37,662 autoreload 2204 20684 Watching for file changes with StatReloader
+INFO 2023-10-06 04:22:38,928 autoreload 2204 20684 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\models.py changed, reloading.
+INFO 2023-10-06 04:22:39,484 autoreload 13484 5192 Watching for file changes with StatReloader
+INFO 2023-10-06 04:22:42,923 autoreload 13484 5192 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\models.py changed, reloading.
+INFO 2023-10-06 04:22:43,492 autoreload 11604 22248 Watching for file changes with StatReloader
+INFO 2023-10-06 04:22:44,904 autoreload 11604 22248 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\models.py changed, reloading.
+INFO 2023-10-06 04:22:45,477 autoreload 22336 11376 Watching for file changes with StatReloader
+INFO 2023-10-06 04:22:46,909 basehttp 22336 488 "GET /admin/auth/group/add/ HTTP/1.1" 200 17856
+INFO 2023-10-06 04:22:46,921 basehttp 22336 488 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:24:23,959 autoreload 11352 8572 Watching for file changes with StatReloader
+INFO 2023-10-06 04:24:25,709 basehttp 11352 984 "GET /admin/auth/group/add/ HTTP/1.1" 200 17856
+INFO 2023-10-06 04:24:25,720 basehttp 11352 984 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:24:56,766 basehttp 11352 984 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:24:56,786 basehttp 11352 984 "GET /admin/auth/group/add/ HTTP/1.1" 200 18144
+INFO 2023-10-06 04:24:56,798 basehttp 11352 984 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:24:56,865 basehttp 11352 984 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-10-06 04:25:23,720 basehttp 11352 984 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:25:23,742 basehttp 11352 984 "GET /admin/auth/group/add/ HTTP/1.1" 200 18142
+INFO 2023-10-06 04:25:23,753 basehttp 11352 984 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:27:38,786 basehttp 11352 984 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:27:38,811 basehttp 11352 984 "GET /admin/auth/group/ HTTP/1.1" 200 11947
+INFO 2023-10-06 04:27:38,820 basehttp 11352 984 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-10-06 04:27:38,824 basehttp 11352 960 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:27:38,825 basehttp 11352 984 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-10-06 04:27:38,838 basehttp 11352 984 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-10-06 04:27:43,470 basehttp 11352 984 "GET /admin/auth/group/3/change/ HTTP/1.1" 200 18100
+INFO 2023-10-06 04:27:43,481 basehttp 11352 984 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:27:45,038 basehttp 11352 984 "GET /admin/auth/group/ HTTP/1.1" 200 11735
+INFO 2023-10-06 04:28:05,326 basehttp 11352 984 "GET /admin/auth/group/3/change/ HTTP/1.1" 200 18100
+INFO 2023-10-06 04:28:05,336 basehttp 11352 984 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:28:18,166 basehttp 11352 984 "POST /admin/auth/group/3/change/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:28:18,180 basehttp 11352 984 "GET /admin/auth/group/ HTTP/1.1" 200 11943
+INFO 2023-10-06 04:28:18,192 basehttp 11352 984 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:28:29,413 basehttp 11352 984 "GET /admin/auth/group/add/ HTTP/1.1" 200 17856
+INFO 2023-10-06 04:28:29,423 basehttp 11352 984 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:28:42,667 basehttp 11352 984 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:28:42,683 basehttp 11352 984 "GET /admin/auth/group/ HTTP/1.1" 200 12156
+INFO 2023-10-06 04:28:42,695 basehttp 11352 984 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:29:22,285 basehttp 11352 984 "GET /admin/auth/user/add/ HTTP/1.1" 200 13417
+INFO 2023-10-06 04:29:22,295 basehttp 11352 984 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:29:55,169 basehttp 11352 984 "POST /admin/auth/user/add/ HTTP/1.1" 200 13694
+INFO 2023-10-06 04:29:55,185 basehttp 11352 984 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:30:21,470 basehttp 11352 984 "POST /admin/auth/user/add/ HTTP/1.1" 200 13638
+INFO 2023-10-06 04:30:21,481 basehttp 11352 984 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:30:34,657 basehttp 11352 984 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:30:34,671 basehttp 11352 984 "GET /admin/auth/user/add/ HTTP/1.1" 200 13726
+INFO 2023-10-06 04:30:34,688 basehttp 11352 984 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:31:22,571 basehttp 11352 984 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:31:22,586 basehttp 11352 984 "GET /admin/auth/user/add/ HTTP/1.1" 200 13726
+INFO 2023-10-06 04:31:22,600 basehttp 11352 984 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:31:40,099 basehttp 11352 984 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:31:40,114 basehttp 11352 984 "GET /admin/auth/user/add/ HTTP/1.1" 200 13726
+INFO 2023-10-06 04:31:40,125 basehttp 11352 984 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:31:48,699 basehttp 11352 984 "GET /admin/auth/user/ HTTP/1.1" 200 15384
+INFO 2023-10-06 04:31:48,710 basehttp 11352 984 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:31:48,711 basehttp 11352 960 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-10-06 04:31:48,724 basehttp 11352 960 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2023-10-06 04:31:48,729 basehttp 11352 960 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-10-06 04:31:52,959 basehttp 11352 960 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 28324
+INFO 2023-10-06 04:31:52,973 basehttp 11352 20168 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-10-06 04:31:52,974 basehttp 11352 484 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-10-06 04:31:52,976 basehttp 11352 960 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:31:52,984 basehttp 11352 984 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2023-10-06 04:31:52,989 basehttp 11352 8168 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-10-06 04:31:53,019 basehttp 11352 8168 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2023-10-06 04:31:53,019 basehttp 11352 960 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2023-10-06 04:31:53,019 basehttp 11352 984 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-10-06 04:31:53,025 basehttp 11352 20168 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2023-10-06 04:31:53,126 basehttp 11352 484 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-10-06 04:32:31,993 basehttp 11352 484 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:32:32,010 basehttp 11352 484 "GET /admin/auth/user/ HTTP/1.1" 200 15609
+INFO 2023-10-06 04:32:32,024 basehttp 11352 484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:32:38,879 basehttp 11352 484 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 28324
+INFO 2023-10-06 04:32:38,891 basehttp 11352 484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:34:15,445 basehttp 11352 484 "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:34:15,462 basehttp 11352 484 "GET /admin/auth/user/ HTTP/1.1" 200 15614
+INFO 2023-10-06 04:34:15,476 basehttp 11352 484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:34:20,500 basehttp 11352 484 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-06 04:34:22,106 basehttp 11352 484 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:34:22,115 basehttp 11352 484 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-06 04:34:22,122 basehttp 11352 484 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-10-06 04:34:26,318 basehttp 11352 484 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:34:39,045 basehttp 11352 484 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:34:55,422 basehttp 11352 484 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:34:59,774 basehttp 11352 484 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:35:06,941 basehttp 11352 484 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:35:09,838 basehttp 11352 484 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:35:13,343 basehttp 11352 484 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:35:17,479 basehttp 11352 484 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:35:17,492 basehttp 11352 484 "GET /admin/ HTTP/1.1" 200 4797
+INFO 2023-10-06 04:35:30,390 basehttp 11352 484 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-06 04:35:31,675 basehttp 11352 484 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:35:31,681 basehttp 11352 484 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-06 04:35:36,759 basehttp 11352 484 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:35:58,023 basehttp 11352 484 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:35:58,036 basehttp 11352 484 "GET /admin/ HTTP/1.1" 200 11959
+INFO 2023-10-06 04:35:58,049 basehttp 11352 484 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-10-06 04:36:01,359 basehttp 11352 484 "GET /admin/auth/user/ HTTP/1.1" 200 15393
+INFO 2023-10-06 04:36:01,371 basehttp 11352 984 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-10-06 04:36:01,374 basehttp 11352 960 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-10-06 04:36:01,376 basehttp 11352 8168 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-10-06 04:36:01,377 basehttp 11352 984 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-10-06 04:36:01,379 basehttp 11352 13696 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-10-06 04:36:01,381 basehttp 11352 960 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-10-06 04:36:01,381 basehttp 11352 484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:36:01,384 basehttp 11352 20168 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-10-06 04:36:01,385 basehttp 11352 8168 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-10-06 04:36:05,042 basehttp 11352 8168 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 28390
+INFO 2023-10-06 04:36:05,055 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:36:23,447 basehttp 11352 8168 "GET /admin/auth/group/ HTTP/1.1" 200 11941
+INFO 2023-10-06 04:36:23,459 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:36:24,760 basehttp 11352 8168 "GET /admin/auth/group/3/change/ HTTP/1.1" 200 18097
+INFO 2023-10-06 04:36:24,771 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:37:18,191 basehttp 11352 8168 "POST /admin/auth/group/3/change/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:37:18,206 basehttp 11352 8168 "GET /admin/auth/group/ HTTP/1.1" 200 12152
+INFO 2023-10-06 04:37:18,218 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:37:20,226 basehttp 11352 8168 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-06 04:37:21,010 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:37:21,017 basehttp 11352 8168 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-06 04:37:22,907 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:37:22,918 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 200 4797
+INFO 2023-10-06 04:37:27,290 basehttp 11352 8168 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-06 04:37:28,499 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:37:28,505 basehttp 11352 8168 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-06 04:37:43,493 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:37:43,506 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 200 11961
+INFO 2023-10-06 04:37:52,831 basehttp 11352 8168 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 28347
+INFO 2023-10-06 04:37:52,842 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:37:58,533 basehttp 11352 8168 "GET /admin/auth/user/3/password/ HTTP/1.1" 200 10202
+INFO 2023-10-06 04:38:12,261 basehttp 11352 8168 "POST /admin/auth/user/3/password/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:38:12,292 basehttp 11352 8168 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 28496
+INFO 2023-10-06 04:38:12,302 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:38:19,145 basehttp 11352 8168 "GET /admin/auth/user/ HTTP/1.1" 200 15393
+INFO 2023-10-06 04:38:19,161 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:38:21,005 basehttp 11352 8168 "GET /admin/auth/user/4/change/ HTTP/1.1" 200 28324
+INFO 2023-10-06 04:38:21,015 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:38:22,546 basehttp 11352 8168 "GET /admin/auth/user/4/password/ HTTP/1.1" 200 10202
+INFO 2023-10-06 04:38:30,010 basehttp 11352 8168 "POST /admin/auth/user/4/password/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:38:30,047 basehttp 11352 8168 "GET /admin/auth/user/4/change/ HTTP/1.1" 200 28473
+INFO 2023-10-06 04:38:30,063 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:38:39,918 basehttp 11352 8168 "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:38:39,935 basehttp 11352 8168 "GET /admin/auth/user/ HTTP/1.1" 200 15614
+INFO 2023-10-06 04:38:39,948 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:38:42,503 basehttp 11352 8168 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 28347
+INFO 2023-10-06 04:38:42,513 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:38:48,276 basehttp 11352 8168 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-06 04:38:49,258 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:38:49,266 basehttp 11352 8168 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-06 04:38:56,744 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:39:06,670 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:39:20,144 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:39:20,157 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 200 11995
+INFO 2023-10-06 04:39:23,935 basehttp 11352 8168 "GET /admin/auth/user/4/change/ HTTP/1.1" 200 28333
+INFO 2023-10-06 04:39:23,948 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:39:25,650 basehttp 11352 8168 "GET /admin/auth/user/4/password/ HTTP/1.1" 200 10202
+INFO 2023-10-06 04:39:37,092 basehttp 11352 8168 "POST /admin/auth/user/4/password/ HTTP/1.1" 200 10480
+INFO 2023-10-06 04:39:56,599 basehttp 11352 8168 "POST /admin/auth/user/4/password/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:39:56,632 basehttp 11352 8168 "GET /admin/auth/user/4/change/ HTTP/1.1" 200 28482
+INFO 2023-10-06 04:39:56,644 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:39:58,887 basehttp 11352 8168 "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:39:58,904 basehttp 11352 8168 "GET /admin/auth/user/ HTTP/1.1" 200 15614
+INFO 2023-10-06 04:39:58,915 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:40:01,383 basehttp 11352 8168 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-06 04:40:02,331 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:40:02,338 basehttp 11352 8168 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-06 04:40:09,557 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:40:31,437 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:40:31,453 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 200 12005
+INFO 2023-10-06 04:40:32,766 basehttp 11352 8168 "GET /admin/auth/user/4/change/ HTTP/1.1" 200 28333
+INFO 2023-10-06 04:40:32,777 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:40:34,771 basehttp 11352 8168 "GET /admin/auth/user/4/delete/ HTTP/1.1" 200 9952
+INFO 2023-10-06 04:40:34,824 basehttp 11352 8168 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2023-10-06 04:40:35,980 basehttp 11352 8168 "POST /admin/auth/user/4/delete/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:40:35,996 basehttp 11352 8168 "GET /admin/auth/user/ HTTP/1.1" 200 15188
+INFO 2023-10-06 04:40:36,007 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:40:37,511 basehttp 11352 8168 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 28347
+INFO 2023-10-06 04:40:37,520 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:40:39,100 basehttp 11352 8168 "GET /admin/auth/user/3/delete/ HTTP/1.1" 200 9952
+INFO 2023-10-06 04:40:40,514 basehttp 11352 8168 "POST /admin/auth/user/3/delete/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:40:40,531 basehttp 11352 8168 "GET /admin/auth/user/ HTTP/1.1" 200 14800
+INFO 2023-10-06 04:40:40,541 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:40:44,448 basehttp 11352 8168 "GET /admin/auth/user/add/ HTTP/1.1" 200 13417
+INFO 2023-10-06 04:40:44,458 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:41:07,341 basehttp 11352 8168 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:41:07,358 basehttp 11352 8168 "GET /admin/auth/user/add/ HTTP/1.1" 200 13726
+INFO 2023-10-06 04:41:07,369 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:41:24,078 basehttp 11352 8168 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:41:24,112 basehttp 11352 8168 "GET /admin/auth/user/6/change/ HTTP/1.1" 200 28621
+INFO 2023-10-06 04:41:24,123 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:41:31,336 basehttp 11352 8168 "POST /admin/auth/user/6/change/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:41:31,352 basehttp 11352 8168 "GET /admin/auth/user/ HTTP/1.1" 200 15609
+INFO 2023-10-06 04:41:31,365 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:41:32,919 basehttp 11352 8168 "GET /admin/auth/user/5/change/ HTTP/1.1" 200 28324
+INFO 2023-10-06 04:41:32,928 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:41:37,417 basehttp 11352 8168 "POST /admin/auth/user/5/change/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:41:37,433 basehttp 11352 8168 "GET /admin/auth/user/ HTTP/1.1" 200 15609
+INFO 2023-10-06 04:41:37,446 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:41:39,495 basehttp 11352 8168 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 28390
+INFO 2023-10-06 04:41:39,506 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:41:43,994 basehttp 11352 8168 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-06 04:41:44,787 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:41:44,793 basehttp 11352 8168 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-06 04:41:47,158 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:41:47,169 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 200 4797
+INFO 2023-10-06 04:41:52,197 basehttp 11352 8168 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-06 04:41:53,372 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:41:53,379 basehttp 11352 8168 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-06 04:41:56,853 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:42:04,527 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:42:23,303 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:42:44,968 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:42:51,686 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:42:58,493 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:43:14,587 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:43:23,566 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:43:23,579 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 200 11933
+INFO 2023-10-06 04:43:23,600 basehttp 11352 8168 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2023-10-06 04:43:25,103 basehttp 11352 8168 "GET /admin/auth/user/5/change/ HTTP/1.1" 200 28333
+INFO 2023-10-06 04:43:25,114 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:43:46,417 basehttp 11352 8168 "POST /admin/auth/user/5/change/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:43:46,436 basehttp 11352 8168 "GET /admin/auth/user/ HTTP/1.1" 200 15609
+INFO 2023-10-06 04:43:46,449 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:43:47,771 basehttp 11352 8168 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-06 04:43:49,178 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:43:49,185 basehttp 11352 8168 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-06 04:43:57,391 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:43:57,401 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 200 4798
+INFO 2023-10-06 04:45:16,367 basehttp 11352 8168 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-06 04:45:17,491 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:45:17,499 basehttp 11352 8168 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-06 04:45:26,241 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:45:26,256 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 200 11933
+INFO 2023-10-06 04:45:28,464 basehttp 11352 8168 "GET /admin/auth/user/ HTTP/1.1" 200 15388
+INFO 2023-10-06 04:45:28,475 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:45:38,890 basehttp 11352 8168 "GET /admin/auth/user/5/change/ HTTP/1.1" 200 28377
+INFO 2023-10-06 04:45:38,903 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:45:58,815 basehttp 11352 8168 "GET /admin/less5app/category/ HTTP/1.1" 200 9797
+INFO 2023-10-06 04:45:58,825 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:46:01,381 basehttp 11352 8168 "GET /admin/auth/group/ HTTP/1.1" 200 11941
+INFO 2023-10-06 04:46:01,391 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:46:02,612 basehttp 11352 8168 "GET /admin/auth/group/2/change/ HTTP/1.1" 200 18057
+INFO 2023-10-06 04:46:02,623 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:46:22,391 basehttp 11352 8168 "POST /admin/auth/group/2/change/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:46:22,408 basehttp 11352 8168 "GET /admin/auth/group/ HTTP/1.1" 200 12151
+INFO 2023-10-06 04:46:22,419 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:46:24,910 basehttp 11352 8168 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-06 04:46:26,291 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:46:26,298 basehttp 11352 8168 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-06 04:46:28,109 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:46:28,120 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 200 5392
+INFO 2023-10-06 04:46:40,460 basehttp 11352 8168 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-06 04:46:41,482 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:46:41,489 basehttp 11352 8168 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-06 04:46:45,352 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:46:45,362 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 200 4797
+INFO 2023-10-06 04:46:48,009 basehttp 11352 8168 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-06 04:46:49,043 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:46:49,050 basehttp 11352 8168 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-06 04:46:58,531 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:46:58,543 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 200 11922
+INFO 2023-10-06 04:47:02,446 basehttp 11352 8168 "GET /admin/auth/group/ HTTP/1.1" 200 11941
+INFO 2023-10-06 04:47:02,460 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:47:03,567 basehttp 11352 8168 "GET /admin/auth/group/3/change/ HTTP/1.1" 200 18097
+INFO 2023-10-06 04:47:03,577 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:47:23,665 basehttp 11352 8168 "POST /admin/auth/group/3/change/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:47:23,680 basehttp 11352 8168 "GET /admin/auth/group/ HTTP/1.1" 200 12152
+INFO 2023-10-06 04:47:23,695 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:47:25,128 basehttp 11352 8168 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-06 04:47:25,907 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:47:25,915 basehttp 11352 8168 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-06 04:47:29,096 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:47:29,107 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 200 5413
+INFO 2023-10-06 04:47:47,913 basehttp 11352 8168 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-06 04:47:49,043 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:47:49,051 basehttp 11352 8168 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-06 04:47:57,610 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:47:57,624 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 200 11912
+INFO 2023-10-06 04:47:59,550 basehttp 11352 8168 "GET /admin/auth/user/6/change/ HTTP/1.1" 200 28333
+INFO 2023-10-06 04:47:59,562 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:48:19,044 basehttp 11352 8168 "POST /admin/auth/user/6/change/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:48:19,062 basehttp 11352 8168 "GET /admin/auth/user/ HTTP/1.1" 200 15609
+INFO 2023-10-06 04:48:19,075 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 04:48:20,893 basehttp 11352 8168 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-06 04:48:21,875 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:48:21,881 basehttp 11352 8168 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-06 04:48:28,708 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-06 04:48:34,482 basehttp 11352 8168 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-06 04:48:34,494 basehttp 11352 8168 "GET /admin/ HTTP/1.1" 200 5778
+INFO 2023-10-06 04:48:34,513 basehttp 11352 8168 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2023-10-06 04:48:36,882 basehttp 11352 8168 "GET /admin/less3app/post/ HTTP/1.1" 200 18493
+INFO 2023-10-06 04:48:39,841 basehttp 11352 8168 "GET /admin/less3app/post/100/change/ HTTP/1.1" 200 11273
+INFO 2023-10-06 04:48:39,852 basehttp 11352 8168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 05:01:52,692 autoreload 22148 3944 Watching for file changes with StatReloader
+INFO 2023-10-06 05:01:56,574 basehttp 22148 6876 "GET /admin/less3app/post/100/change/ HTTP/1.1" 200 11764
+INFO 2023-10-06 05:01:56,587 basehttp 22148 6876 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 05:01:56,653 basehttp 22148 3804 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2023-10-06 05:02:08,125 basehttp 22148 3804 "GET /admin/less3app/post/ HTTP/1.1" 200 28863
+INFO 2023-10-06 05:02:10,678 basehttp 22148 3804 "GET /admin/less3app/post/31/change/ HTTP/1.1" 200 11699
+INFO 2023-10-06 05:02:10,687 basehttp 22148 3804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 05:02:20,368 basehttp 22148 3804 "GET /admin/less3app/post/ HTTP/1.1" 200 28863
+INFO 2023-10-06 05:02:21,266 basehttp 22148 3804 "GET /admin/less3app/author/ HTTP/1.1" 200 10868
+INFO 2023-10-06 05:02:22,509 basehttp 22148 3804 "GET /admin/less3app/author/1/change/ HTTP/1.1" 200 10410
+INFO 2023-10-06 05:02:22,519 basehttp 22148 3804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066

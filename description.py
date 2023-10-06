@@ -3,6 +3,7 @@
 'после создание каталога не забываем добовлять его название в натройки'
 'python manage.py makemigrations name_app - по факту определяет наши модели в базе дынных, если не указывать name_app то модели определяться во всех приложениях проекта'
 'python manage.py migrate - иницилизация наших файлов из migrations в базу данных'
+'python manage.py createsuperuser - создание суперпользователя'
 '''
 INSTALLED_APPS = [
     myapp,
@@ -124,4 +125,95 @@ MEDIA_ROOT = BASE_DIR / 'media'
             image = form.changed_data['image']
             fs = FileSystemStorage()
             fs.save(name=image.name, content=image )
+'''
+
+'''
+LANGUAGE_CODE = 'en-us'
+на 
+LANGUAGE_CODE = 'ru-ru'
+'''
+'''
+
+'''
+
+'''
+models.py
+    description = models.TextField(default='', blank=True)
+blank=True при создании модели говорит о том что это поле не обязательно для заполнения
+'''
+
+
+'''
+                ADMIN
+
+супер пользователь
+python manage.py createsuperuser
+
+
+from .models import Category, Product
+
+# отображением занимается description
+
+
+@admin.action(description='Сбросить количесво в ноль')
+def reset_quantity(modeladmin, request, queryset):
+    # queryset имеет представлении db, посмотреть какой класс
+    queryset.update(quantity=0)
+
+
+# отображение полей в админке
+class ProductAdmin(admin.ModelAdmin):
+    # общее отображение
+    list_display = ['name', 'category', 'quantity']
+    # сортировка
+    ordering = ['category', '-quantity']
+    # добовляет с права филтр
+    list_filter = ['date_added', 'price']
+    # добоавляет поля для поиска
+    search_fields = ['description']
+    # подсказка под полем ввода
+    search_help_text = 'Поиск по полю Описание продукта (description)'
+    # подключает функции
+    actions = [reset_quantity]
+
+    # отображение полей непросредственно в продукте
+    fields = ['name', 'description', 'category', 'date_added', 'rating']
+    # поля только для чтение
+    readonly_fields = ['date_added', 'rating']
+    # поле взаимоискючающиеся fields and fieldsets
+    fieldsets = [
+        (None, {'classes': ['wide'], 'fields':['name']}),
+        ('Подробности', {'classes': ['collapse'], 'description': 'Категория товара и его подробности', 'fields': [
+         'category', 'description']}),
+        ('Бухгфлнерия', {'fields':['price', 'quantity']}),
+        ('Рейтинг и прочее', {'description': 'Рейтинг сформирован автоматически на основе оценок покупателей', 'fields': ['rating', 'date_added']})
+    ]
+    # classes отвечают за вид отображения
+    # collapse - схлопнувшиеся поля
+    # wide широкое поле
+    # field - поля отображение
+    # description - описание отсека, будет под именем
+
+admin.site.register(Category)
+admin.site.register(Product, ProductAdmin)
+
+
+            ИЗМЕНЕНИЕ ИМЕНИ ОТОБРАЖЕНИЯ В АДМИНКЕ
+
+    ФАЙЛ apps.py
+    
+from django.apps import AppConfig
+from django.utils.translation import gettext_lazy as _
+
+class Less5AppConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'less5app'
+    verbose_name = _("Товары и категории")
+    
+    
+меняем именя для отображение в приложении панели в адменке
+прописываем в моделе
+    class Meta:
+        verbose_name = 'Авторы'
+        verbose_name_plural = 'Авторы'
 '''
