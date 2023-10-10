@@ -7,7 +7,6 @@ urlpatterns = [
     # path('if/', Templif.as_view(), name='templ_if'),
     # path('test/<int:author_id>', test_models, name='test'),
     path('about/', about, name='about'),
-    path('about/', about, name='about'),
     path('author_posts/<int:author_id>', author_posts, name='author_posts'),
     path('post/<int:post_id>', posts, name='post'),
     # path('create_comments', create_comments, name='create_comments')

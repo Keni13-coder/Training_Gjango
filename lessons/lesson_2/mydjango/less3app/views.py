@@ -46,8 +46,16 @@ def about(request: WSGIRequest):
 
 def author_posts(request: WSGIRequest, author_id: int):
     author = get_object_or_404(Author, pk=author_id)
-    posts = Post.objects.filter(author=author).order_by('-id')[:5]
-    context = {'author': author, 'posts':posts}
+    # posts = Post.objects.filter(author=author).order_by('-id')[:5]
+    posts = Post.objects.all()
+    # posts = [post for post in posts if post.author == author_id][:5]
+    all_post = []
+    for post in posts:
+        if post.author == author_id:
+            all_post.append(post)
+    
+    all_post = all_post[:5]
+    context = {'author': author, 'posts':all_post}
     return render(request=request, template_name='less3app/author_posts.html', context=context)
 
 

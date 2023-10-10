@@ -23,4 +23,5 @@ urlpatterns = [
     path('less3/', include('less3app.urls')),
     path('', my_view),
     path('less4/', include('less4app.urls')),
+    path('__debug__/', include('debug_toolbar.urls')),
 ]

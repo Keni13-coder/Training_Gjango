@@ -20,7 +20,6 @@ def read_db(request):
     responce = random.randint(1,6)
     logger.info(f'responce:{responce}')
     db_read = HeadsTails.read_title(responce)
-
     return HttpResponse(db_read)
 
 

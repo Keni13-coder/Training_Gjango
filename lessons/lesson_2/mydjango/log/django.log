@@ -2367,3 +2367,293 @@ INFO 2023-10-06 05:02:20,368 basehttp 22148 3804 "GET /admin/less3app/post/ HTTP
 INFO 2023-10-06 05:02:21,266 basehttp 22148 3804 "GET /admin/less3app/author/ HTTP/1.1" 200 10868
 INFO 2023-10-06 05:02:22,509 basehttp 22148 3804 "GET /admin/less3app/author/1/change/ HTTP/1.1" 200 10410
 INFO 2023-10-06 05:02:22,519 basehttp 22148 3804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 01:03:19,142 autoreload 22476 12180 Watching for file changes with StatReloader
+INFO 2023-10-10 01:04:00,093 autoreload 22476 12180 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\mydjango\settings.py changed, reloading.
+INFO 2023-10-10 01:04:00,725 autoreload 18848 8740 Watching for file changes with StatReloader
+INFO 2023-10-10 01:04:05,349 basehttp 18848 13708 "GET / HTTP/1.1" 200 10069
+INFO 2023-10-10 01:04:05,371 basehttp 18848 13708 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-10-10 01:04:05,378 basehttp 18848 3604 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2023-10-10 01:04:05,382 basehttp 18848 964 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-10-10 01:04:05,408 basehttp 18848 964 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+WARNING 2023-10-10 01:04:05,479 log 18848 964 Not Found: /favicon.ico
+WARNING 2023-10-10 01:04:05,480 basehttp 18848 964 "GET /favicon.ico HTTP/1.1" 404 12996
+INFO 2023-10-10 01:18:24,399 basehttp 18848 4780 "GET /__debug__/render_panel/?store_id=56de5757ed6b461bb895bd598c28b97a&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2023-10-10 01:18:28,078 basehttp 18848 4780 "GET /__debug__/render_panel/?store_id=56de5757ed6b461bb895bd598c28b97a&panel_id=HistoryPanel HTTP/1.1" 200 4150
+INFO 2023-10-10 01:18:28,097 basehttp 18848 4780 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3330
+INFO 2023-10-10 01:18:59,327 basehttp 18848 4780 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-10-10 01:18:59,327 basehttp 18848 12740 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+WARNING 2023-10-10 01:19:12,595 log 18848 12740 Not Found: /favicon.ico
+WARNING 2023-10-10 01:19:12,595 basehttp 18848 12740 "GET /favicon.ico HTTP/1.1" 404 12996
+INFO 2023-10-10 01:19:12,689 basehttp 18848 12740 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-10-10 01:19:12,692 basehttp 18848 12740 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-10-10 01:20:52,973 basehttp 18848 12740 "GET / HTTP/1.1" 200 10071
+INFO 2023-10-10 01:22:29,580 basehttp 18848 12740 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-10-10 01:22:29,580 basehttp 18848 4780 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-10-10 01:22:32,384 basehttp 18848 4780 "GET /__debug__/render_panel/?store_id=d9cc256b7f5e4dd7955c73369941cd3f&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2023-10-10 01:22:44,899 basehttp 18848 4780 "GET /__debug__/render_panel/?store_id=d9cc256b7f5e4dd7955c73369941cd3f&panel_id=HistoryPanel HTTP/1.1" 200 7429
+INFO 2023-10-10 01:22:44,903 basehttp 18848 4780 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 2023-10-10 04:05:12,183 autoreload 13060 23440 Watching for file changes with StatReloader
+ERROR 2023-10-10 04:05:21,461 log 13060 22512 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\contrib\messages\middleware.py", line 12, in process_request
+    request._messages = default_storage(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\contrib\messages\storage\__init__.py", line 12, in default_storage
+    return import_string(settings.MESSAGE_STORAGE)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\contrib\messages\storage\fallback.py", line 16, in __init__
+    self.storages = [
+                    ^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\contrib\messages\storage\fallback.py", line 17, in <listcomp>
+    storage_class(*args, **kwargs) for storage_class in self.storage_classes
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\contrib\messages\storage\cookie.py", line 77, in __init__
+    self.signer = signing.get_cookie_signer(salt=self.key_salt)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\core\signing.py", line 114, in get_cookie_signer
+    key=_cookie_signer_key(settings.SECRET_KEY),
+                           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Repository\Training_Gjango\venv\Lib\site-packages\django\conf\__init__.py", line 111, in __getattr__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+ERROR 2023-10-10 04:05:21,556 basehttp 13060 22512 "GET / HTTP/1.1" 500 145
+INFO 2023-10-10 04:05:51,940 autoreload 13060 23440 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\mydjango\settings.py changed, reloading.
+INFO 2023-10-10 04:05:52,559 autoreload 21692 17116 Watching for file changes with StatReloader
+INFO 2023-10-10 04:05:58,140 autoreload 21692 17116 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\mydjango\settings.py changed, reloading.
+INFO 2023-10-10 04:05:58,772 autoreload 19160 8600 Watching for file changes with StatReloader
+INFO 2023-10-10 04:06:04,312 autoreload 19160 8600 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\mydjango\settings.py changed, reloading.
+INFO 2023-10-10 04:06:04,947 autoreload 12340 9588 Watching for file changes with StatReloader
+INFO 2023-10-10 04:06:06,932 basehttp 12340 1704 "GET / HTTP/1.1" 200 293
+INFO 2023-10-10 04:06:18,895 autoreload 12340 9588 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\mydjango\settings.py changed, reloading.
+INFO 2023-10-10 04:06:19,553 autoreload 11808 9792 Watching for file changes with StatReloader
+INFO 2023-10-10 04:06:23,061 autoreload 11808 9792 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\mydjango\urls.py changed, reloading.
+INFO 2023-10-10 04:06:23,700 autoreload 18864 14056 Watching for file changes with StatReloader
+INFO 2023-10-10 04:06:32,340 autoreload 18864 14056 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\mydjango\settings.py changed, reloading.
+INFO 2023-10-10 04:06:44,370 autoreload 23304 5396 Watching for file changes with StatReloader
+INFO 2023-10-10 04:06:46,314 basehttp 23304 8612 "GET / HTTP/1.1" 200 10072
+INFO 2023-10-10 04:06:46,322 basehttp 23304 12404 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-10-10 04:06:46,322 basehttp 23304 8612 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-10-10 04:06:46,325 basehttp 23304 14992 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-10-10 04:06:46,327 basehttp 23304 14992 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-10-10 04:07:17,266 basehttp 23304 14992 "GET /heads_or_tails HTTP/1.1" 301 0
+INFO 2023-10-10 04:07:17,269 views 23304 8612 responce:решка
+INFO 2023-10-10 04:07:17,634 basehttp 23304 8612 "GET /heads_or_tails/ HTTP/1.1" 200 10045
+INFO 2023-10-10 04:07:28,473 basehttp 23304 8612 "GET /__debug__/render_panel/?store_id=831dd32b441e4196ae565ae2ea0fb9a2&panel_id=RequestPanel HTTP/1.1" 200 1400
+INFO 2023-10-10 04:07:36,837 basehttp 23304 8612 "GET /__debug__/render_panel/?store_id=831dd32b441e4196ae565ae2ea0fb9a2&panel_id=SQLPanel HTTP/1.1" 200 3488
+INFO 2023-10-10 04:08:27,757 basehttp 23304 8612 "GET /__debug__/render_panel/?store_id=831dd32b441e4196ae565ae2ea0fb9a2&panel_id=StaticFilesPanel HTTP/1.1" 200 32239
+INFO 2023-10-10 04:08:29,532 basehttp 23304 8612 "GET /__debug__/render_panel/?store_id=831dd32b441e4196ae565ae2ea0fb9a2&panel_id=TemplatesPanel HTTP/1.1" 200 6398
+INFO 2023-10-10 04:08:30,779 basehttp 23304 8612 "GET /__debug__/render_panel/?store_id=831dd32b441e4196ae565ae2ea0fb9a2&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2023-10-10 04:08:31,705 basehttp 23304 8612 "GET /__debug__/render_panel/?store_id=831dd32b441e4196ae565ae2ea0fb9a2&panel_id=SignalsPanel HTTP/1.1" 200 2310
+INFO 2023-10-10 04:08:40,604 basehttp 23304 8612 "GET /__debug__/render_panel/?store_id=831dd32b441e4196ae565ae2ea0fb9a2&panel_id=HistoryPanel HTTP/1.1" 200 5802
+INFO 2023-10-10 04:08:40,608 basehttp 23304 8612 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 2023-10-10 04:08:42,341 basehttp 23304 8612 "GET /__debug__/render_panel/?store_id=831dd32b441e4196ae565ae2ea0fb9a2&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2023-10-10 04:08:45,101 basehttp 23304 8612 "GET /__debug__/render_panel/?store_id=831dd32b441e4196ae565ae2ea0fb9a2&panel_id=SettingsPanel HTTP/1.1" 200 27260
+INFO 2023-10-10 04:08:47,139 basehttp 23304 8612 "GET /__debug__/render_panel/?store_id=831dd32b441e4196ae565ae2ea0fb9a2&panel_id=HeadersPanel HTTP/1.1" 200 5299
+INFO 2023-10-10 04:11:09,072 views 23304 8612 responce:орёл
+INFO 2023-10-10 04:11:09,587 basehttp 23304 8612 "GET /heads_or_tails/ HTTP/1.1" 200 10470
+INFO 2023-10-10 04:11:11,419 basehttp 23304 8612 "GET /__debug__/render_panel/?store_id=04ca1269c736429d8a5f6861218e619b&panel_id=ProfilingPanel HTTP/1.1" 200 34330
+INFO 2023-10-10 04:15:02,263 views 23304 8612 responce:4
+INFO 2023-10-10 04:15:02,280 basehttp 23304 8612 "GET /read_db/ HTTP/1.1" 200 1
+INFO 2023-10-10 04:15:55,128 views 23304 8612 responce:1
+INFO 2023-10-10 04:15:55,141 basehttp 23304 8612 "GET /read_db/ HTTP/1.1" 200 1
+INFO 2023-10-10 04:15:56,071 views 23304 8612 responce:1
+INFO 2023-10-10 04:15:56,084 basehttp 23304 8612 "GET /read_db/ HTTP/1.1" 200 1
+INFO 2023-10-10 04:15:56,664 views 23304 8612 responce:4
+INFO 2023-10-10 04:15:56,677 basehttp 23304 8612 "GET /read_db/ HTTP/1.1" 200 1
+INFO 2023-10-10 04:15:56,992 views 23304 8612 responce:1
+INFO 2023-10-10 04:15:57,004 basehttp 23304 8612 "GET /read_db/ HTTP/1.1" 200 1
+INFO 2023-10-10 04:15:57,368 views 23304 8612 responce:3
+INFO 2023-10-10 04:15:57,381 basehttp 23304 8612 "GET /read_db/ HTTP/1.1" 200 1
+INFO 2023-10-10 04:15:57,648 views 23304 8612 responce:3
+INFO 2023-10-10 04:15:57,659 basehttp 23304 8612 "GET /read_db/ HTTP/1.1" 200 1
+INFO 2023-10-10 04:15:57,864 views 23304 8612 responce:3
+INFO 2023-10-10 04:15:57,876 basehttp 23304 8612 "GET /read_db/ HTTP/1.1" 200 1
+INFO 2023-10-10 04:15:58,031 views 23304 8612 responce:5
+INFO 2023-10-10 04:15:58,044 basehttp 23304 8612 "GET /read_db/ HTTP/1.1" 200 1
+INFO 2023-10-10 04:15:58,232 views 23304 8612 responce:4
+INFO 2023-10-10 04:15:58,245 basehttp 23304 8612 "GET /read_db/ HTTP/1.1" 200 1
+INFO 2023-10-10 04:15:58,520 views 23304 8612 responce:3
+INFO 2023-10-10 04:15:58,532 basehttp 23304 8612 "GET /read_db/ HTTP/1.1" 200 1
+INFO 2023-10-10 04:17:01,326 autoreload 23304 5396 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-10-10 04:17:01,959 autoreload 2732 13644 Watching for file changes with StatReloader
+INFO 2023-10-10 04:17:07,526 autoreload 2732 13644 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-10-10 04:17:08,151 autoreload 12556 20508 Watching for file changes with StatReloader
+INFO 2023-10-10 04:17:09,607 autoreload 12556 20508 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-10-10 04:17:10,224 autoreload 21396 9624 Watching for file changes with StatReloader
+INFO 2023-10-10 04:17:11,894 views 21396 15420 responce:6
+INFO 2023-10-10 04:17:11,923 basehttp 21396 15420 "GET /read_db/ HTTP/1.1" 200 1
+INFO 2023-10-10 04:17:55,081 autoreload 21396 9624 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-10-10 04:17:55,703 autoreload 4484 3412 Watching for file changes with StatReloader
+INFO 2023-10-10 04:17:57,034 views 4484 22568 responce:4
+INFO 2023-10-10 04:17:57,280 basehttp 4484 22568 "GET /read_db/ HTTP/1.1" 200 1
+INFO 2023-10-10 04:18:39,660 autoreload 4484 3412 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-10-10 04:18:40,364 autoreload 1644 3508 Watching for file changes with StatReloader
+INFO 2023-10-10 04:18:46,006 autoreload 1644 3508 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\models.py changed, reloading.
+INFO 2023-10-10 04:18:46,663 autoreload 11812 21236 Watching for file changes with StatReloader
+INFO 2023-10-10 04:18:48,683 views 11812 20568 responce:4
+INFO 2023-10-10 04:18:48,951 basehttp 11812 20568 "GET /read_db/ HTTP/1.1" 200 1
+INFO 2023-10-10 04:18:56,050 views 11812 20568 responce:3
+INFO 2023-10-10 04:18:56,071 basehttp 11812 20568 "GET /read_db/ HTTP/1.1" 200 1
+INFO 2023-10-10 04:19:08,971 autoreload 11812 21236 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-10-10 04:19:09,651 autoreload 10528 12268 Watching for file changes with StatReloader
+INFO 2023-10-10 04:19:12,054 autoreload 10528 12268 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-10-10 04:19:12,654 autoreload 15256 6152 Watching for file changes with StatReloader
+INFO 2023-10-10 04:19:14,072 autoreload 15256 6152 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-10-10 04:19:14,679 autoreload 10932 12244 Watching for file changes with StatReloader
+INFO 2023-10-10 04:19:15,958 views 10932 968 responce:5
+INFO 2023-10-10 04:19:16,258 basehttp 10932 968 "GET /read_db/ HTTP/1.1" 200 171
+INFO 2023-10-10 04:19:22,887 views 10932 968 responce:1
+INFO 2023-10-10 04:19:22,909 basehttp 10932 968 "GET /read_db/ HTTP/1.1" 200 50
+INFO 2023-10-10 04:19:29,800 autoreload 10932 12244 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-10-10 04:19:30,428 autoreload 10736 13928 Watching for file changes with StatReloader
+INFO 2023-10-10 04:19:34,954 autoreload 10736 13928 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-10-10 04:19:35,603 autoreload 1352 9988 Watching for file changes with StatReloader
+INFO 2023-10-10 04:19:38,024 autoreload 1352 9988 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-10-10 04:19:38,638 autoreload 17900 21400 Watching for file changes with StatReloader
+INFO 2023-10-10 04:19:39,947 views 17900 21048 responce:5
+INFO 2023-10-10 04:19:40,216 basehttp 17900 21048 "GET /read_db/ HTTP/1.1" 200 171
+INFO 2023-10-10 04:19:50,672 autoreload 17900 21400 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-10-10 04:19:51,339 autoreload 13136 10300 Watching for file changes with StatReloader
+INFO 2023-10-10 04:19:52,775 autoreload 13136 10300 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\myapp\views.py changed, reloading.
+INFO 2023-10-10 04:19:53,411 autoreload 10944 11376 Watching for file changes with StatReloader
+INFO 2023-10-10 04:19:59,124 views 10944 7640 responce:6
+INFO 2023-10-10 04:19:59,155 basehttp 10944 7640 "GET /read_db/ HTTP/1.1" 200 1
+INFO 2023-10-10 04:20:07,000 basehttp 10944 7640 "GET / HTTP/1.1" 200 10499
+INFO 2023-10-10 04:20:09,707 basehttp 10944 7640 "GET /__debug__/render_panel/?store_id=423d91437fd94c08b1f03f6dae4a4ce1&panel_id=HistoryPanel HTTP/1.1" 200 4147
+INFO 2023-10-10 04:20:12,302 basehttp 10944 7640 "GET /__debug__/history_sidebar/?store_id=5827e1837344409b8c85d6c19f6ac4b4&exclude_history=True HTTP/1.1" 200 11320
+INFO 2023-10-10 04:20:14,460 basehttp 10944 7640 "GET /__debug__/render_panel/?store_id=5827e1837344409b8c85d6c19f6ac4b4&panel_id=SignalsPanel HTTP/1.1" 200 2265
+INFO 2023-10-10 04:20:16,180 basehttp 10944 7640 "GET /__debug__/render_panel/?store_id=5827e1837344409b8c85d6c19f6ac4b4&panel_id=ProfilingPanel HTTP/1.1" 200 61402
+INFO 2023-10-10 04:21:39,428 autoreload 10944 11376 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\urls.py changed, reloading.
+INFO 2023-10-10 04:21:40,041 autoreload 20228 12124 Watching for file changes with StatReloader
+WARNING 2023-10-10 04:22:40,514 log 20228 16816 Not Found: /author_posts/2
+WARNING 2023-10-10 04:22:40,514 basehttp 20228 16816 "GET /author_posts/2 HTTP/1.1" 404 13435
+INFO 2023-10-10 04:22:55,666 basehttp 20228 16816 "GET /less3/author_posts/2 HTTP/1.1" 200 10546
+INFO 2023-10-10 04:22:57,484 basehttp 20228 16816 "GET /__debug__/render_panel/?store_id=383ae9be6c9f4f44b5e507b6a1f4e11d&panel_id=ProfilingPanel HTTP/1.1" 200 49221
+INFO 2023-10-10 04:25:00,816 autoreload 20228 12124 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:25:01,455 autoreload 8668 11908 Watching for file changes with StatReloader
+INFO 2023-10-10 04:25:02,914 autoreload 8668 11908 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:25:03,552 autoreload 10384 23324 Watching for file changes with StatReloader
+INFO 2023-10-10 04:25:08,007 autoreload 10384 23324 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:25:08,642 autoreload 10084 2228 Watching for file changes with StatReloader
+INFO 2023-10-10 04:25:12,071 autoreload 10084 2228 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:25:12,668 autoreload 2704 10128 Watching for file changes with StatReloader
+INFO 2023-10-10 04:25:15,128 autoreload 2704 10128 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:25:15,751 autoreload 6408 17820 Watching for file changes with StatReloader
+INFO 2023-10-10 04:25:19,259 autoreload 6408 17820 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:25:19,907 autoreload 11416 20004 Watching for file changes with StatReloader
+INFO 2023-10-10 04:25:24,350 autoreload 11416 20004 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:25:24,959 autoreload 14428 3584 Watching for file changes with StatReloader
+INFO 2023-10-10 04:25:29,475 autoreload 14428 3584 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:25:30,125 autoreload 12404 10496 Watching for file changes with StatReloader
+INFO 2023-10-10 04:25:33,533 autoreload 12404 10496 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:25:34,176 autoreload 13892 1932 Watching for file changes with StatReloader
+INFO 2023-10-10 04:25:37,578 autoreload 13892 1932 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:25:38,166 autoreload 9964 16220 Watching for file changes with StatReloader
+INFO 2023-10-10 04:25:41,571 autoreload 9964 16220 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:25:42,176 autoreload 6700 23480 Watching for file changes with StatReloader
+INFO 2023-10-10 04:25:52,772 autoreload 6700 23480 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:25:53,380 autoreload 13748 22728 Watching for file changes with StatReloader
+INFO 2023-10-10 04:25:56,793 autoreload 13748 22728 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:25:57,379 autoreload 22832 21904 Watching for file changes with StatReloader
+INFO 2023-10-10 04:25:59,765 autoreload 22832 21904 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:26:00,375 autoreload 6128 3068 Watching for file changes with StatReloader
+INFO 2023-10-10 04:26:07,888 autoreload 6128 3068 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:26:08,513 autoreload 18708 17468 Watching for file changes with StatReloader
+INFO 2023-10-10 04:26:19,108 autoreload 18708 17468 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:26:19,749 autoreload 5700 3332 Watching for file changes with StatReloader
+INFO 2023-10-10 04:26:22,157 autoreload 5700 3332 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:26:22,747 autoreload 11912 17848 Watching for file changes with StatReloader
+INFO 2023-10-10 04:26:25,115 autoreload 11912 17848 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:26:25,750 autoreload 10944 11376 Watching for file changes with StatReloader
+INFO 2023-10-10 04:26:33,361 autoreload 10944 11376 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:26:33,999 autoreload 14172 19736 Watching for file changes with StatReloader
+INFO 2023-10-10 04:26:38,524 autoreload 14172 19736 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:26:39,132 autoreload 14200 6940 Watching for file changes with StatReloader
+INFO 2023-10-10 04:26:41,595 autoreload 14200 6940 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:26:42,229 autoreload 20112 20068 Watching for file changes with StatReloader
+INFO 2023-10-10 04:26:44,710 autoreload 20112 20068 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:26:45,333 autoreload 5320 15772 Watching for file changes with StatReloader
+INFO 2023-10-10 04:26:48,814 autoreload 5320 15772 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:26:49,443 autoreload 10124 12836 Watching for file changes with StatReloader
+INFO 2023-10-10 04:26:50,871 autoreload 10124 12836 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:26:51,518 autoreload 12404 21208 Watching for file changes with StatReloader
+INFO 2023-10-10 04:27:05,316 autoreload 12404 21208 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:27:05,922 autoreload 17032 19764 Watching for file changes with StatReloader
+INFO 2023-10-10 04:27:16,552 autoreload 17032 19764 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:27:17,162 autoreload 16264 19452 Watching for file changes with StatReloader
+INFO 2023-10-10 04:27:25,290 basehttp 16264 19100 "GET /less3/author_posts/2 HTTP/1.1" 200 10493
+INFO 2023-10-10 04:27:25,300 basehttp 16264 19100 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-10-10 04:27:25,301 basehttp 16264 17008 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-10-10 04:27:25,303 basehttp 16264 16412 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-10-10 04:27:25,305 basehttp 16264 16412 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-10-10 04:27:27,749 basehttp 16264 16412 "GET /__debug__/render_panel/?store_id=ab8161de078e4d7294f2801c8e886d65&panel_id=ProfilingPanel HTTP/1.1" 200 49040
+INFO 2023-10-10 04:28:04,258 autoreload 16264 19452 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:28:04,918 autoreload 11396 19468 Watching for file changes with StatReloader
+INFO 2023-10-10 04:28:06,358 autoreload 11396 19468 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:28:07,016 autoreload 17764 12652 Watching for file changes with StatReloader
+INFO 2023-10-10 04:28:16,484 basehttp 17764 21220 "GET /less3/author_posts/2 HTTP/1.1" 200 10546
+INFO 2023-10-10 04:28:17,514 basehttp 17764 21220 "GET /__debug__/render_panel/?store_id=1f14cc1fcec34fda990d06e75b1ed9e6&panel_id=ProfilingPanel HTTP/1.1" 200 33697
+INFO 2023-10-10 04:28:47,916 autoreload 17764 12652 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:28:48,552 autoreload 8768 17772 Watching for file changes with StatReloader
+INFO 2023-10-10 04:28:51,015 autoreload 8768 17772 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:28:51,674 autoreload 18020 20428 Watching for file changes with StatReloader
+INFO 2023-10-10 04:28:54,146 autoreload 18020 20428 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:28:54,820 autoreload 13912 15544 Watching for file changes with StatReloader
+INFO 2023-10-10 04:28:56,260 autoreload 13912 15544 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:28:56,913 autoreload 10784 10932 Watching for file changes with StatReloader
+INFO 2023-10-10 04:29:05,561 autoreload 10784 10932 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:29:06,243 autoreload 4828 19132 Watching for file changes with StatReloader
+INFO 2023-10-10 04:29:09,657 autoreload 4828 19132 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:29:10,331 autoreload 18384 5844 Watching for file changes with StatReloader
+INFO 2023-10-10 04:29:14,765 autoreload 18384 5844 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:29:15,416 autoreload 22308 12792 Watching for file changes with StatReloader
+INFO 2023-10-10 04:29:18,821 autoreload 22308 12792 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:29:19,434 autoreload 17228 16424 Watching for file changes with StatReloader
+INFO 2023-10-10 04:29:21,814 autoreload 17228 16424 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:29:22,449 autoreload 1812 23012 Watching for file changes with StatReloader
+INFO 2023-10-10 04:29:24,815 autoreload 1812 23012 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:29:25,457 autoreload 1688 10780 Watching for file changes with StatReloader
+INFO 2023-10-10 04:29:27,835 autoreload 1688 10780 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:29:28,493 autoreload 14384 11056 Watching for file changes with StatReloader
+INFO 2023-10-10 04:29:30,947 autoreload 14384 11056 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:29:31,582 autoreload 16316 22252 Watching for file changes with StatReloader
+INFO 2023-10-10 04:29:33,007 autoreload 16316 22252 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:29:33,639 autoreload 16068 17032 Watching for file changes with StatReloader
+INFO 2023-10-10 04:29:37,148 autoreload 16068 17032 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:29:37,835 autoreload 21692 5096 Watching for file changes with StatReloader
+INFO 2023-10-10 04:29:44,427 autoreload 21692 5096 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:29:45,047 autoreload 7956 12556 Watching for file changes with StatReloader
+INFO 2023-10-10 04:29:55,738 autoreload 7956 12556 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:29:56,406 autoreload 14232 13144 Watching for file changes with StatReloader
+INFO 2023-10-10 04:29:59,831 autoreload 14232 13144 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:30:00,461 autoreload 22928 172 Watching for file changes with StatReloader
+INFO 2023-10-10 04:30:02,838 autoreload 22928 172 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:30:03,470 autoreload 8748 8080 Watching for file changes with StatReloader
+INFO 2023-10-10 04:30:09,958 autoreload 8748 8080 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:30:10,572 autoreload 3152 21428 Watching for file changes with StatReloader
+INFO 2023-10-10 04:30:16,117 autoreload 3152 21428 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:30:16,764 autoreload 968 21284 Watching for file changes with StatReloader
+INFO 2023-10-10 04:30:19,239 autoreload 968 21284 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:30:19,853 autoreload 21468 17244 Watching for file changes with StatReloader
+INFO 2023-10-10 04:30:24,369 autoreload 21468 17244 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:30:24,995 autoreload 492 9536 Watching for file changes with StatReloader
+INFO 2023-10-10 04:30:27,452 autoreload 492 9536 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:30:28,091 autoreload 9492 9848 Watching for file changes with StatReloader
+INFO 2023-10-10 04:30:31,596 autoreload 9492 9848 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:30:32,252 autoreload 4744 11864 Watching for file changes with StatReloader
+INFO 2023-10-10 04:30:34,727 autoreload 4744 11864 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:30:35,387 autoreload 19704 19876 Watching for file changes with StatReloader
+INFO 2023-10-10 04:30:37,841 autoreload 19704 19876 D:\Repository\Training_Gjango\lessons\lesson_2\mydjango\less3app\views.py changed, reloading.
+INFO 2023-10-10 04:30:38,488 autoreload 16640 2896 Watching for file changes with StatReloader
+INFO 2023-10-10 04:30:41,489 basehttp 16640 5132 "GET /less3/author_posts/2 HTTP/1.1" 200 10493
+INFO 2023-10-10 04:30:42,604 basehttp 16640 5132 "GET /__debug__/render_panel/?store_id=4f206bd399724966a819756ac610bec4&panel_id=ProfilingPanel HTTP/1.1" 200 48994
+WARNING 2023-10-10 04:32:35,575 log 16640 5132 Not Found: /less3/posts/2
+WARNING 2023-10-10 04:32:35,576 basehttp 16640 5132 "GET /less3/posts/2 HTTP/1.1" 404 13896
+INFO 2023-10-10 04:32:55,941 basehttp 16640 5132 "GET /less3/post/2 HTTP/1.1" 200 12714
+INFO 2023-10-10 04:32:58,212 basehttp 16640 5132 "GET /__debug__/render_panel/?store_id=b278ffe2a2234887b727503829057d0f&panel_id=ProfilingPanel HTTP/1.1" 200 49828

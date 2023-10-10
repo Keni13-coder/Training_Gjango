@@ -67,6 +67,13 @@ user.save()
 обновление данный происходит через точку
 user.name = new_name
 user.save()
+models = [model]
+добовление сразу нескольких моделей в db
+model.objects.bulk_create(models)
+
+для суммирования
+django.db.models import Sum
+objects.aggregate(Sum('column_name'))
 
 для удаления
 user.delete()
@@ -216,4 +223,157 @@ class Less5AppConfig(AppConfig):
     class Meta:
         verbose_name = 'Авторы'
         verbose_name_plural = 'Авторы'
+'''
+
+
+'''
+                        django-debug-toolbar
+
+pip install django-debug-toolbar
+
+INTERNAL_IPS = [
+    '127.0.0.1'
+]
+
+INSTALLED_APPS=[
++    debug_toolbar
+]
+
+MIDDLEWARE = [
++    'debug_toolbar.middleware.DebugToolbarMiddleware',
+]
+
+urlpatterns = [
++    path('__debug__/', include('debug_toolbar.urls')),
+]
+'''
+
+'''
+                    Подготовка для развертывания
+на сайте databases создаем пароль для подключение к db
+нажатие на имя для вызва консоли
+пишим:
+    # username - ваш ник при регистрации
+    ALTER DATABASE username$default CHARACTER SET utf8 COLLATE utf8_general_ci;
+кликаем по имени
+после перенос данных для конекта, после создание пароля будет страница с данными
+в DATABASES = {
+    default:{
+        'ENGINE':'django.db.backends.mysql',
+        'NAME': 'username$default'
+        'USER': 'username'
+        'PASSWORD': os.getenv('MYSQL_PASSWORD')
+        'HOST': 'username.mysql.pythonanywhere-services.com',
+        'OPTIONS': {
+            'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
+            'charset': 'utf8mb4'
+        }
+    }
+}
+import os
+SECRET_KEY = os.getenv('SECRET_KEY')
+DEBUG = False
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    # name - имя при регистрации на сайте
+    'name.pythonanywhere.com'
+]
+STATIC_ROOT = BASE_DIR / STATIC_URL
+
+создаем
+pip freeze > requirements.txt
+добовляем
++
+    mysqlclient
+    python-dotenv
+коментируем
+urlpatterns = [
+#
+    path('__debug__/', include('debug_toolbar.urls')),
+]
+
+
+1. dashboard
+2. new console
+3. bash
+    git clone my_url
+    # создание виртуального окружение
+    # смотрим какая дупустимая версия для сайта pythonanywhere на момент видео max 3.10
+    mkvirtualenv --python=/usr/bin/python3.10 virtualenv
+    # переходим в папку с проектом
+    # если создали папку в гите deployment_of_django, в ней уже то что переносили
+    cd deployment_of_django
+    pip install -r requirements.txt
+
+1. Web
+2. Add a new web app
+    Manual configuration
+    python 3.10
+    
+3. Web-Virtualenv
+    откроем еще 1 страницу files
+    смотрим в папках на сайте ищем виртуальное окружение
+    копируем путь. добовляем в пункт
+
+4. Code
+    source code - дериктория приложений (там где все приложения)
+
+5. WSGI configuration file - кликаем
+    в фале смотрим на 74 строка
+    стираем и вставляем
+    # +++++++++++ DJANGO +++++++++++
+# To use your own django app use code like this:
+import os
+import sys
+from dotenv import load_dotenv
+# myproject название папки с приложениями
+project_folder = os.path.expanduser('~/myproject') # adjust as
+appropriate
+load_dotenv(os.path.join(project_folder, '.env'))
+## assuming your django settings file is at
+'/home/username/mysite/mysite/settings.py'
+## and your manage.py is is at '/home/username/mysite/manage.py'
+path = '/home/username/myproject'
+if path not in sys.path:
+    sys.path.append(path)
+os.environ['DJANGO_SETTINGS_MODULE'] = 'myproject.settings'
+## then:
+from django.core.wsgi import get_wsgi_application
+application = get_wsgi_application()
+
+6. Web-Virtualenv
+    # ссылка на вирт окр
+    start a console
+    python
+    import secrets
+    secrets.token_hex() - copy token
+    exit()
+    echo 'export SECRET_KEY=token' >> .env
+    echo 'export MYSQL_PASSWORD=herosiegemama2000fg' >> .env
+    echo 'set -a; source ~/myproject/.env; set +a' >> ~/.virtualenvs/virtualenv/bin/postactivate
+    exit
+
+
+7. Files
+    
+    myproject
+        # создаем log файл
+        log -> New directory
+
+
+
+8. Web-URL
+    /static/      dir=home/username/myproject/static
+    
+9. Web-Virtualenv
+    start a console
+        python manage.py migrate
+        python manage.py collectstatic
+        python manage.py createsuperuser
+
+
+10.  Configuration for myurl
+    сам сайт
 '''

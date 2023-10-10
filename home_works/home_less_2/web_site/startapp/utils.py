@@ -76,7 +76,7 @@ def function_handler(method: str, model: ModelBase, data: dict={}):
         case 'get':
             responce = model.get_all()
             return HttpResponse(responce if responce else 'NO get')
-        case 'prod':
+        case 'post':
             if data:
                 responce = model.create(data)
                 return HttpResponse(responce)
